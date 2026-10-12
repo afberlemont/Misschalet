@@ -49,16 +49,46 @@
       const shots = s.shots.map((sh) => {
         const wrap = h('div', 'shot')
         pg.appendChild(wrap)
+        // fit: the whole photo on the page, its caption under it (rule V13:
+        // not too zoomed); otherwise full bleed with a chip
+        if (sh.fit ?? s.fit) {
+          wrap.classList.add('fit', 'paper')
+          const col = h('div', 'fit-col')
+          wrap.appendChild(col)
+          const ph = photo(col, 'fit-ph', { ...sh.photo, motion: sh.photo.motion || 'slow' }, false)
+          const cap = sh.label ? h('div', 'fit-cap caps', `${sh.icon ? icon(sh.icon) : ''}<span>${esc(sh.label)}</span>`) : null
+          if (cap) col.appendChild(cap)
+          return { ...sh, wrap, ph, c: cap, fit: true }
+        }
         const ph = photo(wrap, 'full', sh.photo, false)
         const c = chip(wrap, sh.label, sh.icon, 'shot-chip')
         return { ...sh, wrap, ph, c }
       })
+      // a fitted photo keeps its own proportions, at most 1180 px high
+      const size = (sh) => {
+        if (sh.sized || !sh.ph.img.naturalWidth) return
+        const r = sh.ph.img.naturalHeight / sh.ph.img.naturalWidth
+        let w = 1000, hh = w * r
+        if (hh > 1180) { hh = 1180; w = hh / r }
+        sh.ph.box.style.width = `${Math.round(w)}px`
+        sh.ph.box.style.height = `${Math.round(hh)}px`
+        sh.sized = true
+      }
       return (lt) => {
-        shots.forEach((sh) => {
+        shots.forEach((sh, i) => {
           const on = lt >= sh.at && lt < sh.at + sh.dur + (sh === shots[shots.length - 1] ? 99 : 0)
           sh.wrap.style.visibility = on ? 'visible' : 'hidden'
           if (!on) return
           const st = lt - sh.at
+          if (sh.fit) {
+            size(sh)
+            // a soft cross-fade from the previous page, no punch-in
+            sh.wrap.style.opacity = i ? E.inOut(clamp(st / 0.35)) : 1
+            if (i && st < 0.35) shots[i - 1].wrap.style.visibility = 'visible'
+            camera(sh.ph, st / (sh.dur + 0.6))
+            if (sh.c) fadeUp(sh.c, st, 0.25, 0.6, 10)
+            return
+          }
           // a small punch-in on the cut, then the slow push
           camera(sh.ph, st / (sh.dur + 0.6), 0.05 * (1 - E.out(clamp(st / 0.35))))
           if (sh.c) fadeUp(sh.c, st, 0.12, 0.45, 10)

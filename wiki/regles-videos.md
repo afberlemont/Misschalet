@@ -18,12 +18,19 @@ reste visible, barrée, avec ce qui la remplace. Ajout et changements :
 | V08 | Ne jamais recréer une vidéo étudiée (références) sans qu'on le demande | droits et originalité | agence · 2026-10-11 | toutes |
 | V09 | Les mots à l'écran sont écrits par l'agent `brand-voice` (premium, courts, vrais) et la vidéo passe le contrôle `quality-reviewer` avant de lui être montrée | qualité constante | agence · 2026-10-12 | toutes |
 | V10 | **Une seule « brillance » par vidéo**, à l'ouverture (la couverture) ; les autres passages : rideau ou coupe nette ; pas de reflet sur la carte de réservation | « Arrête de mettre les slides flash à chaque fois, t'en mets trop » | agence · 2026-10-12 | toutes |
+| V11 | **Les listes arrivent une par une** (activités, distances, équipements) : la page d'abord, puis chaque élément, 1 à 2 secondes chacun, pour qu'on ait le temps de lire | « Montre la page d'abord et puis chaque activité une par une ; une seconde ou deux par activité » | agence · 2026-10-12 | toutes |
+| V12 | **Des mots premium et fins**, pas de jeux de mots mignons : « salle de bain privative », pas « chacun sa douche » (lexique : `lexique-premium.md`) | « Chacun sa douche, c'est un peu nul ; plus premium et smart » | agence · 2026-10-12 | toutes |
+| V13 | **Photos pas trop zoomées** : dans les suites de photos, la photo est montrée entière sur la page ; gros plan léger seulement (zoom 1,15 au plus) ; caméra douce | « Les photos sont un peu trop zoomées » | agence · 2026-10-12 | toutes |
+| V14 | **Un rythme posé** : 2,5 s par photo dans une suite, 4 à 6 s par page avec du texte ; moins de plans plutôt qu'un montage rapide | « C'est un peu rapide, un peu bizarre » | agence · 2026-10-12 | toutes |
 
 ## Réglages actuels (à ajuster selon ses retours)
 Ce ne sont pas encore des règles : le point de départ, à confirmer.
-- Vidéo de séjour : 26 à 28 secondes, 8 scènes environ.
-- Reel court : 10 à 12 secondes.
-- Un plan de gros détail dure 1 seconde ; une scène avec texte 3 à 4 secondes.
+- Vidéo de séjour : environ 40 secondes, 8 scènes (accroche 3 s, couverture
+  4 s, suite de 3 photos entières à 2,5 s, pages de texte 4 à 6 s, liste 7 à
+  8 s, carte de réservation 4,5 s).
+- Reel court : 10 à 15 secondes.
+- Listes : la page d'abord (1,4 s), puis 1,2 s par élément ; étiquettes sur
+  photo : 1 s chacune.
 - Couleurs : « papier » (clair) pour La Rosière, « nuit » (sombre) pour Les
   Clématites, « sable » (chaud) pour Pierre Fleur.
 - Fin : la carte de réservation (nom du chalet, lien, une ligne de chiffres).

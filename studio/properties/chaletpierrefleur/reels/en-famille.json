@@ -29,7 +29,7 @@
   "scenes": [
     {
       "type": "hook",
-      "beats": 4,
+      "beats": 6,
       "photo": {
         "n": 42,
         "motion": "in"
@@ -42,7 +42,7 @@
     },
     {
       "type": "cover",
-      "beats": 6,
+      "beats": 8,
       "enter": "shine",
       "tIn": 1.2,
       "sheen": 1.2,
@@ -61,67 +61,39 @@
     },
     {
       "type": "montage",
-      "beats": 10,
+      "beats": 15,
       "enter": "cut",
       "shots": [
         {
           "photo": {
-            "n": 37,
-            "zoom": 1.4,
-            "fx": 40,
-            "fy": 40
+            "n": 37
           },
-          "beats": 2,
+          "beats": 5,
           "label": "La cheminée",
           "icon": "flame"
         },
         {
           "photo": {
-            "n": 21,
-            "zoom": 1.15,
-            "fx": 45,
-            "fy": 50
+            "n": 21
           },
-          "beats": 2,
+          "beats": 5,
           "label": "La chambre des enfants",
           "icon": "bed-single"
         },
         {
           "photo": {
-            "n": 15,
-            "zoom": 1.2,
-            "fx": 40,
-            "fy": 60
+            "n": 15
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Tous à table",
           "icon": "utensils-crossed"
-        },
-        {
-          "photo": {
-            "n": 28,
-            "zoom": 1.2,
-            "fx": 50,
-            "fy": 45
-          },
-          "beats": 2,
-          "label": "La vue",
-          "icon": "mountain-snow"
-        },
-        {
-          "photo": {
-            "n": 39,
-            "zoom": 1.1,
-            "fx": 50,
-            "fy": 55
-          },
-          "beats": 2
         }
-      ]
+      ],
+      "fit": true
     },
     {
       "type": "triptych",
-      "beats": 6,
+      "beats": 8,
       "enter": "cut",
       "step": 1,
       "photos": [
@@ -134,7 +106,7 @@
     },
     {
       "type": "frame",
-      "beats": 6,
+      "beats": 13,
       "enter": "wipe-left",
       "photo": {
         "n": 32,
@@ -160,7 +132,7 @@
     },
     {
       "type": "bleed",
-      "beats": 7,
+      "beats": 12,
       "enter": "wipe-up",
       "photo": {
         "region": "bex-haute-pointe-hiver.jpg",
@@ -181,7 +153,7 @@
     },
     {
       "type": "frame",
-      "beats": 6,
+      "beats": 10,
       "enter": "wipe-left",
       "tIn": 0.8,
       "photo": {
@@ -208,7 +180,7 @@
     },
     {
       "type": "cta",
-      "beats": 8,
+      "beats": 9,
       "enter": "wipe-up",
       "tIn": 0.8,
       "photo": {

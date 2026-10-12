@@ -29,7 +29,7 @@
   "scenes": [
     {
       "type": "hook",
-      "beats": 4,
+      "beats": 6,
       "photo": {
         "n": 82,
         "motion": "in"
@@ -42,7 +42,7 @@
     },
     {
       "type": "cover",
-      "beats": 6,
+      "beats": 8,
       "enter": "shine",
       "tIn": 1.2,
       "sheen": 1.2,
@@ -61,68 +61,39 @@
     },
     {
       "type": "montage",
-      "beats": 10,
+      "beats": 15,
       "enter": "cut",
       "shots": [
         {
           "photo": {
-            "region": "generique-ski-poudreuse.jpg",
-            "fx": 45,
-            "motion": "in"
+            "n": 2
           },
-          "beats": 2,
-          "label": "La poudreuse",
-          "icon": "ski"
-        },
-        {
-          "photo": {
-            "n": 2,
-            "zoom": 1.6,
-            "fx": 92,
-            "fy": 66
-          },
-          "beats": 2,
-          "label": "Feu de cheminée",
+          "beats": 5,
+          "label": "Le salon",
           "icon": "flame"
         },
         {
           "photo": {
-            "n": 18,
-            "zoom": 1.15,
-            "fx": 50,
-            "fy": 62
+            "n": 18
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Une table pour douze",
           "icon": "utensils-crossed"
         },
         {
           "photo": {
-            "n": 43,
-            "zoom": 1.0,
-            "fx": 50,
-            "fy": 60
+            "n": 43
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Linge brodé",
           "icon": "feather"
-        },
-        {
-          "photo": {
-            "n": 16,
-            "zoom": 1.15,
-            "fx": 50,
-            "fy": 50
-          },
-          "beats": 2,
-          "label": "Cuisine équipée",
-          "icon": "chef-hat"
         }
-      ]
+      ],
+      "fit": true
     },
     {
       "type": "triptych",
-      "beats": 6,
+      "beats": 8,
       "enter": "cut",
       "step": 1,
       "photos": [
@@ -135,7 +106,7 @@
     },
     {
       "type": "frame",
-      "beats": 6,
+      "beats": 10,
       "enter": "wipe-left",
       "photo": {
         "n": 72,
@@ -160,7 +131,7 @@
     },
     {
       "type": "bleed",
-      "beats": 7,
+      "beats": 12,
       "enter": "wipe-up",
       "photo": {
         "n": 84,
@@ -181,7 +152,7 @@
     },
     {
       "type": "nearby",
-      "beats": 6,
+      "beats": 15,
       "enter": "wipe-left",
       "photo": {
         "n": 33,
@@ -206,10 +177,6 @@
           "d": "250 m"
         },
         {
-          "name": "Train de montagne",
-          "d": "300 m"
-        },
-        {
           "name": "Patinoire",
           "d": "500 m"
         }
@@ -217,7 +184,7 @@
     },
     {
       "type": "cta",
-      "beats": 8,
+      "beats": 9,
       "enter": "wipe-up",
       "tIn": 0.8,
       "photo": {

@@ -5,6 +5,7 @@ et s'il est devenu une règle. Le plus récent en haut.
 
 | Date | Qui | Sur quoi | Le retour (ses mots) | Ce qu'on a fait | Règle ? |
 |---|---|---|---|---|---|
+| 2026-10-12 | agence | les 3 vidéos de séjour | « Les pages d'activités : la page d'abord puis chaque activité une par une, une à deux secondes chacune » ; « Chacun sa douche, c'est un peu nul, plutôt salle de bain privative » ; « les photos sont un peu trop zoomées » ; « c'est un peu rapide, un peu bizarre » | listes une par une ; textes réécrits par `brand-voice` ; photos entières dans les suites ; vidéos d'environ 40 s ; vidéos refaites | V11, V12, V13, V14 |
 | 2026-10-12 | agence | les 3 vidéos de séjour | « Arrête de mettre les slides flash à chaque fois parce que t'en mets trop » | une seule brillance (couverture) dans les 3 vidéos et la démo ; le reste en rideaux et coupes ; vidéos refaites | V10 |
 | 2026-10-12 | agence | tout le système | « Quand elle propose des idées, les reformuler de façon impactante, bien enrobée, premium ; si elle parle de plusieurs sujets, redécouper ; toujours un agent pour le phrasing et le branding ; vérifier la banque de photos, s'il faut une nouvelle photo, si le post n'a pas déjà été fait » | agents `intake-router`, `brand-voice`, `photo-librarian`, `quality-reviewer` ; registre ; lexique | P07, P08, V09 |
 | 2026-10-12 | agence | toutes les créations | « Il faut des images exactes des lieux quand on cite des lieux, et des belles images » | recherche d'images libres et vérifiées | V05 |

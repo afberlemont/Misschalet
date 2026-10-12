@@ -29,7 +29,7 @@
   "scenes": [
     {
       "type": "hook",
-      "beats": 4,
+      "beats": 6,
       "photo": {
         "region": "chamossaire-hiver.jpg",
         "fx": 55,
@@ -43,7 +43,7 @@
     },
     {
       "type": "cover",
-      "beats": 6,
+      "beats": 8,
       "enter": "shine",
       "tIn": 1.2,
       "sheen": 1.2,
@@ -62,7 +62,7 @@
     },
     {
       "type": "bleed",
-      "beats": 7,
+      "beats": 12,
       "enter": "wipe-up",
       "photo": {
         "region": "villars-pistes-ski.jpg",
@@ -83,7 +83,7 @@
     },
     {
       "type": "frame",
-      "beats": 6,
+      "beats": 9,
       "enter": "wipe-left",
       "tIn": 0.8,
       "photo": {
@@ -108,7 +108,7 @@
     },
     {
       "type": "frame",
-      "beats": 6,
+      "beats": 8,
       "enter": "wipe-right",
       "photo": {
         "region": "dents-du-midi-ciel-rose.jpg",
@@ -129,69 +129,39 @@
     },
     {
       "type": "montage",
-      "beats": 10,
+      "beats": 15,
       "enter": "cut",
       "shots": [
         {
           "photo": {
-            "region": "generique-fondue.jpg",
-            "fx": 50,
-            "fy": 55,
-            "motion": "in"
+            "region": "generique-fondue.jpg"
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Le soir, la fondue",
           "icon": "cooking-pot"
         },
         {
           "photo": {
-            "n": 4,
-            "zoom": 1.5,
-            "fx": 30,
-            "fy": 45
+            "n": 4
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Le feu de cheminée",
           "icon": "flame"
         },
         {
           "photo": {
-            "n": 92,
-            "zoom": 1.4,
-            "fx": 70,
-            "fy": 60
+            "n": 85
           },
-          "beats": 2,
+          "beats": 5,
           "label": "Le sauna",
           "icon": "sauna"
-        },
-        {
-          "photo": {
-            "n": 18,
-            "zoom": 1.5,
-            "fx": 55,
-            "fy": 30
-          },
-          "beats": 2,
-          "label": "Tous à table",
-          "icon": "utensils-crossed"
-        },
-        {
-          "photo": {
-            "n": 24,
-            "zoom": 1.7,
-            "fx": 49,
-            "fy": 76
-          },
-          "beats": 2,
-          "label": "Linge brodé",
-          "icon": "feather"
         }
-      ]
+      ],
+      "fit": true
     },
     {
       "type": "nearby",
-      "beats": 6,
+      "beats": 15,
       "enter": "wipe-left",
       "photo": {
         "n": 78,
@@ -216,10 +186,6 @@
           "d": "250 m"
         },
         {
-          "name": "Train de montagne",
-          "d": "300 m"
-        },
-        {
           "name": "Piscine et patinoire",
           "d": "500 m"
         }
@@ -227,7 +193,7 @@
     },
     {
       "type": "cta",
-      "beats": 8,
+      "beats": 9,
       "enter": "wipe-up",
       "tIn": 0.8,
       "photo": {

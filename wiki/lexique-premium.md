@@ -12,6 +12,7 @@ garde une formule plus modeste. Tenu par l'agent `brand-voice`, qui l'enrichit
 | près du village | au cœur du village, tout à pied | commerces et restaurants à quelques centaines de mètres |
 | grand chalet | un chalet généreux, pensé pour se retrouver à 12 ou 14 | capacité confirmée |
 | il y a un sauna | un sauna privé pour se ressourcer après le ski | sauna dans le chalet |
+| c'est vraiment top | le rituel du soir ; un vrai moment à part | une expérience réelle du chalet ; jamais transformée en superlatif (« le meilleur », « unique ») sans source |
 | c'est bien équipé | pensé dans les moindres détails | équipements listés et confirmés |
 | joli, beau | élégant, chaleureux, raffiné | (selon le caractère du chalet) |
 | calme | un havre de paix | pas de route passante ni de bruit connu |

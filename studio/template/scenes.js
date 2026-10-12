@@ -72,7 +72,7 @@ function fitMast(el, name, base) {
         ph.box.style.clipPath = `inset(${((1 - r) * 100).toFixed(3)}% 0 0 0)`
         camera(ph, lt / dur, 0.14 * (1 - E.out(clamp((lt - 0.3) / 1.8))))
         pinsUpdate(ph, lt, 1.2, tg ? ph.box.offsetHeight - 170 : Infinity)
-        if (tg) tg(lt, 1.35)
+        if (tg) tg(lt, s.tagsAt ?? 1.35, s.tagStep ?? 0.9)
         fadeUp(cap, lt, 1.35, 0.9, 14)
         fo(lt)
       }
@@ -92,7 +92,7 @@ function fitMast(el, name, base) {
         hd(lt)
         rise(tl, lt, 0.45, 0.14)
         pinsUpdate(ph, lt, 1.0, 1110)
-        tg(lt, 1.15, 0.09)
+        tg(lt, s.tagsAt ?? 1.15, s.tagStep ?? 0.09)
       }
     },
 
@@ -112,7 +112,7 @@ function fitMast(el, name, base) {
       return (lt, dur) => {
         camera(ph, lt / dur)
         pinsUpdate(ph, lt, 1.3, 1030)
-        if (tg) tg(lt, 0.7)
+        if (tg) tg(lt, s.tagsAt ?? 1.6, s.tagStep ?? 1.0)
         fadeUp(tag, lt, 0.4, 0.9, 12)
         const r = prog(lt, 0.55, 1.1, E.inOut)
         card.style.clipPath = `inset(${((1 - r) * 100).toFixed(3)}% 0 0 0)`
@@ -216,7 +216,7 @@ function fitMast(el, name, base) {
         fadeUp(eyeb, lt, 0.6, 0.8, 12)
         rise(tl, lt, 0.7, 0.14)
         items.forEach((it, i) => {
-          const t0 = 1.0 + i * 0.13
+          const t0 = (s.itemsAt ?? 1.4) + i * (s.step ?? 1.2)
           fadeUp(it.row, lt, t0, 0.8, 18)
           it.dots.style.transform = `translateY(-8px) scaleX(${prog(lt, t0 + 0.1, 0.9, E.inOut)})`
         })

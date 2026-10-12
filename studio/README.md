@@ -99,6 +99,17 @@ environment or in `studio/.env` (git-ignored, never printed).
 `--dry-run` shows the request without calling the API. Using the clips in the
 reels is the next step.
 
+### Pace and reading (rules V11, V13, V14)
+
+- `nearby`: the page lands, then each item appears one by one: `itemsAt`
+  (default 1.4 s), `step` (seconds per item, default 1.2).
+- Tag chips: `tagsAt` and `tagStep` (seconds) on `frame` (default 0.9 s per
+  tag), `bleed` (1.0 s) and `spotlight` (0.09 s, long equipment grids).
+- `montage` with `"fit": true` (or a shot with `"fit": true`): the whole photo
+  on the page with its caption under it, a soft cross-fade, no punch-in; use
+  it rather than strong close-ups. Close-ups stay at `zoom` 1.15 or less.
+- The camera pushes gently (2 to 9 %); give a scene with words 4 to 6 s.
+
 ### Images of the region
 
 A board may use a photo of the region instead of a listing photo:

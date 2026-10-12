@@ -156,13 +156,13 @@
     const q = E.soft(clamp(p))
     let x = fx, y = fy, k = 1.06
     switch (s.motion) {
-      case 'in': k = lerp(1.03, 1.15, q); break
-      case 'out': k = lerp(1.17, 1.04, q); break
+      case 'in': k = lerp(1.02, 1.09, q); break
+      case 'out': k = lerp(1.1, 1.02, q); break
       case 'pan-l': x = fx + lerp(9, -9, q); k = 1.07; break
       case 'pan-r': x = fx + lerp(-9, 9, q); k = 1.07; break
       case 'up': y = fy + lerp(8, -8, q); k = lerp(1.08, 1.12, q); break
       case 'down': y = fy + lerp(-8, 8, q); k = lerp(1.08, 1.12, q); break
-      case 'slow': k = lerp(1.02, 1.09, q); break
+      case 'slow': k = lerp(1.01, 1.05, q); break
       case 'hold': k = 1.02; break
       default: k = lerp(1.04, 1.1, q)
     }
