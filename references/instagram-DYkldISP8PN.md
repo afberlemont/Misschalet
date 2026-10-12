@@ -27,7 +27,7 @@
 
 ## Recreating it
 - **From listing photos**: big single-word captions on beats (template can do it now with timed text), twilight grade.
-- **Needs Veo**: FPV fly-through, aerials (or the owner's drone footage).
+- **Needs Veo**: FPV fly-through, aerials (or her own drone footage).
 - **Needs an AI avatar**: the walking, talking agent.
 - **Airbnb version**: "What CHF … a night gets you in Villars" (the value argument) with our montage.
 - **Real-estate version**: as is.

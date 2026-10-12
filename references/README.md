@@ -1,9 +1,9 @@
 # References
 
-Reels the owner sent as models, studied with `../SOP-VIDEO-ANALYSIS.md`
+Reels sent as models (by the agency, then Misschalet), studied with `../playbooks/viral-video-audit.md`
 (the `/watch` skill of https://github.com/bradautomates/claude-video). Text
 only: no frames or media of other people's work in this repository. **Not to
-be recreated unless the owner asks**; they are the catalogue of formats the
+be recreated unless a work order asks**; they are the catalogue of formats the
 tool should learn to make: for Airbnb (our photos, new hooks and content) and
 for real estate (possibly fully AI avatars).
 
@@ -35,12 +35,12 @@ for real estate (possibly fully AI avatars).
 ## What the tool can and cannot do yet
 | Element | Status |
 |---|---|
-| Hook over the first shot, beat cuts, close-ups from photos, triptych, grid, end card, logo, warm grade | done (`template/`) |
+| Hook over the first shot, beat cuts, close-ups from photos, triptych, grid, end card, logo, warm grade | done (`studio/template/`) |
 | Big single words on beats | possible now (timed text in a board) |
 | Whip / zoom / spin blur transitions, light leaks, flares, white flash | to build in the template |
 | Word-by-word caption track synced to a voice | to build (needs a script and its timing) |
 | Contact card pill, address card, DM call to action | to build (HTML, easy) |
-| Camera moving inside a room, fly-through feel | Veo (`veo-clip.mjs`, waits for the Gemini key) |
-| Aerials, FPV | the owner's footage, or Veo with limits |
+| Camera moving inside a room, fly-through feel | Veo (`studio/veo-clip.mjs`, waits for the Gemini key) |
+| Aerials, FPV | Misschalet's own footage, or Veo with limits |
 | A presenter talking (agent, host) | AI avatar + voice: not chosen yet |
 | Type behind a person | needs a person matte on video: later |

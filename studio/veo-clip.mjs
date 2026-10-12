@@ -9,7 +9,7 @@
  * purpose: one clip per call, 720p, 4 seconds unless asked; a clip that
  * already exists is never paid for twice.
  *
- * The key is read from GEMINI_API_KEY (environment, or tools/listing-reels/.env,
+ * The key is read from GEMINI_API_KEY (environment, or studio/.env,
  * git-ignored) and is never printed.
  * The photo is first cut to 9:16 around its focus (property.json) so the model
  * starts from the frame the reel will show. The prompt keeps the world still:
@@ -61,7 +61,7 @@ async function apiKey() {
     const m = env.match(/^GEMINI_API_KEY=(.+)$/m)
     if (m) return m[1].trim()
   } catch { /* no .env */ }
-  throw new Error('GEMINI_API_KEY is not set (environment or tools/listing-reels/.env)')
+  throw new Error('GEMINI_API_KEY is not set (environment or studio/.env)')
 }
 
 function run(cmd, argv) {

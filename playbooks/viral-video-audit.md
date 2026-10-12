@@ -1,8 +1,11 @@
-# SOP: reading a video the owner sends
+# Playbook: viral video audit (reading a video Misschalet or the agency sends)
 
-The standard procedure whenever the owner gives a video (an Instagram reel,
+Owner of this playbook: the **viral-video-analyst** subagent. The orchestrator
+delegates to it; it writes the reference and returns a short summary.
+
+The standard procedure whenever Misschalet or the agency gives a video (an Instagram reel,
 TikTok, YouTube Short, a post, a local file) to study, reverse-engineer or
-use as a reference. Owner's instruction, 2026-10-11: use
+use as a reference. Agency instruction, 2026-10-11: use
 **https://github.com/bradautomates/claude-video** (the `/watch` skill) and
 this SOP every time.
 
@@ -10,7 +13,7 @@ The goal is a **reference**, not a copy: what the video does (structure,
 timing, hook, words on screen, camera, transitions, sound), stored as text in
 `references/`, so it can later be recreated for a listing (Airbnb: our photos,
 new hooks and content; real estate: possibly fully AI avatars). **Never
-recreate a reference unless the owner asks** (see `CLAUDE.md`).
+recreate a reference unless a work order asks** (see `studio/CLAUDE.md`).
 
 ## 0. Once per machine or session
 
@@ -31,7 +34,7 @@ references, because it also hears the voice-over and the music. Without a key,
 the local engine: `python3 $W/setup.py --engine local` then
 `python3 $W/setup.py --backend none --detail balanced` (frames + captions only;
 nothing installed, no audio uploaded). Installing WhisperX or using
-Groq / OpenAI for speech is the owner's call: ask, never by default.
+Groq / OpenAI for speech is Misschalet's call (with the agency): ask, never by default.
 On a first run, the skill's own wizard questions apply; do not switch engines
 silently when one fails, report it.
 
@@ -48,13 +51,13 @@ python3 $W/watch.py "<url or path>" \
 Instagram reels download without cookies (tested 2026-10-11). If yt-dlp is
 refused: update yt-dlp once and retry; still refused → the public embed page
 `https://www.instagram.com/reel/<id>/embed/captioned/` carries a `video_url`
-(how the first reference was fetched). Never use the owner's cookies unless he
-provides them for that.
+(how the first reference was fetched). Never use anyone's cookies unless they
+provide them for that.
 
 ## 2. Read it, cheaply
 
 - **Frames**: do not open the frames one by one. Tile them, in order, with
-  their timestamps: `python3 refs/sheet.py <report> <scratch>/<id>` → one or two
+  their timestamps: `python3 studio/refs/sheet.py <report> <scratch>/<id>` → one or two
   `sheet-*.jpg` per reel; read every sheet (the skill requires every listed
   frame to be seen: the sheets are those frames).
 - **Metadata**: `download/run-*/video.info.json` in the watch work dir: author,
@@ -85,5 +88,19 @@ work committed (the repo may go to a client).
 ## 4. Clean up
 
 Delete the watch work dirs (`watch-*`) when the reference is written; keep
-nothing large. The owner gets a short summary of each reference and the
+nothing large. Misschalet gets a short summary (in French) of each reference and the
 patterns across them.
+
+## 5. Format audit (many videos → patterns)
+
+At onboarding, monthly, or when asked "what works for chalets right now?":
+gather 5 to 10 candidate videos (the reels Misschalet likes, her best posts,
+competitor or destination accounts she names, the existing `references/`).
+Study only the ones not studied yet, one by one (steps 1 to 3). Then write
+`intelligence/video-formats.md` (in French): for each format seen, the
+pattern (hook type, length, pace, structure, text on screen, sound), the
+evidence (references and their numbers), the fit for her guests and pillars,
+how the studio would make it (motion template / Veo / avatar / real footage)
+and a score (Impact × Confidence × Ease × Strategic fit). Return the top 3
+formats to test, each with the first work order idea. Never more than 10 new
+videos per audit without asking.

@@ -1,9 +1,9 @@
-# photos (re-downloaded by fetch-listing.mjs) and rendered videos: large
-cache/
-out/
-node_modules/
-# generated music (music/make_music.py makes it again on demand)
-music/out/
-# secrets (GEMINI_API_KEY): never committed
+# secrets: never committed
 .env
 .env.*
+# local tooling and caches
+node_modules/
+.DS_Store
+.claude/settings.local.json
+# video study work dirs (playbooks/viral-video-audit.md); rendered media live in studio/out/ (ignored there)
+watch-*/
