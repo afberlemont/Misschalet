@@ -1,6 +1,6 @@
 {
   "name": "entre-amis",
-  "note": "Le séjour entre amis (≈ 26 s) : le chalet design, une salle de douche par chambre, la table pour douze, le ski et le village à pied. Une seule brillance (V10). Silencieux (règle du studio).",
+  "note": "Le séjour entre amis (≈ 40 s) : le chalet design, une salle de bain privative par chambre, la table pour douze, le ski sans voiture, le village à pied. Une seule brillance (V10). Silencieux.",
   "music": {
     "style": "couples",
     "bpm": 120,
@@ -10,9 +10,9 @@
   "grade": "saturate(1.06) contrast(1.05) brightness(1.01)",
   "coverAt": 4.2,
   "caption": [
-    "Le séjour entre amis à Villars.",
+    "Villars-sur-Ollon, le séjour entre amis",
     "",
-    "Douze amis, six chambres, six salles de bain privatives dont trois en suite. Le feu de cheminée, la grande table, et le bus de ski gratuit à 50 m du chalet. Après le ski, le Roc-Star au pied de la télécabine du Roc d'Orsay : terrasse chauffée, DJ le soir. Les Clématites, au cœur de Villars-sur-Ollon.",
+    "Le bus de ski gratuit à 50 m du chalet. Après le ski, le Roc-Star au pied de la télécabine du Roc d'Orsay : terrasse chauffée, DJ le soir. Les Clématites, au cœur de Villars-sur-Ollon : douze amis, six chambres, six salles de bain privatives dont trois en suite, le feu de cheminée et la grande table.",
     "",
     "@tvgd.ch"
   ],
@@ -142,7 +142,7 @@
         "Le ski",
         "<em>sans voiture</em>"
       ],
-      "text": "Le bus de ski gratuit s'arrête à 50 m du chalet : les pistes en quelques minutes.",
+      "text": "Le bus de ski gratuit s'arrête à 50 m du chalet.",
       "tags": [
         "Bus de ski à 50 m",
         "École de ski à 200 m",

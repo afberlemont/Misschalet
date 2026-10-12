@@ -1,6 +1,6 @@
 {
   "name": "en-famille",
-  "note": "Le séjour en famille (≈ 26 s) : la vue, le vieux chalet rénové, le feu, la chambre des enfants, le jardin, les animaux bienvenus, le ski de Villars et Barboleuse, les bains de Lavey. Une seule brillance (V10). Silencieux (règle du studio).",
+  "note": "Le séjour en famille (≈ 40 s) : la vue, le vieux chalet rénové, le feu, la chambre des enfants, le jardin, les animaux bienvenus, l'hiver dans la région. Une seule brillance (V10). Silencieux. Pubs Meta : recadrer ou remplacer generique-famille-luges (personnes reconnaissables) avant toute publicité.",
   "music": {
     "style": "famille",
     "bpm": 120,
@@ -10,9 +10,9 @@
   "grade": "saturate(1.1) contrast(1.04) brightness(1.03)",
   "coverAt": 4.2,
   "caption": [
-    "Une maison de famille à la vue imprenable.",
+    "Dans les Alpes vaudoises, une maison de famille à la vue imprenable",
     "",
-    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. Dans la région, le plus grand domaine skiable du canton de Vaud. Après le ski, les Bains de Lavey et l'eau la plus chaude de Suisse.",
+    "Dans la région, le plus grand domaine skiable du canton de Vaud. Après le ski, les Bains de Lavey et l'eau la plus chaude de Suisse. Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus.",
     "",
     "@lesbainsdelavey @tvgd.ch"
   ],
@@ -106,7 +106,7 @@
     },
     {
       "type": "frame",
-      "beats": 13,
+      "beats": 12,
       "enter": "wipe-left",
       "photo": {
         "n": 32,
@@ -162,7 +162,7 @@
       },
       "no": "03",
       "section": "Petits et grands",
-      "end": "Pierre Fleur",
+      "end": "Alpes vaudoises",
       "title": [
         "L'hiver",
         "<em>à hauteur d'enfant</em>"
@@ -183,7 +183,7 @@
       "enter": "wipe-up",
       "tIn": 0.8,
       "photo": {
-        "n": 42,
+        "n": 27,
         "motion": "in"
       },
       "eyebrow": "Réservez vos vacances en famille",

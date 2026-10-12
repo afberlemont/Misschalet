@@ -1,6 +1,6 @@
 {
   "name": "decouverte",
-  "note": "Le séjour découverte (≈ 28 s) : une journée parfaite à Villars, du ski le matin aux bains l'après-midi, puis le chalet le soir (feu, sauna, table). Images de la région : studio/region/sources.json. Une seule brillance (V10). Silencieux (règle du studio).",
+  "note": "Le séjour découverte (≈ 40 s) : une journée dans la région (Chamossaire, pistes, train à crémaillère à Gryon, Dents du Midi), puis le chalet le soir (fondue, cheminée, sauna). Une seule brillance (V10). Silencieux. Pubs Meta : recadrer ou remplacer villars-pistes-ski (personnes reconnaissables) avant toute publicité.",
   "music": {
     "style": "lux",
     "bpm": 120,
@@ -10,7 +10,7 @@
   "grade": "saturate(1.08) contrast(1.04) sepia(.05) brightness(1.01)",
   "coverAt": 4.2,
   "caption": [
-    "Une journée à Villars, des pistes au sauna.",
+    "Une journée à Villars, des pistes au sauna",
     "",
     "Le matin, les pistes : plus de 100 km reliés entre Villars, Gryon et Les Diablerets, et le bus de ski gratuit à 50 m du chalet. À midi, une pizza au Rocco, au sommet de la télécabine du Roc d'Orsay. L'après-midi, le train dans la neige. Le soir, une fondue, puis le feu de cheminée et le sauna de La Rosière, au cœur de Villars-sur-Ollon.",
     "",
@@ -93,7 +93,7 @@
       },
       "no": "02",
       "section": "L'après-midi",
-      "end": "La Rosière",
+      "end": "Alpes vaudoises",
       "title": [
         "Le train",
         "<em>à crémaillère</em>"
@@ -116,8 +116,8 @@
         "motion": "in"
       },
       "no": "03",
-      "section": "Le panorama",
-      "end": "La Rosière",
+      "section": "Les sommets",
+      "end": "Alpes vaudoises",
       "title": [
         "Les Dents",
         "<em>du Midi</em>"
@@ -197,7 +197,7 @@
       "enter": "wipe-up",
       "tIn": 0.8,
       "photo": {
-        "n": 4,
+        "n": 1,
         "motion": "in"
       },
       "eyebrow": "Réservez votre séjour découverte",
