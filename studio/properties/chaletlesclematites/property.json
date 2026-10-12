@@ -3,8 +3,8 @@
   "lang": "fr",
   "startDate": "2026-10-12",
   "name": "Les Clématites",
-  "kicker": "Hébergement · Ollon",
-  "place": "Ollon",
+  "kicker": "Chalet · Villars-sur-Ollon",
+  "place": "Villars-sur-Ollon",
   "url": "airbnb.com/rooms/1331985984740445143",
   "palettes": [
     "papier",
@@ -12,11 +12,89 @@
     "nuit"
   ],
   "hashtags": [
-    "#ollon",
-    "#hbergement",
-    "#airbnb"
+    "#villars",
+    "#villarssurollon",
+    "#chalet",
+    "#alpesvaudoises",
+    "#suisse",
+    "#chaletsuisse",
+    "#airbnb",
+    "#montagne"
   ],
-  "focus": {},
+  "focus": {
+    "1": [
+      60,
+      55
+    ],
+    "2": [
+      50,
+      55
+    ],
+    "9": [
+      62,
+      55
+    ],
+    "12": [
+      55,
+      55
+    ],
+    "19": [
+      45,
+      55
+    ],
+    "20": [
+      50,
+      55
+    ],
+    "27": [
+      35,
+      55
+    ],
+    "33": [
+      50,
+      55
+    ],
+    "35": [
+      50,
+      55
+    ],
+    "43": [
+      50,
+      50
+    ],
+    "44": [
+      45,
+      55
+    ],
+    "56": [
+      45,
+      55
+    ],
+    "59": [
+      40,
+      55
+    ],
+    "81": [
+      50,
+      55
+    ],
+    "82": [
+      50,
+      55
+    ],
+    "84": [
+      45,
+      55
+    ],
+    "85": [
+      45,
+      55
+    ],
+    "103": [
+      50,
+      50
+    ]
+  },
   "pins": {},
   "covers": [
     1,
@@ -26,7 +104,8 @@
   ],
   "coverLines": [
     [
-      "Exclusive Chalet, Villars Center"
+      "Le chalet design",
+      "au cœur de Villars"
     ]
   ],
   "coverCaps": "12 voyageurs · 6 chambres · Cheminée",
@@ -259,7 +338,7 @@
   },
   "cta": {
     "eyebrow": "Réservez votre séjour",
-    "sub": "Exclusive Chalet, Villars Center",
+    "sub": "Chalet design, centre de Villars",
     "stats": "12 voyageurs · 6 chambres",
     "photos": [
       1,

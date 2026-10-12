@@ -26,7 +26,8 @@ quand, prépare les posts, et ramène toujours à la prochaine action.
 les affirmations approuvées en place, et l'envie d'aller plus loin.
 
 ## Phase 2 · Croissance
-Audit et stratégie 90 jours (`playbooks/growth-audit.md`), piliers complets,
+Audit et stratégie 90 jours (`playbooks/growth-audit.md`), **Meta Ads** (agent
+`meta-ads`, petit budget de test décidé avec elle), piliers complets,
 calendrier au format complet, routine communauté, premiers articles de blog,
 partenaires locaux, étude des formats vidéo, chiffres simples collés par elle
 chaque semaine. Toujours sans outil obligatoire.

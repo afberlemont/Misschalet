@@ -2,8 +2,8 @@
   "slug": "chaletpierrefleur",
   "lang": "fr",
   "startDate": "2026-10-12",
-  "name": "Chalet Pierre Fleur",
-  "kicker": "Hébergement · Bex",
+  "name": "Pierre Fleur",
+  "kicker": "Chalet · Alpes vaudoises",
   "place": "Bex",
   "url": "airbnb.com/rooms/1741144846421702313",
   "palettes": [
@@ -13,10 +13,76 @@
   ],
   "hashtags": [
     "#bex",
-    "#hbergement",
-    "#airbnb"
+    "#chalet",
+    "#alpesvaudoises",
+    "#suisse",
+    "#chaletsuisse",
+    "#vacancesenfamille",
+    "#airbnb",
+    "#montagne"
   ],
-  "focus": {},
+  "focus": {
+    "2": [
+      50,
+      55
+    ],
+    "4": [
+      50,
+      55
+    ],
+    "7": [
+      50,
+      55
+    ],
+    "12": [
+      50,
+      55
+    ],
+    "15": [
+      40,
+      55
+    ],
+    "16": [
+      60,
+      55
+    ],
+    "21": [
+      45,
+      55
+    ],
+    "26": [
+      45,
+      55
+    ],
+    "27": [
+      50,
+      55
+    ],
+    "28": [
+      50,
+      55
+    ],
+    "30": [
+      50,
+      55
+    ],
+    "32": [
+      35,
+      55
+    ],
+    "34": [
+      45,
+      55
+    ],
+    "37": [
+      35,
+      55
+    ],
+    "42": [
+      40,
+      55
+    ]
+  },
   "pins": {},
   "covers": [
     1,
@@ -26,10 +92,11 @@
   ],
   "coverLines": [
     [
-      "Familial avec vue imprenable"
+      "Le chalet familial",
+      "avec vue"
     ]
   ],
-  "coverCaps": "11 voyageurs · 5 chambres · Cheminée",
+  "coverCaps": "11 voyageurs · 5 chambres · Jardin",
   "chapters": [
     {
       "id": "salon",
@@ -186,13 +253,13 @@
   },
   "cta": {
     "eyebrow": "Réservez votre séjour",
-    "sub": "Familial avec vue imprenable",
+    "sub": "Le chalet familial avec vue",
     "stats": "11 voyageurs · 5 chambres",
     "photos": [
-      1,
-      26,
-      16,
-      7
+      42,
+      34,
+      2,
+      15
     ]
   }
 }

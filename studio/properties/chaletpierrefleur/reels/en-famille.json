@@ -1,0 +1,221 @@
+{
+  "name": "en-famille",
+  "note": "Le séjour en famille (≈ 26 s) : la vue, le vieux chalet rénové, le feu, la chambre des enfants, le jardin, les animaux bienvenus, le ski de Villars et Barboleuse, les bains de Lavey. Silencieux (règle du studio).",
+  "music": {
+    "style": "famille",
+    "bpm": 120,
+    "seed": 3
+  },
+  "palette": "sable",
+  "grade": "saturate(1.1) contrast(1.04) brightness(1.03)",
+  "coverAt": 4.2,
+  "caption": [
+    "Les vacances en famille, face aux montagnes.",
+    "",
+    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. Les pistes de Villars et de Barboleuse en hiver."
+  ],
+  "hashtags": [
+    "#vacancesenfamille",
+    "#skienfamille",
+    "#chalet",
+    "#alpesvaudoises",
+    "#bex",
+    "#villars",
+    "#suisse",
+    "#airbnb"
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "beats": 4,
+      "photo": {
+        "n": 42,
+        "motion": "in"
+      },
+      "lines": [
+        "Les vacances",
+        "en famille",
+        "avec vue"
+      ]
+    },
+    {
+      "type": "cover",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.2,
+      "sheen": 1.2,
+      "photo": {
+        "n": 34,
+        "motion": "out"
+      },
+      "issue": "En famille",
+      "season": "Alpes vaudoises",
+      "kicker": "Chalet Pierre Fleur · Bex",
+      "lines": [
+        "Un chalet",
+        "pour toute la famille"
+      ],
+      "caps": "11 voyageurs · 5 chambres · Jardin"
+    },
+    {
+      "type": "montage",
+      "beats": 10,
+      "enter": "cut",
+      "shots": [
+        {
+          "photo": {
+            "n": 37,
+            "zoom": 1.4,
+            "fx": 40,
+            "fy": 40
+          },
+          "beats": 2,
+          "label": "Feu de cheminée",
+          "icon": "flame"
+        },
+        {
+          "photo": {
+            "n": 21,
+            "zoom": 1.15,
+            "fx": 45,
+            "fy": 50
+          },
+          "beats": 2,
+          "label": "La chambre des enfants",
+          "icon": "bed-single"
+        },
+        {
+          "photo": {
+            "n": 15,
+            "zoom": 1.2,
+            "fx": 40,
+            "fy": 60
+          },
+          "beats": 2,
+          "label": "Tous à table",
+          "icon": "utensils-crossed"
+        },
+        {
+          "photo": {
+            "n": 28,
+            "zoom": 1.2,
+            "fx": 50,
+            "fy": 45
+          },
+          "beats": 2,
+          "label": "La vue",
+          "icon": "mountain-snow"
+        },
+        {
+          "photo": {
+            "n": 39,
+            "zoom": 1.1,
+            "fx": 50,
+            "fy": 55
+          },
+          "beats": 2
+        }
+      ]
+    },
+    {
+      "type": "triptych",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.0,
+      "step": 1,
+      "photos": [
+        27,
+        2,
+        16
+      ],
+      "label": "Rénové en 2021 · 160 m²",
+      "icon": "house"
+    },
+    {
+      "type": "frame",
+      "beats": 6,
+      "enter": "wipe-left",
+      "photo": {
+        "n": 32,
+        "motion": "in"
+      },
+      "no": "02",
+      "section": "Dehors",
+      "end": "Pierre Fleur",
+      "title": [
+        "Le jardin,",
+        "<em>la vue</em>"
+      ],
+      "tags": [
+        "Jardin",
+        "Deux terrasses",
+        "Barbecue",
+        "Animaux bienvenus"
+      ],
+      "caption": {
+        "label": "fig. 02",
+        "text": "Deux terrasses sud et ouest, un jardin et un barbecue."
+      }
+    },
+    {
+      "type": "bleed",
+      "beats": 7,
+      "enter": "wipe-up",
+      "photo": {
+        "n": 28,
+        "motion": "slow"
+      },
+      "tag": "L'hiver",
+      "eyebrow": "Villars · Barboleuse",
+      "title": [
+        "Le ski",
+        "<em>en famille</em>"
+      ],
+      "text": "En hiver, les pistes de Villars et de Barboleuse se rejoignent rapidement.",
+      "tags": [
+        "Villars",
+        "Barboleuse"
+      ]
+    },
+    {
+      "type": "frame",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.0,
+      "photo": {
+        "n": 26,
+        "motion": "in"
+      },
+      "no": "03",
+      "section": "Après le ski",
+      "end": "Pierre Fleur",
+      "title": [
+        "Les bains",
+        "<em>de Lavey</em>"
+      ],
+      "tags": [
+        "Bains thermaux",
+        "Randonnée",
+        "VTT"
+      ],
+      "caption": {
+        "label": "fig. 03",
+        "text": "Les bains thermaux de Lavey, dans la région."
+      }
+    },
+    {
+      "type": "cta",
+      "beats": 8,
+      "enter": "shine",
+      "tIn": 1.2,
+      "sheen": 1.2,
+      "photo": {
+        "n": 42,
+        "motion": "in"
+      },
+      "eyebrow": "Vos vacances en famille",
+      "sub": "Bex · Alpes vaudoises",
+      "stats": "11 voyageurs · Animaux bienvenus"
+    }
+  ]
+}

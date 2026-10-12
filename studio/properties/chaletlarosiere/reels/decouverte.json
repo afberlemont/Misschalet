@@ -1,0 +1,70 @@
+{
+  "name": "decouverte",
+  "note": "Le séjour découverte (≈ 28 s) : une journée parfaite à Villars, du ski le matin aux bains l'après-midi, puis le chalet le soir (feu, sauna, table). Images de la région : studio/region/sources.json. Silencieux (règle du studio).",
+  "music": { "style": "lux", "bpm": 120, "seed": 6 },
+  "palette": "papier",
+  "grade": "saturate(1.08) contrast(1.04) sepia(.05) brightness(1.01)",
+  "coverAt": 4.2,
+  "caption": [
+    "Une journée parfaite à Villars.",
+    "",
+    "Le matin, les pistes : le bus de ski gratuit passe à 50 m du chalet. L'après-midi, les bains. Le soir, le feu de cheminée, le sauna et la grande table de La Rosière, au cœur de Villars-sur-Ollon."
+  ],
+  "hashtags": ["#villars", "#villarssurollon", "#villarsgryon", "#ski", "#alpesvaudoises", "#chalet", "#suisse", "#airbnb"],
+  "scenes": [
+    { "type": "hook", "beats": 4, "photo": { "n": 74, "motion": "in" }, "lines": ["Une journée", "parfaite", "à Villars"] },
+    {
+      "type": "cover", "beats": 6, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
+      "photo": { "n": 77, "motion": "out" },
+      "issue": "Découverte", "season": "Villars-sur-Ollon",
+      "kicker": "La Rosière · Chalet et sauna",
+      "lines": ["Le séjour", "découverte"],
+      "caps": "Ski · Village · Sauna"
+    },
+    {
+      "type": "bleed", "beats": 7, "enter": "wipe-up",
+      "photo": { "n": 74, "motion": "slow" },
+      "tag": "Le matin", "eyebrow": "Villars-sur-Ollon",
+      "title": ["Les pistes,", "<em>dès 9 heures</em>"],
+      "text": "Le bus de ski gratuit passe à 50 m du chalet.",
+      "tags": ["Bus de ski à 50 m", "École de ski à 200 m", "Téléphérique à 800 m"]
+    },
+    {
+      "type": "frame", "beats": 6, "enter": "shine", "tIn": 1.0,
+      "photo": { "n": 74, "motion": "in" },
+      "no": "02", "section": "L'après-midi", "end": "La Rosière",
+      "title": ["Les bains", "<em>de Lavey</em>"],
+      "tags": ["Bains thermaux"],
+      "caption": { "label": "fig. 02", "text": "Les bains thermaux de Lavey-les-Bains." }
+    },
+    {
+      "type": "montage", "beats": 8, "enter": "cut",
+      "shots": [
+        { "photo": { "n": 4, "zoom": 1.5, "fx": 30, "fy": 45 }, "beats": 2, "label": "Le soir, le feu", "icon": "flame" },
+        { "photo": { "n": 92, "zoom": 1.4, "fx": 70, "fy": 60 }, "beats": 2, "label": "Le sauna", "icon": "sauna" },
+        { "photo": { "n": 18, "zoom": 1.5, "fx": 55, "fy": 30 }, "beats": 2, "label": "Tous à table", "icon": "utensils-crossed" },
+        { "photo": { "n": 24, "zoom": 1.7, "fx": 49, "fy": 76 }, "beats": 2, "label": "Linge brodé", "icon": "feather" }
+      ]
+    },
+    {
+      "type": "nearby", "beats": 6, "enter": "wipe-left",
+      "photo": { "n": 78, "motion": "in" },
+      "eyebrow": "Le village · Villars-sur-Ollon",
+      "title": ["Tout", "<em>à pied</em>"],
+      "items": [
+        { "name": "Restaurant", "d": "100 m" },
+        { "name": "Café et bar", "d": "200 m" },
+        { "name": "Boulangerie", "d": "250 m" },
+        { "name": "Train de montagne", "d": "300 m" },
+        { "name": "Piscine et patinoire", "d": "500 m" }
+      ]
+    },
+    {
+      "type": "cta", "beats": 8, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
+      "photo": { "n": 4, "motion": "in" },
+      "eyebrow": "Votre séjour découverte",
+      "sub": "Villars-sur-Ollon · Alpes vaudoises",
+      "stats": "14 voyageurs · 6 chambres · Sauna"
+    }
+  ]
+}

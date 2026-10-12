@@ -3,6 +3,13 @@
    scene (lib/edition.mjs) and returns update(lt, dur), which sets every style
    from the scene's local time.
    ========================================================================== */
+
+/* A long name ("Les Clématites") would overflow the masthead: shrink it so
+   it keeps the width of a ten-letter name at the base size. */
+function fitMast(el, name, base) {
+  const n = [...String(name || '')].length
+  if (n > 10) el.style.fontSize = `${Math.round((base * 10) / n)}px`
+}
 (() => {
   'use strict'
   const { E, clamp, prog, lerp, h, esc, lines, rise, fadeUp, chars, icon, tagList, photo, project, pinsUpdate, camera, sheen, head, folio } = window.REEL
@@ -15,6 +22,7 @@
       const top = h('div', 'top caps', `<span>${esc(s.issue)}</span><span class="hr"></span><span>${esc(s.season)}</span>`)
       const topHr = top.querySelector('.hr')
       const mast = h('h1', 'mast')
+      fitMast(mast, s.name, 196)
       const cs = chars(mast, s.name)
       const kicker = h('div', 'kicker caps', esc(s.kicker))
       const box = h('div', 'lines')
@@ -222,6 +230,7 @@
       const box = h('div', 'box')
       const eyeb = h('div', 'caps', esc(s.eyebrow))
       const mast = h('div', 'mast')
+      fitMast(mast, s.name, 172)
       const ml = lines(mast, [esc(s.name)])
       const sub = h('div', 'sub', esc(s.sub))
       const urlWrap = h('div', '')

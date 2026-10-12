@@ -95,3 +95,41 @@ réservations qu'elle relie aux posts ; premiers avis de Pierre Fleur. Noté en
 ## 8. À valider avec Misschalet
 Les questions de `state/current-priorities.md`, puis ce positionnement, le
 nom du compte et le rythme.
+
+## 9. La région d'abord, puis Instagram et Meta Ads (cap de l'agence, 2026-10-12)
+**L'idée** : une seule histoire, la région (Villars-Gryon, la vallée du Rhône,
+les Alpes vaudoises) et trois chalets pour la vivre. On donne envie de la
+région (ski, panoramas, bains de Lavey, bonnes adresses), on montre où
+dormir, puis on fait réserver. À développer avec Misschalet, avec
+l'orchestrateur.
+
+**Les publications tournent sur 4 sujets** : la région et ses activités ·
+les trois chalets et leur caractère · les séjours (entre amis, en famille,
+découverte) · réserver. Toujours en français. Les images de la région ont une
+licence qui permet la publicité (`studio/region/sources.json`). Les
+restaurants et partenaires cités sont **identifiés** (tag et mention) : ils
+repartagent souvent, c'est de la visibilité gratuite. Liste et sources :
+`intelligence/destination-opportunities.md` (à valider par elle).
+
+**Les vidéos par séjour** (studio, silencieuses, 26 à 28 s) : Les Clématites
+« entre amis », Pierre Fleur « en famille », La Rosière « découverte ».
+
+**Meta Ads (étape suivante, quand le rythme tient et qu'un budget est décidé)** :
+- **Contrainte** : la réservation se fait sur Airbnb, où Meta ne peut pas
+  suivre les réservations. Donc on optimise sur ce que Meta voit (vues des
+  reels, visites du profil, clics vers l'annonce) et on **recible** les
+  personnes qui ont regardé ou interagi.
+- **Entonnoir** : 1) découvrir : reels région et chalets, audience large
+  (pays et villes à valider : Suisse romande, Genève, Lausanne, France
+  voisine, Royaume-Uni, Benelux) ; 2) considérer : les personnes qui ont vu
+  au moins la moitié d'une vidéo voient les vidéos de séjour ; 3) réserver :
+  les plus engagées voient les dates libres et l'offre (location à la saison
+  de Pierre Fleur), avec un clic vers l'annonce.
+- **Mesure** : coût par vue et par clic dans Meta, et les réservations et
+  demandes que Misschalet relie aux pubs. Plus tard (phase 3), un site de
+  réservation directe avec le pixel Meta permettra d'optimiser sur les
+  réservations elles-mêmes.
+- **Budget** : un petit test de deux semaines (par exemple 10 à 20 CHF par
+  jour), à décider avec elle ; rien n'est lancé sans son accord.
+- Agent : `meta-ads` (plans de campagne, audiences, choix des créations,
+  bilans) ; c'est elle qui lance dans le Gestionnaire de publicités.

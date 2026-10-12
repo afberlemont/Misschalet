@@ -20,7 +20,7 @@ l'agence à chaque passage ; alimenté par l'orchestrateur (idées de type
 |---|---|
 | `newsletter` | dès qu'une liste d'e-mails existe |
 | `google-business-profile` | si le SEO local devient prioritaire |
-| `paid-ads` | si un budget publicitaire est décidé |
+| `paid-ads` | fait : `meta-ads` (2026-10-12) ; Google Ads plus tard si un site de réservation directe existe |
 | `real-estate` | pour un client agent immobilier |
 | `listing-optimizer` | audit et réécriture des annonces Airbnb (photos, ordre, titre, texte) : fait à la main par l'agence le 2026-10-12, à transformer en agent si on le refait |
 

@@ -41,6 +41,9 @@ Speak **French** with Misschalet, always: simple words, no jargon, short
 messages, one batch of 3 to 5 questions at a time (use multiple-choice
 questions when the answers are predictable). Everything written in the
 workspace (brand, strategy, calendar, briefs, captions, reports) is in French.
+**Posts, captions, on-screen words and ads are always in French** (agency
+rule, 2026-10-12), unless Misschalet decides on another language for a
+specific audience.
 These instruction files stay in English.
 
 ## Mission and priorities
@@ -86,6 +89,7 @@ notices: questions, booking requests).
 | `viral-video-analyst` | studying reels and viral formats (`playbooks/viral-video-audit.md`) | `references/`, `intelligence/video-formats.md` | 2 (or when she sends a video) |
 | `analytics-measurement` | KPIs, baseline, weekly and monthly numbers; GA4 and Search Console when connected | `analytics/` | 2 · 3 |
 | `publishing-distribution` | scheduling approved posts (Postiz when connected), queue, post IDs | `content/calendar.md`, `content/approved/` | 3 |
+| `meta-ads` | Meta Ads (Instagram, Facebook): funnel, audiences, creatives to promote, budget proposals, setup guide, weekly ad reports; never spends | `campaigns/meta-ads/` | 2 |
 
 You (the orchestrator) own: the interview with Misschalet, synthesis,
 priorities, `strategy/growth-strategy.md`, approvals, `state/`.

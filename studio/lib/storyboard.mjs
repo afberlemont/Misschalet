@@ -22,6 +22,13 @@ export function planStoryboard(prop, listing, board) {
 
   const photo = (ref, motion) => {
     const r = typeof ref === 'number' ? { n: ref } : { ...ref }
+    // a photo of the region (cache/region/, licences in region/sources.json)
+    if (r.region) {
+      return {
+        n: r.region, src: `/cache/region/${r.region}`, fx: r.fx ?? 50, fy: r.fy ?? 50,
+        zoom: r.zoom || 1, motion: r.motion || motion || 'in', pins: [],
+      }
+    }
     const p = byN.get(r.n)
     if (!p) throw new Error(`${board.name}: photo ${r.n} is not in listing.json`)
     const [fx, fy] = prop.focus?.[r.n] || [50, 50]

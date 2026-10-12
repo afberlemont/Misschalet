@@ -29,7 +29,12 @@ Remplir l'hiver, lancer Pierre Fleur, publier 3 fois par semaine.
 6. As-tu des photos d'hiver des trois chalets ? Sinon, peut-on en faire dès
    la première neige ?
 7. La Rosière : que reprochent les avis les moins bons (4,64) ?
-8. Les points « À clarifier » de chaque `properties/<slug>/facts.md`
+8. Tes restaurants et adresses préférés dans la région (on les cite et on
+   les identifie en premier) ; d'accord pour ceux que l'agence a trouvés
+   (`intelligence/destination-opportunities.md`) ?
+9. Publicité Meta : ton compte Instagram est-il professionnel, as-tu un
+   compte Meta Business ? Quel budget de test, quels pays viser ?
+10. Les points « À clarifier » de chaque `properties/<slug>/facts.md`
    (lits, salles d'eau, « au pied des pistes », « accès à un lac »…).
 
 ## Actions rapides proposées (dans l'espace hôte Airbnb)
