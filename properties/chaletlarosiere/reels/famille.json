@@ -1,0 +1,41 @@
+{
+  "name": "famille",
+  "note": "Short (12 s), families: rooms for everyone, the ski room, the garden, ski school and free ski bus at the door.",
+  "music": { "style": "famille", "bpm": 112, "seed": 3 },
+  "palette": "sable",
+  "grade": "saturate(1.1) contrast(1.03) brightness(1.03)",
+  "coverAt": 1.6,
+  "caption": ["Les vacances en famille à Villars.", "", "Six chambres et 14 couchages, un lit bébé, un local à skis, un jardin de 200 m². L'école de ski à 200 m, le bus de ski gratuit à 50 m."],
+  "hashtags": ["#vacancesenfamille", "#skienfamille", "#villars", "#villarssurollon", "#chalet", "#alpesvaudoises", "#airbnb"],
+  "scenes": [
+    { "type": "hook", "beats": 4, "photo": { "n": 74, "motion": "in" }, "lines": ["Les vacances", "en famille", "à Villars"] },
+    {
+      "type": "montage", "beats": 6, "enter": "cut",
+      "shots": [
+        { "photo": { "n": 44, "motion": "in" }, "beats": 2, "label": "Chambre à 4 lits", "icon": "bed-single" },
+        { "photo": { "n": 91, "motion": "in" }, "beats": 2, "label": "Local à skis", "icon": "ski" },
+        { "photo": { "n": 18, "motion": "in" }, "beats": 2, "label": "Tous à table", "icon": "utensils-crossed" }
+      ]
+    },
+    {
+      "type": "nearby", "beats": 6, "enter": "wipe-up",
+      "photo": { "n": 77, "motion": "in" },
+      "eyebrow": "En famille · Villars-sur-Ollon",
+      "title": ["Le ski", "<em>à deux pas</em>"],
+      "items": [
+        { "name": "Bus de ski gratuit", "d": "50 m" },
+        { "name": "École de ski", "d": "200 m" },
+        { "name": "Boulangerie", "d": "250 m" },
+        { "name": "Train de montagne", "d": "300 m" },
+        { "name": "Piscine et patinoire", "d": "500 m" }
+      ]
+    },
+    {
+      "type": "cta", "beats": 6, "enter": "shine", "tIn": 1.0, "sheen": 1.1,
+      "photo": { "n": 76, "motion": "in" },
+      "eyebrow": "Vos vacances en famille",
+      "sub": "6 chambres · Lit bébé · Jardin de 200 m²",
+      "stats": "École de ski à 200 m"
+    }
+  ]
+}

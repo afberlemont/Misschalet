@@ -1,0 +1,42 @@
+{
+  "name": "couples",
+  "note": "Short (12 s), young couples and friends: the table, the sauna, the fire, restaurants and bars on foot.",
+  "music": { "style": "couples", "bpm": 118, "seed": 3 },
+  "palette": "nuit",
+  "grade": "saturate(1.06) contrast(1.06) sepia(.08) brightness(.98)",
+  "coverAt": 1.6,
+  "caption": ["Un week-end entre couples à Villars.", "", "Sauna, grande cheminée, une grande table, et tout à pied : restaurant à 100 m, café et bar à 200 m."],
+  "hashtags": ["#weekendentreamis", "#weekendencouple", "#villars", "#villarssurollon", "#chalet", "#apresski", "#airbnb"],
+  "scenes": [
+    { "type": "hook", "beats": 4, "photo": { "n": 17, "motion": "in" }, "lines": ["Un week-end", "entre couples", "à Villars"] },
+    {
+      "type": "montage", "beats": 8, "enter": "cut",
+      "shots": [
+        { "photo": { "n": 15, "zoom": 1.6, "fx": 47, "fy": 62 }, "beats": 2, "label": "Verres à vin", "icon": "wine" },
+        { "photo": { "n": 92, "zoom": 1.5, "fx": 80, "fy": 76 }, "beats": 2, "label": "Sauna" },
+        { "photo": { "n": 4, "zoom": 1.5, "fx": 30, "fy": 45 }, "beats": 2, "label": "Feu de cheminée", "icon": "flame" },
+        { "photo": { "n": 28, "motion": "in" }, "beats": 2, "label": "Six chambres", "icon": "bed-double" }
+      ]
+    },
+    {
+      "type": "nearby", "beats": 6, "enter": "wipe-up",
+      "photo": { "n": 78, "motion": "in" },
+      "eyebrow": "Sortir · Villars-sur-Ollon",
+      "title": ["Tout", "<em>à pied</em>"],
+      "items": [
+        { "name": "Restaurant", "d": "100 m" },
+        { "name": "Épicerie, café et bar", "d": "200 m" },
+        { "name": "Boulangerie", "d": "250 m" },
+        { "name": "Train de montagne", "d": "300 m" },
+        { "name": "Téléphérique", "d": "800 m" }
+      ]
+    },
+    {
+      "type": "cta", "beats": 6, "enter": "shine", "tIn": 1.0, "sheen": 1.1,
+      "photo": { "n": 6, "motion": "in" },
+      "eyebrow": "Votre week-end à Villars",
+      "sub": "Sauna · Cheminée · Restaurants à pied",
+      "stats": "6 chambres · jusqu'à 14 voyageurs"
+    }
+  ]
+}

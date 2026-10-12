@@ -1,0 +1,9 @@
+# photos (re-downloaded by fetch-listing.mjs) and rendered videos: large
+cache/
+out/
+node_modules/
+# generated music (music/make_music.py makes it again on demand)
+music/out/
+# secrets (GEMINI_API_KEY): never committed
+.env
+.env.*

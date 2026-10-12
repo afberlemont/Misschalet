@@ -1,0 +1,140 @@
+{
+  "slug": "chaletlarosiere",
+  "lang": "fr",
+  "startDate": "2026-10-11",
+  "name": "La Rosière",
+  "kicker": "Chalet · Villars-sur-Ollon",
+  "place": "Villars-sur-Ollon",
+  "url": "airbnb.com/h/chaletlarosiere",
+  "palettes": ["papier", "sable", "nuit"],
+  "hashtags": ["#villars", "#villarssurollon", "#chalet", "#alpesvaudoises", "#suisse", "#chaletsuisse", "#airbnb", "#montagne"],
+
+  "focus": {
+    "1": [50, 55], "2": [42, 55], "4": [32, 55], "5": [74, 55], "6": [55, 55], "9": [45, 55],
+    "10": [62, 55], "11": [60, 55], "12": [80, 55], "13": [27, 55],
+    "14": [45, 55], "15": [50, 55], "17": [36, 55], "18": [50, 55],
+    "20": [50, 55], "24": [50, 50], "26": [42, 55], "28": [64, 55], "31": [40, 55], "37": [55, 55], "42": [55, 50], "50": [40, 55],
+    "51": [62, 55], "52": [50, 50], "54": [50, 55], "64": [50, 55], "69": [45, 55], "85": [50, 60], "88": [50, 60],
+    "74": [55, 60], "76": [50, 50], "77": [50, 45], "78": [52, 45], "80": [50, 50],
+    "84": [45, 55], "86": [50, 50], "91": [48, 55], "92": [50, 60], "93": [45, 55]
+  },
+
+  "pins": {
+    "4": [{ "x": 29, "y": 44, "label": "Cheminée" }],
+    "5": [{ "x": 82, "y": 72, "label": "Cheminée" }],
+    "12": [{ "x": 75.5, "y": 39.5, "label": "Four" }, { "x": 61.5, "y": 55.5, "label": "Bouilloire" }],
+    "13": [{ "x": 20.5, "y": 57, "label": "Nespresso" }, { "x": 53, "y": 52, "label": "Bouilloire" }],
+    "24": [{ "x": 50, "y": 70, "label": "Lit queen size" }],
+    "51": [{ "x": 75, "y": 70, "label": "Baignoire" }],
+    "91": [{ "x": 70, "y": 45, "label": "Sèche-chaussures" }],
+    "92": [{ "x": 60, "y": 70, "label": "Sauna" }]
+  },
+
+  "covers": [4, 77, 1, 18, 80, 6],
+  "coverLines": [
+    ["Bois naturel, feu de cheminée", "et sauna, à Villars"],
+    ["Le chalet de quatre étages", "au cœur de Villars"],
+    ["Entre vintage et moderne,", "un havre au cœur de Villars"]
+  ],
+  "coverCaps": "14 voyageurs · 6 chambres · Sauna",
+
+  "chapters": [
+    {
+      "id": "salon", "section": "Le salon",
+      "title": ["Autour", "<em>du feu</em>"],
+      "text": "Grande cheminée, bois naturel et lumière douce.",
+      "caption": "Le coin salon et sa grande cheminée.",
+      "tags": ["Grande cheminée", "Système audio", "Télévision", "Wifi"],
+      "photos": [5, 4, 2, 9, 1, 6]
+    },
+    {
+      "id": "chambres", "section": "Les chambres", "layout": "spotlight",
+      "title": ["Six chambres,", "<em>duvet d'oie</em>"],
+      "text": "Couettes en duvet d'oie et literie délicatement brodée.",
+      "caption": "Bois clair et rideaux occultants.",
+      "tags": ["1 lit king size", "2 lits queen size", "8 lits simples", "Couettes en duvet d'oie", "Rideaux occultants", "Télévision", "Lit pour bébé", "Linge de lit fourni"],
+      "photos": [28, 24, 20, 26, 42, 37, 31, 50]
+    },
+    {
+      "id": "cuisine", "section": "La cuisine", "layout": "spotlight",
+      "title": ["Tout", "<em>pour cuisiner</em>"],
+      "text": "Une cuisine complète, équipée haut de gamme.",
+      "caption": "La cuisine entièrement équipée.",
+      "tags": ["Lave-vaisselle", "Four", "Micro-ondes", "Cuisinière", "Réfrigérateur", "Congélateur", "Nespresso & filtre", "Bouilloire", "Grille-pain", "Blender"],
+      "photos": [12, 13, 10, 11]
+    },
+    {
+      "id": "chalet", "section": "Le chalet",
+      "title": ["Quatre étages", "<em>de bois</em>"],
+      "text": "Balcons, terrasse de 40 m² et jardin de 200 m².",
+      "caption": "La façade, au centre de Villars.",
+      "tags": ["4 étages", "Terrasse 40 m²", "Jardin 200 m²", "Pétanque & barbecue", "2 places de parking", "Wifi"],
+      "photos": [77, 78, 76, 80, 74]
+    },
+    {
+      "id": "sauna", "section": "Le bien-être",
+      "title": ["Le sauna,", "<em>bois blond</em>"],
+      "text": "Un sauna avec douche, au calme du chalet.",
+      "caption": "Le sauna et sa douche.",
+      "tags": ["Sauna", "Douche", "Eau chaude", "Chauffage"],
+      "photos": [92, 85, 69, 88]
+    },
+    {
+      "id": "table", "section": "La table",
+      "title": ["Quatorze", "<em>couverts</em>"],
+      "text": "Une cuisine complète et une table pour toute la tribu.",
+      "caption": "La salle à manger, sous les poutres.",
+      "tags": ["Table à manger", "Verres à vin", "Vaisselle complète", "Cheminée"],
+      "photos": [18, 15, 17, 14]
+    },
+    {
+      "id": "bains", "section": "Les bains",
+      "title": ["Cinq salles", "<em>de bains</em>"],
+      "text": "Baignoires, doubles vasques, ardoise et bois.",
+      "caption": "Ardoise, bois clair, double vasque.",
+      "tags": ["2 baignoires", "5 douches", "Sèche-cheveux", "Shampoing & gel douche"],
+      "photos": [51, 54, 64, 52]
+    },
+    {
+      "id": "hiver", "section": "L'hiver",
+      "title": ["Prêts", "<em>pour la neige</em>"],
+      "text": "Local à skis, sèche-chaussures, bus de ski gratuit à 50 m.",
+      "caption": "Le local à skis et ses sèche-chaussures.",
+      "tags": ["Local à skis", "Sèche-chaussures", "Bus de ski gratuit · 50 m", "École de ski · 200 m"],
+      "photos": [91, 93, 86, 84]
+    }
+  ],
+
+  "facts": {
+    "title": ["L'essentiel", "<em>en chiffres</em>"],
+    "rows": [
+      { "v": 14, "l": "voyageurs" },
+      { "v": 6, "l": "chambres" },
+      { "v": 11, "l": "lits" },
+      { "v": "5,5", "l": "salles de bain" }
+    ],
+    "note": "Note 4,64 / 5 · 90 commentaires"
+  },
+
+  "nearby": {
+    "title": ["Tout", "<em>à pied</em>"],
+    "photos": [77, 78, 74],
+    "items": [
+      { "name": "Bus de ski gratuit", "d": "50 m" },
+      { "name": "Restaurant", "d": "100 m" },
+      { "name": "École de ski", "d": "200 m" },
+      { "name": "Épicerie, café et bar", "d": "200 m" },
+      { "name": "Boulangerie", "d": "250 m" },
+      { "name": "Train de montagne", "d": "300 m" },
+      { "name": "Piscine et patinoire", "d": "500 m" },
+      { "name": "Téléphérique", "d": "800 m" }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Réservez votre séjour",
+    "sub": "Chalet haut de gamme, centre de Villars",
+    "stats": "14 voyageurs · 6 chambres · Sauna",
+    "photos": [4, 1, 17, 6]
+  }
+}
