@@ -1,0 +1,134 @@
+{
+ "name": "raclette",
+ "note": "Raclette et fondue, the local specialities, at the big table by the fire (owner's words).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "sable",
+ "caption": [
+  "Chalet Pierre-Fleur · raclette et fondue",
+  "",
+  "Les spécialités d'ici, à partager au retour, autour de la grande table et près du feu.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#raclette",
+  "#fondue",
+  "#gastronomie",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 15,
+    "motion": "in"
+   },
+   "lines": [
+    "Au chalet Pierre-Fleur",
+    "Raclette",
+    "et fondue"
+   ]
+  },
+  {
+   "type": "diptych",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photos": [
+    {
+     "n": 4,
+     "motion": "in"
+    },
+    {
+     "n": 15,
+     "motion": "in"
+    }
+   ],
+   "no": "01",
+   "section": "La table",
+   "end": "Bex",
+   "title": [
+    "Raclette",
+    "<em>et fondue</em>"
+   ],
+   "tags": [
+    "Raclette",
+    "Fondue",
+    "Cheminée",
+    "Grande table"
+   ],
+   "caption": {
+    "label": "fig. 01",
+    "text": "Les spécialités d'ici, au retour, près du feu."
+   },
+   "folio": [
+    "Chalet Pierre-Fleur",
+    "p. 1"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 15,
+      "zoom": 1.4,
+      "fx": 35,
+      "fy": 55
+     },
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 37,
+      "zoom": 1.6,
+      "fx": 54,
+      "fy": 40
+     },
+     "beats": 2,
+     "label": "Près du feu",
+     "icon": "flame"
+    },
+    {
+     "photo": {
+      "n": 1,
+      "zoom": 1.4,
+      "fx": 60,
+      "fy": 55
+     },
+     "beats": 2
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 4,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Les spécialités d'ici",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

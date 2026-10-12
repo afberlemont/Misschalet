@@ -1,0 +1,119 @@
+{
+ "name": "mines",
+ "note": "Les mines de sel, a cultural day away from skiing (owner's words).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "papier",
+ "caption": [
+  "Chalet Pierre-Fleur · les mines de sel",
+  "",
+  "Pas très loin du chalet, les mines de sel, pour un séjour plus culturel en dehors du ski.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#minesdesel",
+  "#culture",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 26,
+    "motion": "in"
+   },
+   "lines": [
+    "Près du chalet Pierre-Fleur",
+    "Les mines",
+    "de sel"
+   ]
+  },
+  {
+   "type": "spotlight",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 30,
+    "motion": "slow"
+   },
+   "no": "01",
+   "section": "Culture",
+   "end": "Bex",
+   "title": [
+    "Les mines",
+    "<em>de sel</em>"
+   ],
+   "tags": [
+    "Mines de sel",
+    {
+     "label": "Un séjour culturel",
+     "icon": "book-open"
+    },
+    {
+     "label": "Pas très loin",
+     "icon": "map-pin"
+    }
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 27,
+      "zoom": 1.5,
+      "fx": 50,
+      "fy": 35
+     },
+     "beats": 2
+    },
+    {
+     "photo": 32,
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 37,
+      "zoom": 1.6,
+      "fx": 54,
+      "fy": 40
+     },
+     "beats": 2,
+     "label": "Au retour",
+     "icon": "flame"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 27,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Un séjour plus culturel",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

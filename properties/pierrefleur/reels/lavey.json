@@ -1,0 +1,110 @@
+{
+ "name": "lavey",
+ "note": "Les bains de Lavey, a day of rest (owner's words; the listing names the Lavey thermal baths).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "nuit",
+ "caption": [
+  "Chalet Pierre-Fleur · journée détente",
+  "",
+  "Les bains thermaux de Lavey, pour une journée de détente entre deux journées de montagne.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#lavey",
+  "#bainsthermaux",
+  "#detente",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 34,
+    "motion": "in"
+   },
+   "lines": [
+    "Depuis le chalet Pierre-Fleur",
+    "Les bains",
+    "à Lavey"
+   ]
+  },
+  {
+   "type": "bleed",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 42,
+    "motion": "in"
+   },
+   "tag": "01 · Détente",
+   "eyebrow": "Une journée pour soi",
+   "title": [
+    "Les bains",
+    "<em>de Lavey</em>"
+   ],
+   "text": "Des bains thermaux pour une journée de détente, entre deux journées de montagne.",
+   "tags": [
+    "Bains thermaux"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": 31,
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 20,
+      "zoom": 1.4,
+      "fx": 40,
+      "fy": 60
+     },
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 3,
+      "zoom": 1.4,
+      "fx": 40,
+      "fy": 75
+     },
+     "beats": 2
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 29,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Une journée de détente",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

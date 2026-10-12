@@ -1,0 +1,122 @@
+{
+ "name": "neige",
+ "note": "Neige douce: snowshoes, cross-country, cycling when the snow is short (owner's words).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "papier",
+ "caption": [
+  "Chalet Pierre-Fleur · neige douce",
+  "",
+  "Raquettes et ski de fond, et quand la neige manque, le vélo dans nos jolies montagnes vaudoises.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#raquettes",
+  "#skidefond",
+  "#velo",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 32,
+    "motion": "in"
+   },
+   "lines": [
+    "Autour du chalet Pierre-Fleur",
+    "Neige douce",
+    "en hiver"
+   ]
+  },
+  {
+   "type": "frame",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 34,
+    "motion": "in"
+   },
+   "no": "01",
+   "section": "Neige douce",
+   "end": "Bex",
+   "title": [
+    "Raquettes",
+    "<em>et ski de fond</em>"
+   ],
+   "tags": [
+    "Raquettes",
+    "Ski de fond",
+    "Vélo"
+   ],
+   "caption": {
+    "label": "fig. 01",
+    "text": "Et quand la neige manque, le vélo dans nos jolies montagnes vaudoises."
+   },
+   "folio": [
+    "Chalet Pierre-Fleur",
+    "p. 1"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 39,
+      "zoom": 1.4,
+      "fx": 40,
+      "fy": 80
+     },
+     "beats": 2
+    },
+    {
+     "photo": 33,
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 42,
+      "zoom": 1.3,
+      "fx": 40,
+      "fy": 40
+     },
+     "beats": 2,
+     "label": "Montagnes vaudoises",
+     "icon": "mountain"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 29,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Été comme hiver",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

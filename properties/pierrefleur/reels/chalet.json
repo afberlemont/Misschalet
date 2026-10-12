@@ -1,0 +1,124 @@
+{
+ "name": "chalet",
+ "note": "Le chalet: 160 m², three levels, renovated in 2021, parking (listing).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "sable",
+ "caption": [
+  "Chalet Pierre-Fleur · 160 m² sur trois niveaux",
+  "",
+  "Entièrement rénové en 2021, au calme. Une place de parking privée au chalet et un parking communal gratuit à 50 m.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#renovation",
+  "#chaletdebois",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 26,
+    "motion": "in"
+   },
+   "lines": [
+    "Voici le chalet Pierre-Fleur",
+    "160 m²",
+    "3 niveaux"
+   ]
+  },
+  {
+   "type": "frame",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 27,
+    "motion": "in"
+   },
+   "no": "01",
+   "section": "Le chalet",
+   "end": "Bex",
+   "title": [
+    "Rénové",
+    "<em>en 2021</em>"
+   ],
+   "tags": [
+    {
+     "label": "160 m²",
+     "icon": "house"
+    },
+    "3 étages",
+    "Parking privé"
+   ],
+   "caption": {
+    "label": "fig. 01",
+    "text": "Le chalet, son bois et son jardin."
+   },
+   "folio": [
+    "Chalet Pierre-Fleur",
+    "p. 1"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 27,
+      "zoom": 1.5,
+      "fx": 50,
+      "fy": 35
+     },
+     "beats": 2
+    },
+    {
+     "photo": 30,
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 39,
+      "zoom": 1.3,
+      "fx": 50,
+      "fy": 60
+     },
+     "beats": 2,
+     "label": "L'entrée",
+     "icon": "door-open"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 26,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "160 m², rénové en 2021",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

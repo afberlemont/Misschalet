@@ -1,0 +1,108 @@
+{
+ "name": "vue",
+ "note": "La vue: the mountains from the terraces, the balcony and the garden (listing).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "nuit",
+ "caption": [
+  "Chalet Pierre-Fleur · une vue imprenable",
+  "",
+  "Deux terrasses orientées sud et ouest, un balcon et le jardin, face aux montagnes. Au rez, une chambre avec vue sur les Dents du Midi.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#vuemontagne",
+  "#dentsdumidi",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 28,
+    "motion": "in"
+   },
+   "lines": [
+    "Depuis le chalet Pierre-Fleur",
+    "La vue",
+    "imprenable"
+   ]
+  },
+  {
+   "type": "bleed",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 29,
+    "motion": "in"
+   },
+   "tag": "01 · Dehors",
+   "eyebrow": "Terrasses sud et ouest",
+   "title": [
+    "Face aux",
+    "<em>montagnes</em>"
+   ],
+   "text": "Deux terrasses, un balcon et le jardin, avec mobilier d'extérieur, barbecue et chaises longues.",
+   "tags": [
+    "2 terrasses",
+    "Balcon",
+    "Barbecue"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": 32,
+     "beats": 2
+    },
+    {
+     "photo": {
+      "n": 42,
+      "zoom": 1.3,
+      "fx": 40,
+      "fy": 40
+     },
+     "beats": 2
+    },
+    {
+     "photo": 31,
+     "beats": 2,
+     "label": "Le balcon",
+     "icon": "fence"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 34,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Une vue imprenable",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

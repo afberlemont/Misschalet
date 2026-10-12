@@ -1,0 +1,125 @@
+{
+ "name": "table",
+ "note": "La table: the open kitchen with its pass-through, the dining table (listing).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "sable",
+ "caption": [
+  "Chalet Pierre-Fleur · la cuisine et la table",
+  "",
+  "Une cuisine ouverte entièrement équipée, avec passe-plat, qui donne sur le jardin et les terrasses. Et une grande table pour partager les repas.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#cuisine",
+  "#tablefamiliale",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 15,
+    "motion": "in"
+   },
+   "lines": [
+    "Au chalet Pierre-Fleur",
+    "À table",
+    "ensemble"
+   ]
+  },
+  {
+   "type": "spotlight",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 7,
+    "motion": "slow"
+   },
+   "no": "01",
+   "section": "La cuisine",
+   "end": "Bex",
+   "title": [
+    "Cuisine",
+    "<em>ouverte</em>"
+   ],
+   "tags": [
+    "Lave-vaisselle",
+    "Four",
+    "Cuisinière",
+    "Réfrigérateur",
+    "Cafetière",
+    "Bouilloire",
+    "Grille-pain",
+    "Verres à vin"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 7,
+      "zoom": 1.6,
+      "fx": 40,
+      "fy": 48
+     },
+     "beats": 2,
+     "label": "Passe-plat",
+     "icon": "utensils-crossed"
+    },
+    {
+     "photo": {
+      "n": 15,
+      "zoom": 1.4,
+      "fx": 35,
+      "fy": 55
+     },
+     "beats": 2,
+     "label": "Grande table",
+     "icon": "utensils-crossed"
+    },
+    {
+     "photo": {
+      "n": 12,
+      "zoom": 1.3,
+      "fx": 62,
+      "fy": 55
+     },
+     "beats": 2
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 1,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Des repas à partager",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

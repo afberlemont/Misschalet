@@ -1,0 +1,123 @@
+{
+ "name": "ski",
+ "note": "Le ski: the slopes not far, reached by the little rack railway (owner's words).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "nuit",
+ "caption": [
+  "Chalet Pierre-Fleur · le ski",
+  "",
+  "Les pistes de Villars et Barboleuse ne sont pas loin : on rejoint les remontées mécaniques en petit train à crémaillère, et ça a tout son charme.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#ski",
+  "#villars",
+  "#trainacremaillere",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 28,
+    "motion": "in"
+   },
+   "lines": [
+    "Depuis le chalet Pierre-Fleur",
+    "Le ski",
+    "Villars"
+   ]
+  },
+  {
+   "type": "bleed",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 33,
+    "motion": "in"
+   },
+   "tag": "01 · Le ski",
+   "eyebrow": "Villars · Barboleuse",
+   "title": [
+    "Les pistes,",
+    "<em>pas très loin</em>"
+   ],
+   "text": "On rejoint les remontées mécaniques en petit train à crémaillère, et ça a tout son charme.",
+   "tags": [
+    "Ski alpin",
+    "Remontées mécaniques",
+    "Train à crémaillère"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 28,
+      "zoom": 1.4,
+      "fx": 55,
+      "fy": 30
+     },
+     "beats": 2,
+     "label": "Les sommets",
+     "icon": "mountain-snow"
+    },
+    {
+     "photo": {
+      "n": 39,
+      "zoom": 1.4,
+      "fx": 40,
+      "fy": 80
+     },
+     "beats": 2,
+     "label": "Au retour",
+     "icon": "door-open"
+    },
+    {
+     "photo": {
+      "n": 37,
+      "zoom": 1.6,
+      "fx": 54,
+      "fy": 40
+     },
+     "beats": 2,
+     "label": "Le feu",
+     "icon": "flame"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 27,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Le ski, pas très loin",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}

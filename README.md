@@ -64,6 +64,12 @@ rack railway, snowshoes and cross-country, cycling, raclette and fondue, the
 Lavey baths, the salt mines (the activities are the owner's words; the photos
 are the listing's), with "Chalet Pierre-Fleur" on every image.
 
+And ten one-subject posts (15 s each: hook › the subject's page › three
+close-ups › booking), one per day or per theme: `feu`, `table`, `famille`,
+`vue`, `chalet` (the listing's facts) and `ski`, `neige`, `raclette`, `lavey`,
+`mines` (the owner's activities). A hook's third line, in wide capitals, holds
+about ten letters.
+
 A board is a list of scenes timed in **beats** of its music, so every cut and
 every arrival lands on the beat. Scene types: `hook` (three lines over the first
 shot, the way a reel opens), `cover`, `montage` (shots cut on the beat;

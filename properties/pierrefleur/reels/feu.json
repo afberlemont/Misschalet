@@ -1,0 +1,124 @@
+{
+ "name": "feu",
+ "note": "Le feu: the fireplace and the Swedish stove of the living room (listing).",
+ "music": {
+  "style": "lux",
+  "bpm": 100,
+  "seed": 5
+ },
+ "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+ "mark": "Chalet Pierre-Fleur",
+ "coverAt": 4.0,
+ "palette": "papier",
+ "caption": [
+  "Chalet Pierre-Fleur · au coin du feu",
+  "",
+  "Un vaste séjour lumineux, avec une cheminée et un poêle suédois, pour les soirées après une journée en plein air.",
+  "",
+  "11 voyageurs · 5 chambres · Bex"
+ ],
+ "hashtags": [
+  "#bex",
+  "#cheminee",
+  "#coindufeu",
+  "#alpesvaudoises",
+  "#chalet",
+  "#chaletsuisse",
+  "#suisse",
+  "#airbnb"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "beats": 5,
+   "photo": {
+    "n": 37,
+    "motion": "in"
+   },
+   "lines": [
+    "Au chalet Pierre-Fleur",
+    "Le feu",
+    "le soir"
+   ]
+  },
+  {
+   "type": "spotlight",
+   "beats": 8,
+   "enter": "shine",
+   "tIn": 1.0,
+   "photo": {
+    "n": 4,
+    "motion": "slow"
+   },
+   "no": "01",
+   "section": "Le séjour",
+   "end": "Bex",
+   "title": [
+    "Cheminée",
+    "<em>et poêle suédois</em>"
+   ],
+   "tags": [
+    "Cheminée",
+    {
+     "label": "Poêle suédois",
+     "icon": "flame"
+    },
+    "Pare-feu de cheminée",
+    "Chauffage"
+   ]
+  },
+  {
+   "type": "montage",
+   "beats": 6,
+   "enter": "cut",
+   "shots": [
+    {
+     "photo": {
+      "n": 37,
+      "zoom": 1.6,
+      "fx": 54,
+      "fy": 40
+     },
+     "beats": 2,
+     "label": "Cheminée",
+     "icon": "flame"
+    },
+    {
+     "photo": {
+      "n": 4,
+      "zoom": 1.7,
+      "fx": 84,
+      "fy": 43
+     },
+     "beats": 2,
+     "label": "Poêle suédois",
+     "icon": "flame"
+    },
+    {
+     "photo": {
+      "n": 3,
+      "zoom": 1.4,
+      "fx": 40,
+      "fy": 75
+     },
+     "beats": 2
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": 6,
+   "enter": "shine",
+   "tIn": 1.0,
+   "sheen": 1.1,
+   "photo": {
+    "n": 2,
+    "motion": "in"
+   },
+   "name": "Pierre-Fleur",
+   "eyebrow": "Réservez votre séjour",
+   "sub": "Les soirées au coin du feu",
+   "stats": "11 voyageurs · 5 chambres · Bex"
+  }
+ ]
+}
