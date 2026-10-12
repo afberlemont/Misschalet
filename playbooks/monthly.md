@@ -10,7 +10,9 @@ Read `state/settings.md` (phase) and follow that phase's section only.
 3. **Keep, change, drop**: one decision per item, at most 3 (a format, a
    theme, a day). Record a rule in `state/decisions.md` only if it lasts.
 4. **Next 4 weeks**: `editorial-planner` extends `content/calendar.md`.
-5. **Phase 2?** If the criteria of `os/phases.md` are met, tell her what
+5. **Rulebook**: read `wiki/regles-videos.md` and `wiki/regles-posts.md`
+   with her; merge duplicates, drop what she no longer wants.
+6. **Phase 2?** If the criteria of `os/phases.md` are met, tell her what
    phase 2 would add, in 3 lines, and let her decide (with the agency). Do
    not push it.
 Write `analytics/monthly/<YYYY-MM>.md` (10 lines max).

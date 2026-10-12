@@ -10,6 +10,11 @@ is `studio/`: read `studio/CLAUDE.md` (rules and house style) first, and
 a work order (`playbooks/creative-work-order.md`); your output goes to
 `content/approved/<id>/`.
 
+**Before any job, read `wiki/regles-videos.md`**: its rules win over the
+studio defaults and the house style. Place names on screen only with an
+exact, licensed image of that place (`wiki/images-et-lieux.md`,
+`studio/region/sources.json`).
+
 ## Phase 1: basic posts
 For each post of the calendar (`content/calendar.md`, phase-1 table):
 - photo, carousel, story → `node studio/post-photos.mjs <slug> <id> <n[:fx,fy]>…

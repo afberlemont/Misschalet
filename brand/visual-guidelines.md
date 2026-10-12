@@ -2,7 +2,9 @@
 
 Le style des vidéos et visuels. Le style par défaut du studio est décrit dans `studio/CLAUDE.md` (papier, pin, bois, Newsreader, petites capitales, filets, angles droits) ; noter ici ce que Misschalet confirme ou change.
 
-**Statut : à remplir au fil de l'eau** (ce que Misschalet dit aimer ou corrige).
+**Statut : à remplir au fil de l'eau.** Les règles de création (durée,
+transitions, textes, images) vivent dans `wiki/regles-videos.md` ; ici,
+seulement l'identité visuelle (couleurs, typographies, logo).
 
 ## Ambiance et couleurs
 

@@ -20,11 +20,18 @@ video (Gemini / Veo) plugs in.
    first; never generate an existing clip again; ask before a batch. Always
    check stills (`--stills auto`) before rendering a full video.
 6. **Only approved facts.** On-screen words come from the work order and
-   `../properties/<slug>/approved-claims.md`. Nothing invented: no places,
-   restaurant names, prices, reviews.
+   `../properties/<slug>/approved-claims.md`; places of the region and
+   addresses only from `../intelligence/destination-opportunities.md`
+   (sourced). Nothing invented: no places, restaurant names, prices, reviews.
 7. **Self-contained.** No secrets in files (keys in env or a git-ignored
    `.env`, never printed); no frames, video or audio of other people's work
    committed; rendered media stay out of git (`out/`, `cache/`).
+8. **The rulebook wins.** Read `../wiki/regles-videos.md` before every board
+   or render: Misschalet's and the agency's rules override the defaults
+   below. Her feedback goes through `../playbooks/feedback.md`.
+9. **Places are shown exactly.** A place named on screen gets an image of that
+   very place, beautiful and licensed for ads (`region/sources.json`,
+   `../wiki/images-et-lieux.md`); otherwise do not name the place.
 
 ## House style (until Misschalet asks otherwise)
 - 1080×1920, 30 fps; words inside y 180–1560 (the Reels / TikTok interface

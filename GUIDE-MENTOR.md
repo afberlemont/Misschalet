@@ -26,6 +26,9 @@ quand la base tourne (`os/phases.md`).
 3. **Garder le cap** : on juge sur les réservations et les demandes, pas sur
    les « j'aime ».
 4. **Noter les idées** : toute idée, la tienne aussi, va dans `/idee …`.
+5. **Encourager les retours** : « trop long », « j'aime cette fin »… Misschalet
+   les donne avec `/retour`, et l'assistant propose de les garder en mémoire.
+   Les règles apprises sont dans le wiki (`wiki/regles-videos.md`).
 
 ## Le point de la semaine, pas à pas
 1. Lire le bilan : ce qui a été publié, ce que les gens ont dit ou demandé,

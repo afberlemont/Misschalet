@@ -32,6 +32,7 @@ Ensuite, quand tu le décides : audit et stratégie, SEO, blog, partenariats
 | les jours de publication (5 min) | `/journee` | ton post prêt : les images ou la vidéo, la légende à coller ; tes messages si tu en as |
 | une fois par mois | `/mois` | régularité, ce qui marche, les 4 semaines suivantes |
 | à tout moment | `/point` | où on en est, ce qui attend ta validation |
+| un retour sur une vidéo ou un post | `/retour ce que tu en penses` | changé tout de suite, et gardé en mémoire pour la suite si tu veux |
 | une idée | `/idee ton idée` | notée, triée au bilan de la semaine |
 | une vidéo qui t'inspire | `/analyser-video le lien` | étudiée, gardée comme référence |
 | une vidéo à faire | `/video ton idée` | le studio la prépare, tu vois des images avant |
@@ -65,6 +66,7 @@ Tu peux aussi écrire simplement ce que tu veux, avec tes mots.
 - L'agence fait évoluer le système ; ton espace de travail reste à toi
   (`os/gouvernance.md`).
 
+Ce que le système a appris (tes règles, tes retours) : **`wiki/`**.
 Pour ton mentor : **`GUIDE-MENTOR.md`**. Pour l'avenir du système : `VISION.md`.
 
 ## Studio (pour l'agent ou l'agence)

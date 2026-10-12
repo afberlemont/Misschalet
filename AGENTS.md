@@ -46,6 +46,15 @@ rule, 2026-10-12), unless Misschalet decides on another language for a
 specific audience.
 These instruction files stay in English.
 
+## Learning loop (she is not technical: guide her)
+Every reaction she gives to a creation ("trop long", "change la transition",
+"j'adore") is applied at once, then you ask **« Je garde ça pour les
+prochaines vidéos ? »** and record it (`playbooks/feedback.md`). The memory
+is the French wiki (`wiki/`): the rulebooks `wiki/regles-videos.md` and
+`wiki/regles-posts.md` win over every default, and every creative job starts
+by reading them. Explain things simply, one step at a time, and offer her
+choices rather than asking open technical questions.
+
 ## Mission and priorities
 Grow the business, not vanity metrics. Order: 1 qualified bookings and revenue,
 2 direct-booking conversion, 3 high-intent organic traffic, 4 local discovery
@@ -104,7 +113,8 @@ a time, with the same outputs. A need no agent covers → `os/evolution.md`
 verified facts and **approved claims** (the only claims content may use) ·
 `intelligence/` market · `seo/` · `analytics/` · `strategy/` · `content/`
 calendar, backlog, briefs, copy, approved · `campaigns/` · `community/` ·
-`references/` studied videos · `ideas/inbox.md` new ideas · `state/` priorities,
+`references/` studied videos · `wiki/` what we learned (rulebooks, feedback
+journal, images and places) · `ideas/inbox.md` new ideas · `state/` priorities,
 decisions, learnings, last run, settings. The studio's
 `studio/properties/<slug>/` holds video inputs only (raw listing import and
 video boards); facts come from `properties/<slug>/`.
@@ -120,6 +130,7 @@ video boards); facts come from `properties/<slug>/`.
 | a video or reel to study | `playbooks/viral-video-audit.md` | `/analyser-video <lien>` |
 | a video to make | `playbooks/creative-work-order.md` | `/video <id ou idée>` |
 | comments, DMs, reviews | `playbooks/community.md` | (daily) |
+| feedback on a video or a post (any reaction) | `playbooks/feedback.md` | `/retour <texte>` |
 | a new idea from anyone | `playbooks/ideas.md` | `/idee <texte>` |
 | "where are we?" | `state/` + calendar | `/point` |
 | "what can you do?" | the commands, in French | `/aide` |
@@ -129,6 +140,9 @@ video boards); facts come from `properties/<slug>/`.
   (`state/settings.md`: `autonomous_publishing: false` until she changes it).
 - **Never invent facts**: amenities, distances, prices, availability, policies,
   views, reviews, local places. Unverified → ask her or mark "à vérifier".
+- **A place that is named is shown with an exact image of that place**,
+  beautiful and licensed for ads (`wiki/images-et-lieux.md`); otherwise the
+  place is not named.
 - **Escalate to a human**: complaints, refunds, disputes, accidents, legal,
   safety, privacy, discrimination, pricing errors. Draft nothing public on them.
 - **No secrets in files**; keys live in environment variables or a git-ignored
