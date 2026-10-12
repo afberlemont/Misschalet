@@ -1,0 +1,114 @@
+{
+  "slug": "pierrefleur",
+  "lang": "fr",
+  "startDate": "2026-10-12",
+  "name": "Pierre Fleur",
+  "kicker": "Chalet · Bex",
+  "place": "Bex",
+  "url": "airbnb.com/h/pierrefleur",
+  "palettes": ["papier", "sable", "nuit"],
+  "hashtags": ["#bex", "#alpesvaudoises", "#villars", "#chalet", "#chaletsuisse", "#suisse", "#montagne", "#airbnb"],
+
+  "focus": {
+    "1": [55, 55], "2": [45, 55], "4": [50, 55], "7": [42, 55], "12": [62, 55], "15": [40, 55],
+    "16": [42, 55], "21": [32, 55], "22": [40, 55], "26": [35, 55], "27": [55, 50], "28": [55, 50],
+    "29": [45, 55], "32": [30, 50], "33": [30, 50], "34": [35, 50], "37": [42, 55], "42": [58, 50]
+  },
+
+  "pins": {},
+
+  "covers": [27, 4, 28, 26, 2, 15],
+  "coverLines": [
+    ["Cheminée, poêle suédois", "et vue sur les montagnes"],
+    ["Un chalet de 160 m²", "rénové en 2021, à Bex"],
+    ["Familial,", "avec vue imprenable"]
+  ],
+  "coverCaps": "11 voyageurs · 5 chambres · Cheminée",
+
+  "chapters": [
+    {
+      "id": "sejour", "section": "Le séjour",
+      "title": ["Cheminée", "<em>et poêle suédois</em>"],
+      "text": "Un vaste séjour lumineux, pour les soirées après le grand air.",
+      "caption": "Le séjour, sous les poutres.",
+      "tags": ["Cheminée", { "label": "Poêle suédois", "icon": "flame" }, "Chauffage", "Wifi"],
+      "photos": [4, 2, 37, 5, 6]
+    },
+    {
+      "id": "cuisine", "section": "La cuisine", "layout": "spotlight",
+      "title": ["Cuisine", "<em>ouverte</em>"],
+      "text": "Entièrement équipée, avec passe-plat et accès direct au jardin.",
+      "caption": "La cuisine ouverte et son passe-plat.",
+      "tags": ["Lave-vaisselle", "Four", "Cuisinière", "Réfrigérateur", "Congélateur", "Cafetière", "Bouilloire", "Grille-pain", "Verres à vin"],
+      "photos": [7, 8, 9, 11]
+    },
+    {
+      "id": "table", "section": "La table",
+      "title": ["Des repas", "<em>à partager</em>"],
+      "text": "L'espace repas, ouvert sur la cuisine et le séjour.",
+      "caption": "La grande table en bois.",
+      "tags": ["Table à manger", "Vaisselle et couverts", "Verres à vin", "Passe-plat"],
+      "photos": [15, 1, 12, 13]
+    },
+    {
+      "id": "chambres", "section": "Les chambres",
+      "title": ["Cinq", "<em>chambres</em>"],
+      "text": "Quatre chambres doubles et un dortoir de lits superposés.",
+      "caption": "Au rez, la vue sur les Dents du Midi.",
+      "tags": ["4 chambres doubles", "Dortoir · lits superposés", "Lit pour bébé", "Linge de lit fourni"],
+      "photos": [18, 16, 20, 19, 21, 17]
+    },
+    {
+      "id": "bains", "section": "Les bains",
+      "title": ["Trois", "<em>salles d'eau</em>"],
+      "text": "Une salle de bain et deux salles de douche, plus un WC séparé.",
+      "caption": "Ardoise et bois clair.",
+      "tags": ["Baignoire", "2 salles de douche", "Sèche-cheveux", "Gel douche"],
+      "photos": [22, 23, 25, 24]
+    },
+    {
+      "id": "dehors", "section": "Dehors",
+      "title": ["Terrasses", "<em>sud et ouest</em>"],
+      "text": "Deux terrasses, un balcon et le jardin, face aux montagnes.",
+      "caption": "Le balcon, côté vallée.",
+      "tags": ["2 terrasses", "Balcon", "Jardin", "Barbecue", "Brasero", "Chaises longues"],
+      "photos": [29, 42, 31, 35]
+    },
+    {
+      "id": "vue", "section": "La vue",
+      "title": ["Une vue", "<em>imprenable</em>"],
+      "text": "Les montagnes depuis les terrasses, le balcon et le jardin.",
+      "caption": "Les sommets, depuis le chalet.",
+      "tags": [{ "label": "Vue sur les montagnes", "icon": "mountain-snow" }, "Jardin", "Terrasses"],
+      "photos": [28, 32, 34, 33]
+    },
+    {
+      "id": "chalet", "section": "Le chalet",
+      "title": ["160 m²,", "<em>trois niveaux</em>"],
+      "text": "Un chalet entièrement rénové en 2021, au calme.",
+      "caption": "Le chalet et son jardin.",
+      "tags": [{ "label": "160 m²", "icon": "house" }, "3 étages", { "label": "Rénové en 2021", "icon": "sparkles" }, "Parking privé", { "label": "Animaux acceptés", "icon": "key" }],
+      "photos": [27, 26, 30]
+    }
+  ],
+
+  "nearby": {
+    "title": ["Été", "<em>comme hiver</em>"],
+    "photos": [28, 32, 34],
+    "items": [
+      { "name": "Parking communal gratuit", "d": "50 m" },
+      { "name": "Pistes de Villars et Barboleuse", "d": "Hiver", "icon": "ski" },
+      { "name": "Randonnée et VTT", "d": "Été", "icon": "mountain" },
+      { "name": "Bains thermaux de Lavey", "d": "Été", "icon": "waves" },
+      { "name": "Golf et tennis", "d": "Été", "icon": "flag" },
+      { "name": "Parapente", "d": "Été", "icon": "wind" }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Réservez votre séjour",
+    "sub": "Chalet familial avec vue, à Bex",
+    "stats": "11 voyageurs · 5 chambres · 160 m²",
+    "photos": [27, 4, 28, 29]
+  }
+}

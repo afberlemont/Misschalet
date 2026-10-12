@@ -120,7 +120,7 @@ reels is the next step.
 | `focus` | `{ "<photo n>": [x%, y%] }`: where to crop a landscape photo into the vertical frame |
 | `pins` | `{ "<photo n>": [{ "x": 75, "y": 40, "label": "Four" }] }`: a dot on an object of the photo, with its label; it follows the camera |
 | `facts` | big numbers (`rows`) and a `note`; not shown any more (owner) |
-| `nearby` | `items` of `{ name, d }`, five shown a day, nearest first |
+| `nearby` | `items` of `{ name, d }`, five shown a day, nearest first; `d` may be a word ("Hiver", "Été") when the listing gives no distance, those go last |
 | `cta` | `eyebrow`, `sub`, `stats`, `photos` |
 
 Tags and pins take `"label"` alone; the icon is found from the words

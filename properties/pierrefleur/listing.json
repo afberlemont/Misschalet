@@ -1,0 +1,638 @@
+{
+  "slug": "pierrefleur",
+  "shortUrl": "airbnb.com/h/pierrefleur",
+  "pageUrl": "https://fr.airbnb.ch/rooms/1741144846421702313",
+  "fetchedAt": "2026-10-12T18:15:37.059Z",
+  "locale": "fr",
+  "title": "Chalet Pierre Fleur - Familial avec vue imprenable",
+  "titleSource": "Chalet Pierre Fleur - Familial avec vue imprenable",
+  "propertyType": "Logement entier : hébergement",
+  "city": "Bex",
+  "region": "Bex, Vaud, Suisse",
+  "capacity": 11,
+  "overview": [
+    "11 voyageurs",
+    "5 chambres",
+    "12 lits",
+    "3 salles de bain"
+  ],
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "description": "Offrez-vous une parenthèse de charme à la montagne dans ce magnifique chalet de 160 m², entièrement rénové en 2021, réparti sur 3 niveaux. Spacieux, chaleureux et parfaitement équipé, il accueille confortablement jusqu’à 7 adultes et 4 enfants; idéal pour des séjours en famille ou entre amis.\nProfitez d'un cadre exceptionnel et d’une vue imprenable sur les montagnes, d’une atmosphère authentique et d’un environnement paisible, à proximité des pistes en hiver et d’une multitude d’activités en été\n\nLe logement\nLe chalet s’ouvre sur une entrée accueillante menant à un vaste séjour lumineux, agrémenté d’une cheminée et d’un poêle suédois, parfait pour des soirées conviviales après une journée en plein air. L’espace salle à manger permet de partager des repas chaleureux. \nLa cuisine ouverte, entièrement équipée dispose d’un passe-plat et donne directement accès au jardin ainsi qu’aux terrasses orientées sud et ouest.\nLa maison propose plusieurs espaces nuit confortables et bien répartis : \n- 4 chambres doubles ainsi qu’une chambre dédiée aux enfants avec quatre lits superposés. Certaines chambres sont mansardées avec une hauteur de porte réduite (120 cm), apportant une ambiance chaleureuse et typique des chalets alpins.\n\nLe chalet dispose d’une salle de bain avec WC, de deux salles de douche dont une attenante à une chambre, ainsi que d’un WC séparé, offrant confort pour les séjours en groupe.\n\nÀ l’extérieur, vous profiterez de deux belles terrasses et d’un balcon, parfaitement exposés pour admirer la vue sur les montagnes. Le jardin est accessible, et le mobilier extérieur ainsi que le barbecue invitent à prolonger les moments de détente en plein air. Le chalet est équipé du WiFi gratuit et d’un lave-linge pour votre confort.\n\nAccès des voyageurs\nEn hiver, rejoignez rapidement les pistes de ski de Villars ou Barboleuse pour profiter d’un domaine apprécié des familles comme des sportifs. Dès les beaux jours, la région se transforme en véritable terrain de jeu : randonnées panoramiques, VTT, golf, tennis, parapente, bains thermaux de Lavey, ou encore balades en altitude. Les paysages alpins, les alpages et les nombreuses activités de plein air font du Chalet Pierre Fleur une destination parfaite en toute saison.\n\nLe Chalet Pierre Fleur est idéal pour des séjours à la semaine, notamment durant la saison de ski, et peut également être loué pour toute la saison d’hiver, offrant une solution parfaite pour profiter pleinement de la montagne sur une plus longue durée (conditions sur demande).\n\nAutres remarques\nUne place de parking privative est disponible directement au chalet et un parking communal gratuit se situe à seulement 50 mètres, facilitant l’accueil de plusieurs véhicules.",
+  "highlights": [
+    {
+      "headline": "Amis à quatre pattes bienvenus",
+      "body": "Emmenez vos animaux de compagnie avec vous."
+    }
+  ],
+  "amenities": [
+    "Accès à un lac",
+    "Wifi",
+    "Stationnement gratuit sur place",
+    "Animaux acceptés",
+    "Lave-linge",
+    "Jardin",
+    "Cheminée",
+    "Lit parapluie",
+    "Sèche-cheveux"
+  ],
+  "neighbourhood": [],
+  "rooms": [
+    {
+      "title": "Salon",
+      "highlights": [
+        "Chauffage",
+        "Cheminée",
+        "Accès à un lac",
+        "Barbecue",
+        "Bouilloire électrique",
+        "Brasero",
+        "Cafetière",
+        "Chaises longues",
+        "Cintres",
+        "Congélateur",
+        "Cuisinière",
+        "Détecteur de fumée",
+        "Eau chaude",
+        "Entrée privée",
+        "Espace de rangement pour les vêtements",
+        "Espace repas en plein air",
+        "Extincteur",
+        "Fer à repasser",
+        "Four",
+        "Gel douche",
+        "Grille-pain",
+        "Jardin",
+        "Lave-linge",
+        "Lave-vaisselle",
+        "Linge de lit",
+        "Lit parapluie",
+        "Mobilier d'extérieur",
+        "Pare-feu de cheminée",
+        "Produits de base",
+        "Produits de nettoyage",
+        "Recommandations de baby-sitters",
+        "Réfrigérateur",
+        "Savon pour le corps",
+        "Stationnement gratuit sur place",
+        "Sèche-cheveux",
+        "Séjours longue durée autorisés",
+        "Table à manger",
+        "Tout le nécessaire pour cuisiner",
+        "Ustensiles de barbecue",
+        "Vaisselle et couverts",
+        "Verres à vin",
+        "Wifi"
+      ]
+    },
+    {
+      "title": "Cuisine entière",
+      "highlights": []
+    },
+    {
+      "title": "Espace repas",
+      "highlights": []
+    },
+    {
+      "title": "Chambre 1",
+      "highlights": [
+        "Lit double",
+        "Chauffage"
+      ]
+    },
+    {
+      "title": "Chambre 2",
+      "highlights": [
+        "Lit double",
+        "2 lits superposés"
+      ]
+    },
+    {
+      "title": "Chambre 3",
+      "highlights": [
+        "Lit double"
+      ]
+    },
+    {
+      "title": "Chambre 4",
+      "highlights": [
+        "Lit double"
+      ]
+    },
+    {
+      "title": "Chambre 5",
+      "highlights": [
+        "2 lits superposés",
+        "Lit pour bébé"
+      ]
+    },
+    {
+      "title": "Salle de bains entière 1",
+      "highlights": []
+    },
+    {
+      "title": "Salle de bains entière 2",
+      "highlights": []
+    },
+    {
+      "title": "Salle de bains entière 3",
+      "highlights": []
+    },
+    {
+      "title": "Extérieur",
+      "highlights": []
+    },
+    {
+      "title": "Photos supplémentaires",
+      "highlights": []
+    }
+  ],
+  "photos": [
+    {
+      "n": 1,
+      "id": "2760535977",
+      "room": "Salon",
+      "label": "Salon image 1",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/aebbec36-7dae-4792-8f89-f90a90135632.jpeg",
+      "file": "01-2760535977.jpg"
+    },
+    {
+      "n": 2,
+      "id": "2760531100",
+      "room": "Salon",
+      "label": "Salon image 2",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/be544da0-3d79-409f-bac0-61d8ab1cde07.jpeg",
+      "file": "02-2760531100.jpg"
+    },
+    {
+      "n": 3,
+      "id": "2760529588",
+      "room": "Salon",
+      "label": "Salon image 3",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/6d93e8d5-bb93-4b6f-9a1b-c3b6c5623d68.jpeg",
+      "file": "03-2760529588.jpg"
+    },
+    {
+      "n": 4,
+      "id": "2760535994",
+      "room": "Salon",
+      "label": "Salon image 4",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/7b6ce5a3-9d9b-4ba5-a78c-f00a1c14bfa8.jpeg",
+      "file": "04-2760535994.jpg"
+    },
+    {
+      "n": 5,
+      "id": "2763534901",
+      "room": "Salon",
+      "label": "Salon image 5",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/d2e91e37-b4e6-41c2-afe0-5c5c72b6becf.jpeg",
+      "file": "05-2763534901.jpg"
+    },
+    {
+      "n": 6,
+      "id": "2763534912",
+      "room": "Salon",
+      "label": "Salon image 6",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/131f45c8-82ef-4d5a-a4c3-9d2e7d511bb8.jpeg",
+      "file": "06-2763534912.jpg"
+    },
+    {
+      "n": 7,
+      "id": "2760541601",
+      "room": "Cuisine entière",
+      "label": "Cuisine entière image 1",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/ed43d61d-303b-4ea8-9ecd-7b8fb5fc0614.jpeg",
+      "file": "07-2760541601.jpg"
+    },
+    {
+      "n": 8,
+      "id": "2760541594",
+      "room": "Cuisine entière",
+      "label": "Cuisine entière image 2",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/d69429ca-b64a-4c0a-952f-ed4212f97106.jpeg",
+      "file": "08-2760541594.jpg"
+    },
+    {
+      "n": 9,
+      "id": "2750114045",
+      "room": "Cuisine entière",
+      "label": "Cuisine entière image 3",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/b7b46ec5-dd72-428c-952e-f44ef8fb0a64.jpeg",
+      "file": "09-2750114045.jpg"
+    },
+    {
+      "n": 10,
+      "id": "2760541605",
+      "room": "Cuisine entière",
+      "label": "Cuisine entière image 4",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/65f473d2-cf4d-4db2-8d60-61b428854ced.jpeg",
+      "file": "10-2760541605.jpg"
+    },
+    {
+      "n": 11,
+      "id": "2763528646",
+      "room": "Cuisine entière",
+      "label": "Cuisine entière image 5",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/97370bad-5a1d-410a-9bb6-0af852debf51.jpeg",
+      "file": "11-2763528646.jpg"
+    },
+    {
+      "n": 12,
+      "id": "2760546253",
+      "room": "Espace repas",
+      "label": "Espace repas image 1",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.8013,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/15aa69a3-bcb9-4f46-a94c-4ce12abd3c11.jpeg",
+      "file": "12-2760546253.jpg"
+    },
+    {
+      "n": 13,
+      "id": "2760546266",
+      "room": "Espace repas",
+      "label": "Espace repas image 2",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/e1148158-369a-4fa1-881e-8fc44faae816.jpeg",
+      "file": "13-2760546266.jpg"
+    },
+    {
+      "n": 14,
+      "id": "2760547635",
+      "room": "Espace repas",
+      "label": "Espace repas image 3",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/997ad004-71a6-4244-a91d-9b6923166a1d.jpeg",
+      "file": "14-2760547635.jpg"
+    },
+    {
+      "n": 15,
+      "id": "2763530756",
+      "room": "Espace repas",
+      "label": "Espace repas image 4",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/69e7e981-cf18-493e-a710-7843bc5043fa.jpeg",
+      "file": "15-2763530756.jpg"
+    },
+    {
+      "n": 16,
+      "id": "2764809407",
+      "room": "Chambre 1",
+      "label": "Au -1, une chambre avec un lit double ou deux lits simples avec salle de douche et we privatifs",
+      "caption": "Au -1, une chambre avec un lit double ou deux lits simples avec salle de douche et we privatifs",
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/d24974ff-eb9d-4b22-b7fa-8ea1861e4e36.jpeg",
+      "file": "16-2764809407.jpg"
+    },
+    {
+      "n": 17,
+      "id": "2764809397",
+      "room": "Chambre 1",
+      "label": "Chambre 1 image 2",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/93c7ee0f-8b75-4722-b0bc-bd8f433a397e.jpeg",
+      "file": "17-2764809397.jpg"
+    },
+    {
+      "n": 18,
+      "id": "2766404623",
+      "room": "Chambre 2",
+      "label": "Au rez, une chambre au lit double avec jolie vue sur les  Dents du Midi",
+      "caption": "Au rez, une chambre au lit double avec jolie vue sur les  Dents du Midi",
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/9679a609-ec78-4690-ad2c-cfbb95895934.jpeg",
+      "file": "18-2766404623.jpg"
+    },
+    {
+      "n": 19,
+      "id": "2764813048",
+      "room": "Chambre 3",
+      "label": "A l'étage, une chambre au lit double, côté jardin arrière",
+      "caption": "A l'étage, une chambre au lit double, côté jardin arrière",
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/9aa63579-3d0c-437d-b976-f4d9833d28c6.jpeg",
+      "file": "19-2764813048.jpg"
+    },
+    {
+      "n": 20,
+      "id": "2764817242",
+      "room": "Chambre 4",
+      "label": "La chambre double et son balcon à l'étage",
+      "caption": "La chambre double et son balcon à l'étage",
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/9016aad1-cd23-457e-98db-b8dc574be88c.jpeg",
+      "file": "20-2764817242.jpg"
+    },
+    {
+      "n": 21,
+      "id": "2764819039",
+      "room": "Chambre 5",
+      "label": "Le dortoir à l'étage",
+      "caption": "Le dortoir à l'étage",
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/2f0accb9-f997-43ab-a0c9-840e3e0fad15.jpeg",
+      "file": "21-2764819039.jpg"
+    },
+    {
+      "n": 22,
+      "id": "2763535876",
+      "room": "Salle de bains entière 1",
+      "label": "une salle de bain à l'étage + WC",
+      "caption": "une salle de bain à l'étage + WC",
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/91d6080b-1b73-4b4e-bac8-2ecfb7537459.jpeg",
+      "file": "22-2763535876.jpg"
+    },
+    {
+      "n": 23,
+      "id": "2763537424",
+      "room": "Salle de bains entière 2",
+      "label": "Salle de douche privative attenante à la chambre au -1 + WC",
+      "caption": "Salle de douche privative attenante à la chambre au -1 + WC",
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/1e645085-4d60-46f6-992c-40f298ecd551.jpeg",
+      "file": "23-2763537424.jpg"
+    },
+    {
+      "n": 24,
+      "id": "2763539112",
+      "room": "Salle de bains entière 2",
+      "label": "Salle de bains entière 2 image 2",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/eb0b1e5c-f0a8-4a3f-a40a-3b6acdc0450a.jpeg",
+      "file": "24-2763539112.jpg"
+    },
+    {
+      "n": 25,
+      "id": "2763540360",
+      "room": "Salle de bains entière 3",
+      "label": "Salle de douche au rez et WC séparé",
+      "caption": "Salle de douche au rez et WC séparé",
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/0330c5cb-fdd0-444f-973f-60e7fb98eb20.jpeg",
+      "file": "25-2763540360.jpg"
+    },
+    {
+      "n": 26,
+      "id": "2750113947",
+      "room": "Extérieur",
+      "label": "Extérieur image 1",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/d2b1abf5-195f-4a57-b919-f8cd68d88f1e.jpeg",
+      "file": "26-2750113947.jpg"
+    },
+    {
+      "n": 27,
+      "id": "2750113973",
+      "room": "Extérieur",
+      "label": "Extérieur image 2",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/a7c91426-59f9-4b16-be0e-162b95f30867.jpeg",
+      "file": "27-2750113973.jpg"
+    },
+    {
+      "n": 28,
+      "id": "2760554698",
+      "room": "Extérieur",
+      "label": "Extérieur image 3",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/f8b7eac7-d5ee-4d1d-abcb-16540f00b862.jpeg",
+      "file": "28-2760554698.jpg"
+    },
+    {
+      "n": 29,
+      "id": "2763567050",
+      "room": "Extérieur",
+      "label": "Extérieur image 4",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/584206b2-23b9-4ab9-9b8d-4cac5f1e020c.jpeg",
+      "file": "29-2763567050.jpg"
+    },
+    {
+      "n": 30,
+      "id": "2763567049",
+      "room": "Extérieur",
+      "label": "Extérieur image 5",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/c3012082-48c3-4845-be8c-f63e9a5b0d3f.jpeg",
+      "file": "30-2763567049.jpg"
+    },
+    {
+      "n": 31,
+      "id": "2763567071",
+      "room": "Extérieur",
+      "label": "Extérieur image 6",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/8809f571-f39a-4e13-9ae0-009918040ae8.jpeg",
+      "file": "31-2763567071.jpg"
+    },
+    {
+      "n": 32,
+      "id": "2764823345",
+      "room": "Extérieur",
+      "label": "Extérieur image 7",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/26142ae0-3d34-4937-aa82-b7820062b744.jpeg",
+      "file": "32-2764823345.jpg"
+    },
+    {
+      "n": 33,
+      "id": "2764823396",
+      "room": "Extérieur",
+      "label": "Extérieur image 8",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/b4859d7c-4697-43cd-ba06-d37ee49f8afa.jpeg",
+      "file": "33-2764823396.jpg"
+    },
+    {
+      "n": 34,
+      "id": "2764823428",
+      "room": "Extérieur",
+      "label": "Extérieur image 9",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/531bc663-e03f-4658-aa5e-39024fd89e8b.jpeg",
+      "file": "34-2764823428.jpg"
+    },
+    {
+      "n": 35,
+      "id": "2764823548",
+      "room": "Extérieur",
+      "label": "Extérieur image 10",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/0b8c912d-8ae2-4206-9ef3-53a848917e91.jpeg",
+      "file": "35-2764823548.jpg"
+    },
+    {
+      "n": 36,
+      "id": "2760539001",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 1",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.8013,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/89b01054-f2fe-4bf6-8dd4-272c40b1c4ae.jpeg",
+      "file": "36-2760539001.jpg"
+    },
+    {
+      "n": 37,
+      "id": "2760544322",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 2",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/64b70dbe-9816-4c67-a686-709dccc998fb.jpeg",
+      "file": "37-2760544322.jpg"
+    },
+    {
+      "n": 38,
+      "id": "2760556288",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 3",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/bf931b4d-5cc4-4b0e-a7d9-5d1af459efd8.jpeg",
+      "file": "38-2760556288.jpg"
+    },
+    {
+      "n": 39,
+      "id": "2760556331",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 4",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/ffdcffc4-c03c-41e1-bb58-7ba79cb80860.jpeg",
+      "file": "39-2760556331.jpg"
+    },
+    {
+      "n": 40,
+      "id": "2760559101",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 5",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/dcd7698f-ffaa-4f1d-a86e-323f5a686a47.jpeg",
+      "file": "40-2760559101.jpg"
+    },
+    {
+      "n": 41,
+      "id": "2760559103",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 6",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/cfd4f51c-db5b-491e-b263-c5fba710bf93.jpeg",
+      "file": "41-2760559103.jpg"
+    },
+    {
+      "n": 42,
+      "id": "2764823499",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 7",
+      "caption": null,
+      "orientation": "LANDSCAPE",
+      "aspect": 1.3333,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/c00d0b30-0720-421e-ae98-a13fb066d92d.jpeg",
+      "file": "42-2764823499.jpg"
+    },
+    {
+      "n": 43,
+      "id": "2760559112",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 8",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/75f46f98-4321-48ce-99d3-0b7872c13239.jpeg",
+      "file": "43-2760559112.jpg"
+    },
+    {
+      "n": 44,
+      "id": "2763547335",
+      "room": "Photos supplémentaires",
+      "label": "Photos supplémentaires image 9",
+      "caption": null,
+      "orientation": "PORTRAIT",
+      "aspect": 0.75,
+      "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1741144846421702313/original/ba0cfd1f-1ffb-4b5d-8229-9fb91a8e9c92.jpeg",
+      "file": "44-2763547335.jpg"
+    }
+  ]
+}
