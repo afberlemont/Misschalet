@@ -1,7 +1,11 @@
 {
   "name": "demo",
   "note": "The long presentation (36 s): every scene type but the facts page (owner: no more figures page), the shine arrivals, close-ups cut out of the photos, the four main rooms.",
-  "music": { "style": "lux", "bpm": 120, "seed": 3 },
+  "music": {
+    "style": "lux",
+    "bpm": 120,
+    "seed": 3
+  },
   "palette": "papier",
   "grade": "saturate(1.08) contrast(1.04) sepia(.06) brightness(1.01)",
   "coverAt": 4.4,
@@ -13,81 +17,264 @@
   ],
   "scenes": [
     {
-      "type": "hook", "beats": 4,
-      "photo": { "n": 4, "motion": "in" },
-      "lines": ["Vous venez de trouver l'un de", "« ces »", "Chalets"]
+      "type": "hook",
+      "beats": 4,
+      "photo": {
+        "n": 4,
+        "motion": "in"
+      },
+      "lines": [
+        "Vous venez de trouver l'un de",
+        "« ces »",
+        "Chalets"
+      ]
     },
     {
-      "type": "cover", "beats": 6, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
-      "photo": { "n": 77, "motion": "out" },
-      "issue": "Le film", "season": "Villars-sur-Ollon",
+      "type": "cover",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.2,
+      "sheen": 1.2,
+      "photo": {
+        "n": 77,
+        "motion": "out"
+      },
+      "issue": "Le film",
+      "season": "Villars-sur-Ollon",
       "kicker": "Chalet d'exception · Alpes vaudoises",
-      "lines": ["Un chalet d'exception", "pour votre séjour"],
+      "lines": [
+        "Un chalet d'exception",
+        "pour votre séjour"
+      ],
       "caps": "14 voyageurs · 6 chambres · Sauna"
     },
     {
-      "type": "montage", "beats": 12,
+      "type": "montage",
+      "beats": 12,
       "shots": [
-        { "photo": { "n": 4, "zoom": 1.5, "fx": 30, "fy": 45 }, "beats": 2, "label": "Feu de bois", "icon": "flame" },
-        { "photo": { "n": 18, "zoom": 1.6, "fx": 55, "fy": 24 }, "beats": 2 },
-        { "photo": { "n": 24, "zoom": 1.7, "fx": 49, "fy": 76 }, "beats": 2, "label": "Linge brodé", "icon": "feather" },
-        { "photo": { "n": 15, "zoom": 1.6, "fx": 47, "fy": 62 }, "beats": 2 },
-        { "photo": { "n": 92, "zoom": 1.5, "fx": 80, "fy": 76 }, "beats": 2, "label": "Sauna" },
-        { "photo": { "n": 77, "zoom": 1.7, "fx": 57, "fy": 48 }, "beats": 2 }
+        {
+          "photo": {
+            "n": 4,
+            "zoom": 1.5,
+            "fx": 30,
+            "fy": 45
+          },
+          "beats": 2,
+          "label": "Feu de bois",
+          "icon": "flame"
+        },
+        {
+          "photo": {
+            "n": 18,
+            "zoom": 1.6,
+            "fx": 55,
+            "fy": 24
+          },
+          "beats": 2
+        },
+        {
+          "photo": {
+            "n": 24,
+            "zoom": 1.7,
+            "fx": 49,
+            "fy": 76
+          },
+          "beats": 2,
+          "label": "Linge brodé",
+          "icon": "feather"
+        },
+        {
+          "photo": {
+            "n": 15,
+            "zoom": 1.6,
+            "fx": 47,
+            "fy": 62
+          },
+          "beats": 2
+        },
+        {
+          "photo": {
+            "n": 92,
+            "zoom": 1.5,
+            "fx": 80,
+            "fy": 76
+          },
+          "beats": 2,
+          "label": "Sauna"
+        },
+        {
+          "photo": {
+            "n": 77,
+            "zoom": 1.7,
+            "fx": 57,
+            "fy": 48
+          },
+          "beats": 2
+        }
       ]
     },
     {
-      "type": "grid4", "beats": 8, "step": 1, "openAt": 6, "open": 0,
-      "title": ["Quatre pièces,", "<em>un art de vivre</em>"],
+      "type": "grid4",
+      "beats": 8,
+      "step": 1,
+      "openAt": 6,
+      "open": 0,
+      "title": [
+        "Quatre pièces,",
+        "<em>un art de vivre</em>"
+      ],
       "tiles": [
-        { "photo": 5, "label": "Le salon", "icon": "sofa" },
-        { "photo": 12, "label": "La cuisine", "icon": "chef-hat" },
-        { "photo": 28, "label": "Les chambres", "icon": "bed-double" },
-        { "photo": 85, "label": "Le sauna", "icon": "sauna" }
+        {
+          "photo": 5,
+          "label": "Le salon",
+          "icon": "sofa"
+        },
+        {
+          "photo": 12,
+          "label": "La cuisine",
+          "icon": "chef-hat"
+        },
+        {
+          "photo": 28,
+          "label": "Les chambres",
+          "icon": "bed-double"
+        },
+        {
+          "photo": 85,
+          "label": "Le sauna",
+          "icon": "sauna"
+        }
       ]
     },
     {
-      "type": "bleed", "beats": 7, "enter": "cut",
-      "photo": { "n": 5, "motion": "slow" },
-      "tag": "01 · Le salon", "eyebrow": "Villars-sur-Ollon",
-      "title": ["Autour", "<em>du feu</em>"],
+      "type": "bleed",
+      "beats": 7,
+      "enter": "cut",
+      "photo": {
+        "n": 5,
+        "motion": "slow"
+      },
+      "tag": "01 · Le salon",
+      "eyebrow": "Villars-sur-Ollon",
+      "title": [
+        "Autour",
+        "<em>du feu</em>"
+      ],
       "text": "Grande cheminée, bois naturel et lumière douce.",
-      "tags": ["Grande cheminée", "Système audio", "Télévision", "Wifi"]
-    },
-    {
-      "type": "triptych", "beats": 6, "enter": "shine", "tIn": 1.0, "step": 1,
-      "photos": [28, 20, 42],
-      "label": "Six chambres · 14 voyageurs", "icon": "bed-double"
-    },
-    {
-      "type": "spotlight", "beats": 9, "enter": "wipe-up",
-      "photo": { "n": 12, "motion": "slow" },
-      "no": "02", "section": "La cuisine", "end": "La Rosière",
-      "title": ["Tout", "<em>pour cuisiner</em>"],
-      "tags": ["Lave-vaisselle", "Four", "Micro-ondes", "Cuisinière", "Réfrigérateur", "Congélateur", "Nespresso & filtre", "Bouilloire", "Grille-pain", "Blender"]
-    },
-    {
-      "type": "frame", "beats": 6, "enter": "shine", "tIn": 1.0,
-      "photo": { "n": 92, "motion": "in" },
-      "no": "03", "section": "Le bien-être", "end": "La Rosière",
-      "title": ["Le sauna,", "<em>bois blond</em>"],
-      "tags": ["Sauna", "Douche", "Eau chaude"],
-      "caption": { "label": "fig. 03", "text": "Le sauna et sa douche, au calme du chalet." }
-    },
-    {
-      "type": "nearby", "beats": 6, "enter": "wipe-left",
-      "photo": { "n": 78, "motion": "in" },
-      "items": [
-        { "name": "Bus de ski gratuit", "d": "50 m" },
-        { "name": "Restaurant", "d": "100 m" },
-        { "name": "École de ski", "d": "200 m" },
-        { "name": "Boulangerie", "d": "250 m" },
-        { "name": "Téléphérique", "d": "800 m" }
+      "tags": [
+        "Grande cheminée",
+        "Système audio",
+        "Télévision",
+        "Wifi"
       ]
     },
     {
-      "type": "cta", "beats": 8, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
-      "photo": { "n": 1, "motion": "in" },
+      "type": "triptych",
+      "beats": 6,
+      "enter": "cut",
+      "step": 1,
+      "photos": [
+        28,
+        20,
+        42
+      ],
+      "label": "Six chambres · 14 voyageurs",
+      "icon": "bed-double"
+    },
+    {
+      "type": "spotlight",
+      "beats": 9,
+      "enter": "wipe-up",
+      "photo": {
+        "n": 12,
+        "motion": "slow"
+      },
+      "no": "02",
+      "section": "La cuisine",
+      "end": "La Rosière",
+      "title": [
+        "Tout",
+        "<em>pour cuisiner</em>"
+      ],
+      "tags": [
+        "Lave-vaisselle",
+        "Four",
+        "Micro-ondes",
+        "Cuisinière",
+        "Réfrigérateur",
+        "Congélateur",
+        "Nespresso & filtre",
+        "Bouilloire",
+        "Grille-pain",
+        "Blender"
+      ]
+    },
+    {
+      "type": "frame",
+      "beats": 6,
+      "enter": "wipe-left",
+      "tIn": 0.8,
+      "photo": {
+        "n": 92,
+        "motion": "in"
+      },
+      "no": "03",
+      "section": "Le bien-être",
+      "end": "La Rosière",
+      "title": [
+        "Le sauna,",
+        "<em>bois blond</em>"
+      ],
+      "tags": [
+        "Sauna",
+        "Douche",
+        "Eau chaude"
+      ],
+      "caption": {
+        "label": "fig. 03",
+        "text": "Le sauna et sa douche, au calme du chalet."
+      }
+    },
+    {
+      "type": "nearby",
+      "beats": 6,
+      "enter": "wipe-right",
+      "photo": {
+        "n": 78,
+        "motion": "in"
+      },
+      "items": [
+        {
+          "name": "Bus de ski gratuit",
+          "d": "50 m"
+        },
+        {
+          "name": "Restaurant",
+          "d": "100 m"
+        },
+        {
+          "name": "École de ski",
+          "d": "200 m"
+        },
+        {
+          "name": "Boulangerie",
+          "d": "250 m"
+        },
+        {
+          "name": "Téléphérique",
+          "d": "800 m"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "beats": 8,
+      "enter": "wipe-up",
+      "tIn": 0.8,
+      "photo": {
+        "n": 1,
+        "motion": "in"
+      },
       "eyebrow": "Un chalet d'exception pour votre séjour",
       "sub": "Villars-sur-Ollon · Alpes vaudoises",
       "stats": "14 voyageurs · 6 chambres · Sauna"

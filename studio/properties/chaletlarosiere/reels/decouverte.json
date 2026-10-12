@@ -1,6 +1,6 @@
 {
   "name": "decouverte",
-  "note": "Le séjour découverte (≈ 28 s) : une journée parfaite à Villars, du ski le matin aux bains l'après-midi, puis le chalet le soir (feu, sauna, table). Images de la région : studio/region/sources.json. Silencieux (règle du studio).",
+  "note": "Le séjour découverte (≈ 28 s) : une journée parfaite à Villars, du ski le matin aux bains l'après-midi, puis le chalet le soir (feu, sauna, table). Images de la région : studio/region/sources.json. Une seule brillance (V10). Silencieux (règle du studio).",
   "music": {
     "style": "lux",
     "bpm": 120,
@@ -84,8 +84,8 @@
     {
       "type": "frame",
       "beats": 6,
-      "enter": "shine",
-      "tIn": 1.0,
+      "enter": "wipe-left",
+      "tIn": 0.8,
       "photo": {
         "region": "gryon-train-neige.jpg",
         "fx": 62,
@@ -109,7 +109,7 @@
     {
       "type": "frame",
       "beats": 6,
-      "enter": "wipe-left",
+      "enter": "wipe-right",
       "photo": {
         "region": "dents-du-midi-ciel-rose.jpg",
         "fx": 50,
@@ -228,9 +228,8 @@
     {
       "type": "cta",
       "beats": 8,
-      "enter": "shine",
-      "tIn": 1.2,
-      "sheen": 1.2,
+      "enter": "wipe-up",
+      "tIn": 0.8,
       "photo": {
         "n": 4,
         "motion": "in"

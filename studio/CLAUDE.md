@@ -39,7 +39,9 @@ video (Gemini / Veo) plugs in.
 - Editorial look: paper, pine, tanned wood, Newsreader, small spaced capitals,
   hairlines, square corners. No em dashes on screen or in captions; no full
   stop at the end of a display title.
-- The "shine" arrival (`enter: "shine"`) when arriving at a new part.
+- The "shine" arrival (`enter: "shine"`, with its `sheen`) **once per video
+  at most**, on the cover (rule V10); every other scene enters with a wipe
+  or a cut.
 
 ## Working here (commands run from the repository root)
 - New listing: `node studio/fetch-listing.mjs <link>`, then curate

@@ -1,6 +1,6 @@
 {
   "name": "entre-amis",
-  "note": "Le séjour entre amis (≈ 26 s) : le chalet design, une salle de douche par chambre, la table pour douze, le ski et le village à pied. Silencieux (règle du studio).",
+  "note": "Le séjour entre amis (≈ 26 s) : le chalet design, une salle de douche par chambre, la table pour douze, le ski et le village à pied. Une seule brillance (V10). Silencieux (règle du studio).",
   "music": {
     "style": "couples",
     "bpm": 120,
@@ -123,8 +123,7 @@
     {
       "type": "triptych",
       "beats": 6,
-      "enter": "shine",
-      "tIn": 1.0,
+      "enter": "cut",
       "step": 1,
       "photos": [
         27,
@@ -219,9 +218,8 @@
     {
       "type": "cta",
       "beats": 8,
-      "enter": "shine",
-      "tIn": 1.2,
-      "sheen": 1.2,
+      "enter": "wipe-up",
+      "tIn": 0.8,
       "photo": {
         "n": 85,
         "motion": "in"
