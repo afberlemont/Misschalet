@@ -3,6 +3,7 @@
     "allow": [
       "Bash(node studio/render.mjs:*)",
       "Bash(node studio/fetch-listing.mjs:*)",
+      "Bash(node studio/post-photos.mjs:*)",
       "Bash(npm --prefix studio install)",
       "Bash(python3 studio/refs/sheet.py:*)",
       "Bash(git status:*)",

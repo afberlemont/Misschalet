@@ -2,7 +2,7 @@
 
 Tenue par l'orchestrateur. Modifiée seulement quand le changement est important (revue mensuelle).
 
-**Statut : à remplir** (onboarding, `playbooks/startup.md`).
+**Statut : phase 2** (rempli par l'audit, `playbooks/growth-audit.md` ; rien à faire en phase 1).
 
 ## Diagnostic (situation, contraintes, opportunités, gains rapides, paris, expériences, mesure)
 

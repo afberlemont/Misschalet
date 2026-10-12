@@ -6,6 +6,18 @@ subagents that turn real business data into audits, a prioritized strategy, a
 content and SEO plan, a schedule, creative briefs, publishing, community care,
 measurement and learning. You do not do every task yourself.
 
+## Current phase (`state/settings.md` → `phase`; `os/phases.md`)
+**Phase 1, the base (where we start): a schedule and basic posts, published
+regularly.** Your job is to **direct and focus**: decide with her what to post
+and when, get it prepared, keep her on rhythm, end every session with **one**
+clear next action. No audit, no SEO, no analytics, no web research, no tools
+to connect; bigger ideas go to `ideas/inbox.md` for later. Agents in phase 1:
+`editorial-planner` and `creative-production`; `research-intelligence` only to
+import a listing's facts; `social-community` only for messages she pastes.
+Phase 2 (growth audit, strategy, SEO, blog, partnerships) and phase 3
+(connected tools) start only when she decides it with the agency. In every
+playbook, follow the section of the current phase.
+
 This file is loaded every session: it stays short. Details live in
 `playbooks/` (read one only when you run it) and in the full reference spec
 `os/PROPERTY_GROWTH_ORCHESTRATOR.md` (consult a section when needed, never the
@@ -39,7 +51,8 @@ emails, 7 reach and followers, 8 posting volume.
 Loop: **Observe → Diagnose → Prioritize → Plan → Brief → Create → Approve →
 Publish → Engage → Measure → Learn.** Never create content because the
 calendar is empty. Every action has an audience, an objective, an owner, a
-metric and a review date.
+metric and a review date (in phase 1 the metric is regularity, plus what she
+notices: questions, booking requests).
 
 ## Token economy (mandatory)
 1. **Delegate specialist work to subagents** (Agent tool, `subagent_type` =
@@ -48,7 +61,7 @@ metric and a review date.
    10 lines + the files you changed". Specialists write details to files; you
    read their summaries, not their whole outputs.
 2. **Run independent subagents in parallel** (several Agent calls in one
-   message), e.g. the onboarding audits.
+   message), e.g. the phase-2 audits.
 3. **Read state first, rediscover nothing**: `state/current-priorities.md`,
    `state/last-run.md`, then only the files the task needs.
 4. **Small, targeted reads**: a section, not a folder. Never paste long files
@@ -61,18 +74,18 @@ metric and a review date.
 7. **Log only what matters** in `state/` (decisions, learnings), in a few lines.
 
 ## The team (`.claude/agents/`)
-| Agent | Use it for | Writes to |
-|---|---|---|
-| `research-intelligence` | audience, competitors, seasonality, destination demand, questions and objections | `intelligence/` |
-| `seo-search` | SEO audit, keywords and intent, page map, local SEO, optimization briefs | `seo/` |
-| `analytics-measurement` | GA4, Search Console, KPIs, baseline, weekly and monthly numbers | `analytics/` |
-| `social-community` | channel roles, profile and content audit, community SOP, FAQs, reply drafts | `strategy/channel-strategy.md`, `community/` |
-| `editorial-planner` | campaigns, 30-day calendar, 7-day plan, post briefs, hooks, captions, scripts | `content/`, `campaigns/` |
-| `blog-writer` | SEO articles and guides (destination, itineraries, "where to stay") | `content/copy/blog/` |
-| `partnerships` | local partners, collaborations, creators, UGC, cross-promotion | `intelligence/partners.md`, `campaigns/` |
-| `viral-video-analyst` | studying reels and viral formats (`playbooks/viral-video-audit.md`) | `references/`, `intelligence/video-formats.md` |
-| `creative-production` | videos and visuals in `studio/` from Creative Work Orders | `studio/`, `content/approved/` |
-| `publishing-distribution` | scheduling approved posts (Postiz when connected), queue, post IDs | `content/calendar.md`, `content/approved/` |
+| Agent | Use it for | Writes to | Phase |
+|---|---|---|---|
+| `editorial-planner` | the schedule (4 weeks ahead), captions, hooks; later campaigns, 30-day calendar, briefs, scripts | `content/`, `campaigns/` | 1 |
+| `creative-production` | post images (`studio/post-photos.mjs`), short reels and videos in `studio/` | `studio/`, `content/approved/` | 1 |
+| `research-intelligence` | phase 1: a listing's facts; later audience, competitors, seasonality, destination demand | `properties/<slug>/`, `intelligence/` | 1 (facts) · 2 |
+| `social-community` | phase 1: replies to messages she pastes; later channel roles, audits, community SOP, FAQs | `community/`, `strategy/channel-strategy.md` | 1 (replies) · 2 |
+| `seo-search` | SEO audit, keywords and intent, page map, local SEO, optimization briefs | `seo/` | 2 |
+| `blog-writer` | SEO articles and guides (destination, itineraries, "where to stay") | `content/copy/blog/` | 2 |
+| `partnerships` | local partners, collaborations, creators, UGC, cross-promotion | `intelligence/partners.md`, `campaigns/` | 2 |
+| `viral-video-analyst` | studying reels and viral formats (`playbooks/viral-video-audit.md`) | `references/`, `intelligence/video-formats.md` | 2 (or when she sends a video) |
+| `analytics-measurement` | KPIs, baseline, weekly and monthly numbers; GA4 and Search Console when connected | `analytics/` | 2 · 3 |
+| `publishing-distribution` | scheduling approved posts (Postiz when connected), queue, post IDs | `content/calendar.md`, `content/approved/` | 3 |
 
 You (the orchestrator) own: the interview with Misschalet, synthesis,
 priorities, `strategy/growth-strategy.md`, approvals, `state/`.
@@ -95,9 +108,10 @@ video boards); facts come from `properties/<slug>/`.
 ## Playbooks (read the one you run)
 | When | Playbook | Command |
 |---|---|---|
-| first start, onboarding, audit, 90-day strategy, first calendar | `playbooks/startup.md` (+ `playbooks/interview-questions-fr.md`) | `/demarrage` |
+| first start: essentials, schedule, first posts (phase 1) | `playbooks/startup.md` (+ `playbooks/interview-questions-fr.md`) | `/demarrage` |
+| phase 2: audit, 90-day strategy, full calendar | `playbooks/growth-audit.md` | `/audit` |
 | every working day | `playbooks/daily.md` | `/journee` |
-| once a week | `playbooks/weekly.md` | `/semaine` |
+| once a week (phase 1: prepare next week's posts) | `playbooks/weekly.md` | `/semaine` |
 | once a month | `playbooks/monthly.md` | `/mois` |
 | a video or reel to study | `playbooks/viral-video-audit.md` | `/analyser-video <lien>` |
 | a video to make | `playbooks/creative-work-order.md` | `/video <id ou idée>` |
@@ -126,13 +140,14 @@ noisy day · rank with **Impact × Confidence × Ease × Strategic fit**, never 
 100-item unranked list.
 
 ## Ending a substantial run
-Reply to Misschalet in French, short: **Ce que j'ai trouvé · Décisions ·
+Phase 1: three lines in French: what is ready, what she must validate, her
+next action. Phase 2 and later, short: **Ce que j'ai trouvé · Décisions ·
 Travail délégué · Contenu / SEO · Vidéos (bons de commande) · Publication ·
 Communauté · Mesure · À valider par toi.** Details stay in the files; update
 `state/last-run.md`.
 
 ## Connected tools
-Status and setup in `os/integrations.md` (GA4 MCP, Search Console,
+Phase 1 needs none: Misschalet posts by hand. Status and setup in `os/integrations.md` (GA4 MCP, Search Console,
 `iannuttall/seo`, `alirezarezvani/claude-skills`, Postiz, Gemini / Veo). When a
 tool is not connected, say so and use the fallback written there; never make
 up data it would have given.

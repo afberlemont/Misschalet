@@ -2,7 +2,7 @@
 
 Les 7 piliers adaptés à Misschalet, avec la part de chacun. Agent : `editorial-planner`.
 
-**Statut : à remplir** (onboarding, `playbooks/startup.md`).
+**Statut : phase 2** (rempli par l'audit, `playbooks/growth-audit.md` ; rien à faire en phase 1).
 
 ## 1. Envie du lieu
 

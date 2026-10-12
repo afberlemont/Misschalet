@@ -2,10 +2,14 @@
 
 Ton équipe marketing dans un dossier. Ton assistant IA lit ce dépôt, devient
 ton **chef d'orchestre** (l'orchestrateur), apprend ta façon de travailler en
-te posant des questions, puis fait travailler une équipe de spécialistes :
-audit, stratégie, planning, publications, vidéos, articles de blog, SEO,
-partenariats, réponses aux messages, mesure des résultats. **Tu décides et tu
-valides ; rien n'est publié sans ton accord.**
+te posant des questions, puis fait travailler une équipe de spécialistes.
+**Tu décides et tu valides ; rien n'est publié sans ton accord.**
+
+**Au début, c'est simple (phase 1)** : un planning et des posts de base
+(photos, carrousels, stories, reels courts), publiés régulièrement. L'agent
+te donne la direction et t'aide à garder le cap. Aucun outil à connecter.
+Ensuite, quand tu le décides : audit et stratégie, SEO, blog, partenariats
+(phase 2), puis outils connectés (phase 3). Détails : `os/phases.md`.
 
 > **Pour l'agent IA qui ouvre ce dépôt** : lis `AGENTS.md` (ton rôle
 > d'orchestrateur), puis `state/current-priorities.md`. Parle en français avec
@@ -14,18 +18,19 @@ valides ; rien n'est publié sans ton accord.**
 ## Démarrer (une seule fois)
 1. Ouvre ce dossier avec ton assistant (Claude Code : l'application, le
    terminal ou claude.ai/code relié à ce dépôt GitHub).
-2. Écris **`/demarrage`**. L'assistant se présente et te pose des questions
-   par petits groupes (environ 20 minutes la première fois ; tu peux arrêter
-   et reprendre, il se souvient).
-3. Il lance les audits, te montre une stratégie sur 90 jours et le planning des
-   prochaines semaines. Tu valides ou tu corriges.
+2. Écris **`/demarrage`**. L'assistant se présente et te pose une dizaine de
+   questions en deux fois (environ 20 minutes ; tu peux arrêter et reprendre,
+   il se souvient).
+3. Tu confirmes les infos de ton chalet, puis il prépare ton planning des 4
+   prochaines semaines et les posts de la première. Tu valides ou tu corriges,
+   puis tu publies.
 
 ## Ensuite, la routine
 | Quand | Tu écris | Ce qui se passe |
 |---|---|---|
-| chaque jour de travail (10 à 20 min) | `/journee` | le post du jour préparé, les messages à répondre, une petite action SEO ; tu valides |
-| une fois par semaine (avec ton mentor) | `/semaine` | le bilan en une page et le plan de la semaine suivante |
-| une fois par mois | `/mois` | la revue de la stratégie |
+| une fois par semaine (20 min, avec ton mentor) | `/semaine` | un bilan rapide, puis **tous les posts de la semaine suivante** préparés ; tu valides tout d'un coup |
+| les jours de publication (5 min) | `/journee` | ton post prêt : les images ou la vidéo, la légende à coller ; tes messages si tu en as |
+| une fois par mois | `/mois` | régularité, ce qui marche, les 4 semaines suivantes |
 | à tout moment | `/point` | où on en est, ce qui attend ta validation |
 | une idée | `/idee ton idée` | notée, triée au bilan de la semaine |
 | une vidéo qui t'inspire | `/analyser-video le lien` | étudiée, gardée comme référence |

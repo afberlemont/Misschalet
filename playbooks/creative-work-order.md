@@ -1,7 +1,10 @@
 # Playbook: creative work order (`/video`)
 
 How the orchestrator (or `editorial-planner`) asks `creative-production` for a
-video or a visual, and how it comes back. Reference:
+video or a visual, and how it comes back. **Phase 1 needs no work order**: the
+basic posts are made straight from the calendar line and its caption
+(`.claude/agents/creative-production.md`, "Phase 1"). Use a work order for a
+new video (a new board, a new format) or from phase 2. Reference:
 `os/PROPERTY_GROWTH_ORCHESTRATOR.md` section 10. The creative agent never
 invents a fact and never redefines the strategy.
 

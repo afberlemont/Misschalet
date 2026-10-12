@@ -2,7 +2,7 @@
 
 Comment répondre aux commentaires, messages et avis, dans le ton de Misschalet (`brand/tone-of-voice.md`). Classes A, B, C, D : `playbooks/community.md`.
 
-**Statut : à remplir** (onboarding, `playbooks/startup.md`).
+**Statut : à remplir au fil de l'eau** (ce que Misschalet dit aimer ou corrige).
 
 ## Principes
 

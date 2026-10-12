@@ -37,6 +37,8 @@ video (Gemini / Veo) plugs in.
 ## Working here (commands run from the repository root)
 - New listing: `node studio/fetch-listing.mjs <link>`, then curate
   `studio/properties/<slug>/property.json` (the draft is generic).
+- Images for a basic post (photo, carousel, story):
+  `node studio/post-photos.mjs <slug> <post id> <n[:fx,fy]>… [--format 4:5|1:1|9:16]`.
 - Review: `node studio/render.mjs <slug> --reel <name> --stills auto`, look at
   the stills, then render: `node studio/render.mjs <slug> --reel <name>`.
 - First time on a machine: `npm --prefix studio install` (+ `npx playwright

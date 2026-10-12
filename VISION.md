@@ -8,6 +8,11 @@ a schedule, then runs it every day with specialist subagents: posts, videos,
 articles, partnerships, community, measurement. She approves; her mentor helps
 her keep the rhythm; the agency maintains and extends it from outside.
 
+**Start basic** (`os/phases.md`): phase 1 is only a schedule and basic posts
+published regularly, the agent directing and keeping her focused; phase 2
+adds the growth audit, strategy, SEO, blog and partnerships; phase 3 the
+connected tools (GA4, Search Console, Postiz, AI video).
+
 **For whom next**: other Airbnb hosts and real-estate agents (the same system,
 a new workspace).
 
@@ -26,6 +31,7 @@ a new workspace).
 |---|---|---|
 | Fetch | listing link → facts, rooms, equipment, distances, photos | Airbnb done; real-estate portals to add |
 | Plan | daily issue; written boards (demo, personas) | done |
+| Post images | listing photos cut for a photo post, carousel or story (`post-photos.mjs`) | done |
 | Render | HTML motion template → MP4 9:16, frame-exact | done |
 | Motion | a photo → a camera move inside the room (Veo 3.1) | script ready, waits for the Gemini key and approval |
 | Transitions | AI transitions between two photos (first / last frame) | planned (`studio/PROVIDERS.md`) |

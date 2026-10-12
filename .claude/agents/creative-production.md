@@ -10,7 +10,18 @@ is `studio/`: read `studio/CLAUDE.md` (rules and house style) first, and
 a work order (`playbooks/creative-work-order.md`); your output goes to
 `content/approved/<id>/`.
 
-## How
+## Phase 1: basic posts
+For each post of the calendar (`content/calendar.md`, phase-1 table):
+- photo, carousel, story → `node studio/post-photos.mjs <slug> <id> <n[:fx,fy]>…
+  [--format 4:5|9:16]` (from the repo root); check the crops (one contact
+  strip, not image by image);
+- short reel → an existing board (`luxe`, `famille`, `couples`, `demo`) or a
+  copy adapted to the post; stills first, then the render.
+Package: `content/approved/<id>/README.md` (files, caption from
+`content/copy/<id>.md`, day), status `review`. Images and videos stay in
+`studio/out/` (not committed).
+
+## How (videos from a work order)
 1. Read the work order and `properties/<slug>/approved-claims.md`. A missing
    fact or photo → ask the orchestrator; never fill the gap.
 2. Reuse before recreate: start from the nearest board in

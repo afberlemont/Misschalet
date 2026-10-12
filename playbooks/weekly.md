@@ -1,33 +1,40 @@
-# Playbook: weekly review (`/semaine`)
+# Playbook: weekly session (`/semaine`)
 
-Once a week, ideally before her weekly point with her mentor. Reference:
-`os/PROPERTY_GROWTH_ORCHESTRATOR.md` section 14. One page, not a report.
+Read `state/settings.md` (phase) and follow that phase's section only.
 
-## 1. Gather (parallel subagents, at most 10 lines each)
-- `analytics-measurement` → `analytics/weekly/<YYYY>-W<nn>.md`: the week vs.
-  the previous one and the baseline (metric → comparison → interpretation →
-  action). Not connected → what she can read in Airbnb / Instagram insights
-  and paste; the agent asks her for 3 numbers, no more.
-- `social-community`: what people asked, what they saved and shared, themes.
-- `seo-search`: new queries or pages moving; update `seo/optimization-queue.md`.
-- `publishing-distribution`: what was published, what was late or skipped.
+## Phase 1: prepare next week in one go (about 20 minutes)
+The main session of phase 1: all of next week's posts are made and approved
+here, so the posting days take 5 minutes.
 
-## 2. The eight questions (orchestrator, in the weekly file)
-What changed? What performed? What underperformed? What did guests and
-searchers ask for? What SEO opportunity appeared? What should stop? What
-continues? What do we test next?
+1. **Last week** (orchestrator, with her, 3 questions max): what was posted
+   vs. planned; anything people said or asked (comments, messages, booking
+   requests); a post she liked. Write 5 lines in
+   `analytics/weekly/<YYYY>-W<nn>.md`. No numbers to look up.
+2. **Next week** (delegate in parallel):
+   - `editorial-planner`: check next week's lines of `content/calendar.md`
+     (adjust for what she said, the season, a question asked twice), write
+     the captions (`content/copy/<id>.md`); keep 4 weeks planned ahead.
+   - then `creative-production`: the images (`node studio/post-photos.mjs`)
+     and short reels (existing boards, stills first) for each post;
+     packages in `content/approved/<id>/README.md`, status `review`.
+3. **Validation**: show the week post by post; oui / modifie / non; approved
+   → `approved`.
+4. **Ideas**: read `ideas/inbox.md` new lines; a simple post idea may enter
+   the calendar; anything bigger waits (`playbooks/ideas.md`).
+5. **Focus**: one sentence for the week (e.g. "les familles pour février");
+   `state/current-priorities.md`, `state/last-run.md`. Offer to save.
 
-## 3. Update (delegate)
-- `editorial-planner`: the 30-day calendar and next week's 7-day plan.
-- `seo-search`: the SEO queue (top 3 only).
-- Orchestrator: campaign priorities, `strategy/experiments.md`, and the triage
-  of `ideas/inbox.md` (`playbooks/ideas.md`).
-- `viral-video-analyst` (only if she sent reels): references and
-  `intelligence/video-formats.md`.
-
-Do not change the strategy because of one week unless the evidence is strong.
-
-## 4. Present (in French, for her and her mentor)
-5 lines of results, 3 decisions to take (with your recommendation), the plan
-of the week, what she must approve. Update `state/current-priorities.md` and
-`state/last-run.md`.
+## Phase 2 and later
+Reference: `os/PROPERTY_GROWTH_ORCHESTRATOR.md` §14. One page, not a report.
+1. **Gather** (parallel, at most 10 lines each): `analytics-measurement` →
+   `analytics/weekly/<YYYY>-W<nn>.md` (metric → comparison → interpretation →
+   action; not connected → 3 numbers she pastes); `social-community` (asks,
+   saves, shares, themes); `seo-search` (`seo/optimization-queue.md`);
+   `publishing-distribution` (published, late, skipped).
+2. **Eight questions**: what changed, performed, underperformed; what guests
+   and searchers asked; SEO opportunity; stop; continue; test next.
+3. **Update**: `editorial-planner` (30-day calendar, next 7 days),
+   `seo-search` (top 3), orchestrator (campaigns, experiments, ideas triage),
+   `viral-video-analyst` if she sent reels. No strategy change on one week.
+4. **Present** in French: 5 lines of results, 3 decisions with your
+   recommendation, the week's plan, what she must approve.

@@ -1,9 +1,14 @@
 # Priorités actuelles
 
-## Onboarding
-**Pas encore fait.** Prochaine étape : `/demarrage` (phase 1, l'entretien).
-Déjà prêt : les faits de La Rosière importés de l'annonce (à confirmer), 7
-reels de référence étudiés, 4 vidéos de démonstration dans le studio.
+## Phase
+**Phase 1 · La base** (`os/phases.md`) : un planning simple et des posts de
+base, publiés régulièrement. Rien d'autre pour l'instant.
 
-## Priorités des 2 prochaines semaines
-(à définir avec Misschalet)
+## Onboarding
+**Pas encore fait.** Prochaine étape : `/demarrage` (une vingtaine de minutes).
+Déjà prêt : les faits de La Rosière importés de l'annonce (à confirmer) ;
+des reels courts (luxe, famille, couples, demo) et l'export de photos dans le
+studio.
+
+## Focus des 4 prochaines semaines
+(à définir avec Misschalet au démarrage)

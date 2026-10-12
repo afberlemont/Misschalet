@@ -1,5 +1,9 @@
 # Outils connectés
 
+**Phase 1 : aucun outil à connecter.** Misschalet publie à la main ; le studio
+tourne sur l'ordinateur. Ce tableau sert à partir de la phase 3
+(`os/phases.md`).
+
 L'état de chaque outil, comment le connecter, et quoi faire tant qu'il ne l'est
 pas. **Un outil non connecté ne fournit aucune donnée : on ne l'invente
 jamais**, on utilise la solution de repli. Mettre à jour le statut dès qu'un

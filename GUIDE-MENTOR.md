@@ -6,21 +6,30 @@ décisions et à garder le bon sens.
 
 ## Ce que fait le système, en une phrase
 Un assistant IA joue le rôle de responsable marketing : il pose des questions
-à Misschalet, analyse son marché, propose une stratégie et un planning, fait
-préparer les publications, vidéos et articles par des assistants
-spécialisés, et attend toujours son accord avant de publier.
+à Misschalet, lui donne une direction claire, prépare un planning et fait
+préparer les publications par des assistants spécialisés. Il attend toujours
+son accord avant de publier. Plus tard, il pourra aussi analyser le marché,
+construire une stratégie complète et écrire des articles.
+
+## Au début : la phase 1
+On commence simple : un planning et des posts de base, publiés régulièrement.
+**La seule mesure, c'est la régularité** (les posts prévus sont-ils publiés ?)
+et ce que les gens disent ou demandent. Pas d'outils, pas de statistiques à
+chercher. Le reste (stratégie complète, SEO, blog, partenariats) viendra
+quand la base tourne (`os/phases.md`).
 
 ## Ton rôle
-1. **Le point de la semaine** (30 minutes, même jour, même heure). Misschalet
-   écrit `/semaine` ; vous lisez ensemble le bilan d'une page.
+1. **Le point de la semaine** (20 à 30 minutes, même jour, même heure).
+   Misschalet écrit `/semaine` : un bilan rapide, puis les posts de la
+   semaine suivante, que vous relisez ensemble.
 2. **Poser les bonnes questions** (voir plus bas), pas faire à sa place.
 3. **Garder le cap** : on juge sur les réservations et les demandes, pas sur
    les « j'aime ».
 4. **Noter les idées** : toute idée, la tienne aussi, va dans `/idee …`.
 
 ## Le point de la semaine, pas à pas
-1. Lire le bilan : 5 lignes de résultats, 3 décisions proposées, le plan de la
-   semaine, ce qui attend sa validation.
+1. Lire le bilan : ce qui a été publié, ce que les gens ont dit ou demandé,
+   puis les posts proposés pour la semaine suivante.
 2. Pour chaque décision : est-ce que c'est clair ? Est-ce que ça rapporte des
    réservations ? Est-ce que c'est faisable cette semaine ?
 3. Regarder ensemble les contenus à valider (vidéos, textes). Corriger ce qui
@@ -29,6 +38,7 @@ spécialisés, et attend toujours son accord avant de publier.
 4. Fixer la date du prochain point.
 
 ## Les questions utiles
+- Les posts prévus ont-ils été publiés ? Sinon, qu'est-ce qui a bloqué ?
 - Qu'est-ce qui a amené des demandes ou des réservations cette semaine ?
 - Qu'est-ce que les voyageurs ont demandé plusieurs fois ?
 - Qu'est-ce qu'on arrête ?

@@ -99,6 +99,15 @@ environment or in `studio/.env` (git-ignored, never printed).
 `--dry-run` shows the request without calling the API. Using the clips in the
 reels is the next step.
 
+## Images for basic posts
+
+`node studio/post-photos.mjs <slug> <post id> <n[:fx,fy]>… [--format 4:5|1:1|9:16]`
+cuts listing photos to a post's format around their focus (`n:fx,fy` in
+percent, else `property.json → focus`, else the centre), in the given order:
+`out/<slug>/posts/<id>/01-<n>.jpg`… A photo post is one number, a carousel
+3 to 6, a story one number with `--format 9:16`. No text is drawn on them:
+the words go in the caption (and a story's sticker in the app).
+
 ## A new property
 
 1. `node studio/fetch-listing.mjs <airbnb link>` writes `properties/<slug>/listing.json`

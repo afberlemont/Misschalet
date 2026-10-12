@@ -1,58 +1,38 @@
 # Playbook: daily routine (`/journee`)
 
-Every working day, 10 to 20 minutes of Misschalet's time. Reference:
-`os/PROPERTY_GROWTH_ORCHESTRATOR.md` section 9. If onboarding is not done,
-offer `/demarrage` instead.
+Read `state/settings.md` (phase) and follow that phase's section only.
 
-## 1. Read state (small reads only)
-`state/current-priorities.md`, `state/last-run.md`, the next 7 days of
-`content/calendar.md`, the latest file in `analytics/weekly/` (summary only).
-Read `strategy/growth-strategy.md` only if today's work touches strategy.
+## Phase 1: posting day (5 minutes)
+Read only `state/last-run.md` and today's lines of `content/calendar.md`.
+1. **Today's post ready?** (`content/approved/<id>/`, status `approved`)
+   → give her the package: where the images or video are, the caption to
+   paste, the time. Not ready → prepare it now (delegate as in
+   `playbooks/weekly.md` phase 1, step 2), then ask her OK.
+2. **She posted?** → status `published`, the date. She could not → move it to
+   the next free day, never two posts the same day to catch up.
+3. **Messages** (only if she pastes some) → `social-community` drafts the
+   replies (`playbooks/community.md`); sensitive ones go to her, no draft.
+4. **What she noticed** (optional, one line: a question asked, a booking
+   request, a post people liked) → `state/learnings.md` only if it matters.
+5. End with the next action and the day of the next post. Nothing else: no
+   new ideas to develop today (`/idee` keeps them for later).
 
-## 2. Live signals (only what is connected, see `os/integrations.md`)
-Delegate in parallel, each returning at most 5 lines:
-- `analytics-measurement`: anything unusual since yesterday (GA4, Search
-  Console). Nothing connected → skip, do not guess.
-- `social-community`: comments, DMs and reviews she pastes or that a connected
-  tool shows, classified by `playbooks/community.md`.
-- `publishing-distribution`: the queue (what is scheduled, what failed).
-Do not react to one noisy day.
-
-## 3. Choose today's work (the smallest set with the biggest impact)
-Usually: **1 main post**, optional story, community replies, and at most one
-SEO or content task (an article section, a page fix, a FAQ). Prefer what the
-calendar already says; change it only for a real signal (a question asked 3
-times, a sudden gap in bookings, an event).
-
-## 4. Brief (delegate to `editorial-planner`)
-The post brief in `content/briefs/<id>.md`: objective, audience, angle, hook,
-story, caption, CTA, platform, visual concept, source material, must-show
-details, on-screen words, duration, format, references, exact claims,
-deadline. Only claims from `properties/<slug>/approved-claims.md`.
-
-## 5. Creative (if a video or visual is needed)
-Write the work order (`playbooks/creative-work-order.md`), delegate to
-`creative-production`. Stills first; full render after you checked them.
-
-## 6. Review what comes back
-Brand fit, accuracy, no invented facts, readability, pace, safe area, platform
-fit, CTA. If something is off, a precise revision brief (what, where, why).
-
-## 7. Approval (with Misschalet, in French)
-Package: the video or visual, the caption, the date and time, the channel.
-Status `review` in the calendar. She says oui / modifie / non; record it
-(`state/decisions.md` only if it sets a rule for the future).
-
-## 8. Schedule
-Approved → `publishing-distribution` schedules (Postiz when connected;
-otherwise it prepares a ready-to-post package and she posts it by hand) and
-records platform, time, post ID, final caption, file, campaign.
-
-## 9. Community
-`social-community` drafts replies for A and B messages (she sends or
-approves), logs C as ideas, escalates D to her at once.
-
-## 10. Log
-`state/last-run.md` (5 lines: date, what was done, what waits for her).
-A learning goes to `state/learnings.md` only if it changes future decisions.
-Reply to her with the run summary of `AGENTS.md`, short.
+## Phase 2 and later
+Reference: `os/PROPERTY_GROWTH_ORCHESTRATOR.md` §9.
+1. **Read state**: `state/current-priorities.md`, `state/last-run.md`, the next
+   7 days of `content/calendar.md`, the latest `analytics/weekly/` summary.
+2. **Live signals** (only what is connected, `os/integrations.md`), in
+   parallel, at most 5 lines each: `analytics-measurement` (unusual numbers),
+   `social-community` (messages classified by `playbooks/community.md`),
+   `publishing-distribution` (the queue). One noisy day is not a trend.
+3. **Today's work**: 1 main post, optional story, community replies, at most
+   one SEO or content task.
+4. **Brief** (`editorial-planner`): `content/briefs/<id>.md`, approved claims
+   only.
+5. **Creative** (`playbooks/creative-work-order.md`), stills first.
+6. **Review**: brand fit, accuracy, readability, pace, safe area, CTA; precise
+   revision brief if needed.
+7. **Approval** with her; status `review` → `approved`.
+8. **Schedule** (`publishing-distribution`; by hand if nothing is connected).
+9. **Community**: replies for A and B, C logged as ideas, D escalated.
+10. **Log**: `state/last-run.md` (5 lines); run summary of `AGENTS.md`.

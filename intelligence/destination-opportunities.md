@@ -2,7 +2,7 @@
 
 Sujets que les voyageurs cherchent (ski, randonnées, familles, itinéraires…), classés, avec pilier et canal. Agent : `research-intelligence`.
 
-**Statut : à remplir** (onboarding, `playbooks/startup.md`).
+**Statut : phase 2** (rempli par l'audit, `playbooks/growth-audit.md` ; rien à faire en phase 1).
 
 ## Sujets classés
 
