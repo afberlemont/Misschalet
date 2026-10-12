@@ -22,6 +22,7 @@ l'agence à chaque passage ; alimenté par l'orchestrateur (idées de type
 | `google-business-profile` | si le SEO local devient prioritaire |
 | `paid-ads` | si un budget publicitaire est décidé |
 | `real-estate` | pour un client agent immobilier |
+| `listing-optimizer` | audit et réécriture des annonces Airbnb (photos, ordre, titre, texte) : fait à la main par l'agence le 2026-10-12, à transformer en agent si on le refait |
 
 ## Propositions (de l'orchestrateur ou de Misschalet)
 Format : `- [date] proposition · pourquoi · bénéfice · coût · statut (proposée, acceptée, faite, refusée)`

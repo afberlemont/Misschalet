@@ -1,0 +1,198 @@
+{
+  "slug": "chaletpierrefleur",
+  "lang": "fr",
+  "startDate": "2026-10-12",
+  "name": "Chalet Pierre Fleur",
+  "kicker": "Hébergement · Bex",
+  "place": "Bex",
+  "url": "airbnb.com/rooms/1741144846421702313",
+  "palettes": [
+    "papier",
+    "sable",
+    "nuit"
+  ],
+  "hashtags": [
+    "#bex",
+    "#hbergement",
+    "#airbnb"
+  ],
+  "focus": {},
+  "pins": {},
+  "covers": [
+    1,
+    26,
+    16,
+    7
+  ],
+  "coverLines": [
+    [
+      "Familial avec vue imprenable"
+    ]
+  ],
+  "coverCaps": "11 voyageurs · 5 chambres · Cheminée",
+  "chapters": [
+    {
+      "id": "salon",
+      "section": "Le salon",
+      "title": [
+        "Le salon,",
+        "<em>pour se retrouver</em>"
+      ],
+      "caption": "Le salon.",
+      "text": "Le salon.",
+      "tags": [
+        "Cheminée",
+        "Accès à un lac",
+        "Barbecue",
+        "Bouilloire électrique",
+        "Brasero",
+        "Cafetière",
+        "Chaises longues",
+        "Congélateur",
+        "Cuisinière",
+        "Détecteur de fumée"
+      ],
+      "photos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "layout": "spotlight"
+    },
+    {
+      "id": "cuisine",
+      "section": "La cuisine",
+      "title": [
+        "Tout",
+        "<em>pour cuisiner</em>"
+      ],
+      "caption": "La cuisine équipée.",
+      "text": "La cuisine équipée.",
+      "tags": [],
+      "photos": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "repas",
+      "section": "La table",
+      "title": [
+        "À table,",
+        "<em>tous ensemble</em>"
+      ],
+      "caption": "L'espace repas.",
+      "text": "L'espace repas.",
+      "tags": [],
+      "photos": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "chambres",
+      "section": "Les chambres",
+      "title": [
+        "Les chambres,",
+        "<em>au calme</em>"
+      ],
+      "caption": "Les chambres.",
+      "text": "Les chambres.",
+      "tags": [
+        "Lit double",
+        "2 lits superposés",
+        "Lit pour bébé"
+      ],
+      "photos": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "bains",
+      "section": "Les bains",
+      "title": [
+        "Les salles",
+        "<em>de bains</em>"
+      ],
+      "caption": "Les salles de bains.",
+      "text": "Les salles de bains.",
+      "tags": [],
+      "photos": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "dehors",
+      "section": "Dehors",
+      "title": [
+        "Le grand",
+        "<em>air</em>"
+      ],
+      "caption": "L'extérieur.",
+      "text": "L'extérieur.",
+      "tags": [],
+      "photos": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    }
+  ],
+  "facts": {
+    "title": [
+      "L'essentiel",
+      "<em>en chiffres</em>"
+    ],
+    "rows": [
+      {
+        "v": 11,
+        "l": "voyageurs"
+      },
+      {
+        "v": 5,
+        "l": "chambres"
+      },
+      {
+        "v": 12,
+        "l": "lits"
+      },
+      {
+        "v": 3,
+        "l": "salles de bain"
+      }
+    ],
+    "note": "Note 0 / 5 · 0 commentaires"
+  },
+  "cta": {
+    "eyebrow": "Réservez votre séjour",
+    "sub": "Familial avec vue imprenable",
+    "stats": "11 voyageurs · 5 chambres",
+    "photos": [
+      1,
+      26,
+      16,
+      7
+    ]
+  }
+}

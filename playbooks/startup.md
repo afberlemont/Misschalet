@@ -15,8 +15,10 @@ plan for the next 4 weeks and the posts of the first week; she validates; she
 posts them herself.
 
 ## 2. The essentials (2 batches of questions)
-Only the questions marked ★ in `playbooks/interview-questions-fr.md`. Propose
-what you already know (La Rosière is imported) and let her correct. Write the
+First the questions listed in `state/current-priorities.md` (the agency's
+open points), then the ★ questions of `playbooks/interview-questions-fr.md`
+not answered yet. Propose what the files already say (the three chalets are
+imported and audited) and let her correct. Write the
 answers at once, briefly: `brand/brand-context.md` (goal), `brand/target-guests.md`,
 `brand/offers.md` (the booking link), `brand/tone-of-voice.md`,
 `state/settings.md` (channels, posts per week, approval, day of the weekly
@@ -30,7 +32,9 @@ the 2 or 3 questions of `facts.md` → "À clarifier". What she confirms moves t
 the files (everything `à confirmer`).
 
 ## 4. The schedule (delegate to `editorial-planner`)
-Brief: the next 4 weeks in `content/calendar.md` (phase 1 table), her rhythm
+If `content/calendar.md` already holds a proposed 4 weeks (the agency's
+draft), review it with her and have the planner apply her changes instead
+of starting over. Otherwise, brief: the next 4 weeks in `content/calendar.md` (phase 1 table), her rhythm
 (default 3 posts a week), the 4 phase-1 themes and formats (in that file),
 the season, only approved claims. Then the captions of week 1 in
 `content/copy/<id>.md`. Return at most 10 lines.

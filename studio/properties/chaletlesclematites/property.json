@@ -1,0 +1,271 @@
+{
+  "slug": "chaletlesclematites",
+  "lang": "fr",
+  "startDate": "2026-10-12",
+  "name": "Les Clématites",
+  "kicker": "Hébergement · Ollon",
+  "place": "Ollon",
+  "url": "airbnb.com/rooms/1331985984740445143",
+  "palettes": [
+    "papier",
+    "sable",
+    "nuit"
+  ],
+  "hashtags": [
+    "#ollon",
+    "#hbergement",
+    "#airbnb"
+  ],
+  "focus": {},
+  "pins": {},
+  "covers": [
+    1,
+    81,
+    27,
+    12
+  ],
+  "coverLines": [
+    [
+      "Exclusive Chalet, Villars Center"
+    ]
+  ],
+  "coverCaps": "12 voyageurs · 6 chambres · Cheminée",
+  "chapters": [
+    {
+      "id": "salon",
+      "section": "Le salon",
+      "title": [
+        "Le salon,",
+        "<em>pour se retrouver</em>"
+      ],
+      "caption": "Le salon.",
+      "text": "Le salon.",
+      "tags": [
+        "Cheminée",
+        "Système audio"
+      ],
+      "photos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "cuisine",
+      "section": "La cuisine",
+      "title": [
+        "Tout",
+        "<em>pour cuisiner</em>"
+      ],
+      "caption": "La cuisine équipée.",
+      "text": "La cuisine équipée.",
+      "tags": [
+        "Bouilloire électrique",
+        "Cafetière",
+        "Congélateur",
+        "Cuisinière",
+        "Four",
+        "Grille-pain",
+        "Lave-vaisselle",
+        "Réfrigérateur",
+        "Vaisselle et couverts",
+        "Verres à vin"
+      ],
+      "photos": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "layout": "spotlight"
+    },
+    {
+      "id": "repas",
+      "section": "La table",
+      "title": [
+        "À table,",
+        "<em>tous ensemble</em>"
+      ],
+      "caption": "L'espace repas.",
+      "text": "L'espace repas.",
+      "tags": [
+        "Table à manger",
+        "Verres à vin"
+      ],
+      "photos": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "chambres",
+      "section": "Les chambres",
+      "title": [
+        "Les chambres,",
+        "<em>au calme</em>"
+      ],
+      "caption": "Les chambres.",
+      "text": "Les chambres.",
+      "tags": [
+        "Lit queen size",
+        "Linge de lit",
+        "Fer à repasser",
+        "Stores ou rideaux occultants",
+        "Télévision",
+        "2 lits simples"
+      ],
+      "photos": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "id": "bains",
+      "section": "Les bains",
+      "title": [
+        "Les salles",
+        "<em>de bains</em>"
+      ],
+      "caption": "Les salles de bains.",
+      "text": "Les salles de bains.",
+      "tags": [
+        "Savon pour le corps",
+        "Shampoing",
+        "Sèche-cheveux"
+      ],
+      "photos": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "id": "dehors",
+      "section": "Dehors",
+      "title": [
+        "Le grand",
+        "<em>air</em>"
+      ],
+      "caption": "L'extérieur.",
+      "text": "L'extérieur.",
+      "tags": [],
+      "photos": [
+        81,
+        82,
+        83
+      ]
+    }
+  ],
+  "facts": {
+    "title": [
+      "L'essentiel",
+      "<em>en chiffres</em>"
+    ],
+    "rows": [
+      {
+        "v": 12,
+        "l": "voyageurs"
+      },
+      {
+        "v": 6,
+        "l": "chambres"
+      },
+      {
+        "v": 8,
+        "l": "lits"
+      },
+      {
+        "v": 6,
+        "l": "salles de bain"
+      }
+    ],
+    "note": "Note 5 / 5 · 14 commentaires"
+  },
+  "nearby": {
+    "title": [
+      "Tout",
+      "<em>autour</em>"
+    ],
+    "photos": [
+      81,
+      27
+    ],
+    "items": [
+      {
+        "name": "Restaurant",
+        "d": "100 m"
+      },
+      {
+        "name": "Magasin d'alimentation, café et bar",
+        "d": "200 m"
+      },
+      {
+        "name": "Boulangerie",
+        "d": "250 m"
+      },
+      {
+        "name": "Train de montagne",
+        "d": "300 m"
+      },
+      {
+        "name": "Piscine couverte et patinoire",
+        "d": "500 m"
+      },
+      {
+        "name": "Terrain de golf (18 trous)",
+        "d": "6 km"
+      },
+      {
+        "name": "Centre sportif",
+        "d": "1.5 km"
+      },
+      {
+        "name": "Télécabine",
+        "d": "800 m"
+      },
+      {
+        "name": "Ecole de ski",
+        "d": "200 m"
+      },
+      {
+        "name": "Ski-bus gratuit",
+        "d": "50 m"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Réservez votre séjour",
+    "sub": "Exclusive Chalet, Villars Center",
+    "stats": "12 voyageurs · 6 chambres",
+    "photos": [
+      1,
+      81,
+      27,
+      12
+    ]
+  }
+}
