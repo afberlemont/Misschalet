@@ -2,7 +2,7 @@
 .env
 .env.*
 # local tooling and caches
-node_modules/
+node_modules
 .DS_Store
 .claude/settings.local.json
 # video study work dirs (playbooks/viral-video-audit.md); rendered media live in studio/out/ (ignored there)
