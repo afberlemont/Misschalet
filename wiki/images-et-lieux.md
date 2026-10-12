@@ -1,10 +1,12 @@
 # Images et lieux
 
 ## La règle (V05)
-**Quand on cite un lieu, l'image montre exactement ce lieu**, et c'est une
-belle image : lumière, cadrage, saison. Si on n'a pas d'image exacte, on ne
-nomme pas le lieu (on dit « dans la région ») ou on attend la bonne image.
-Une image d'ambiance (du ski, une fondue) est possible sans nom de lieu.
+**À l'écran, quand on cite un lieu, l'image montre exactement ce lieu**, et
+c'est une belle image : lumière, cadrage, saison. Si on n'a pas d'image
+exacte, on ne nomme pas le lieu à l'écran (on dit « dans la région ») ou on
+attend la bonne image. Une image d'ambiance (du ski, une fondue) est possible
+sans nom de lieu, et sans étiquette de lieu en haut de page. **Dans la
+légende**, on peut nommer et identifier les lieux et les restaurants (P03).
 
 ## D'où viennent les images
 1. **Les photos des chalets** (annonces Airbnb, ou les siennes).

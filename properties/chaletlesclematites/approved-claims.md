@@ -23,3 +23,4 @@ Issues de l'annonce importée le 2026-10-12 :
 - Six salles de douche avec WC et lavabo, une pour chaque chambre, dont trois en suite (dans les vidéos : « une salle de bain privative pour chaque chambre ») · ajouté le 2026-10-12 (vidéo entre amis)
 - Piscine couverte et patinoire à 500 m · ajouté le 2026-10-12 (vidéo entre amis)
 - Décor design : bois clair, art contemporain, cuisine noire (« chalet design ») · ajouté le 2026-10-12
+- Badge Airbnb « Coup de cœur voyageurs » (parmi les 10 % de logements préférés), à revérifier le jour de la publication · ajouté le 2026-10-12 (vidéo entre amis)

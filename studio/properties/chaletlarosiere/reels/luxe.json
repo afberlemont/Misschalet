@@ -1,28 +1,86 @@
 {
   "name": "luxe",
-  "note": "Short (10 s), premium guests: fire, embroidered linen, sauna, the chandelier.",
-  "music": { "style": "lux", "bpm": 120, "seed": 5 },
+  "note": "Court (≈ 15 s), clientèle haut de gamme : la cheminée, le linge brodé, le sauna. Refait le 2026-10-12 selon V10 à V14 (une brillance, photos entières, rythme posé). Silencieux.",
+  "music": {
+    "style": "lux",
+    "bpm": 120,
+    "seed": 5
+  },
   "palette": "papier",
   "grade": "saturate(1.08) contrast(1.05) sepia(.07) brightness(1.0)",
   "coverAt": 1.6,
-  "caption": ["Un séjour d'exception à Villars.", "", "Grande cheminée, sauna, linge brodé, six chambres : La Rosière, chalet haut de gamme au centre de Villars-sur-Ollon."],
-  "hashtags": ["#chaletdeluxe", "#luxurychalet", "#villars", "#villarssurollon", "#alpesvaudoises", "#suisse", "#airbnb"],
+  "caption": [
+    "Un séjour d'exception à Villars",
+    "",
+    "Grande cheminée, sauna, linge brodé, six chambres : La Rosière, chalet haut de gamme au centre de Villars-sur-Ollon."
+  ],
+  "hashtags": [
+    "#chaletdeluxe",
+    "#luxurychalet",
+    "#villars",
+    "#villarssurollon",
+    "#alpesvaudoises",
+    "#suisse",
+    "#airbnb"
+  ],
   "scenes": [
-    { "type": "hook", "beats": 4, "photo": { "n": 5, "motion": "in" }, "lines": ["Un séjour", "d'exception", "à Villars"] },
     {
-      "type": "montage", "beats": 8, "enter": "cut",
-      "shots": [
-        { "photo": { "n": 4, "zoom": 1.5, "fx": 30, "fy": 45 }, "beats": 2, "label": "Grande cheminée", "icon": "flame" },
-        { "photo": { "n": 24, "zoom": 1.7, "fx": 49, "fy": 76 }, "beats": 2, "label": "Linge brodé", "icon": "feather" },
-        { "photo": { "n": 92, "zoom": 1.5, "fx": 80, "fy": 76 }, "beats": 2, "label": "Sauna" },
-        { "photo": { "n": 18, "zoom": 1.6, "fx": 55, "fy": 24 }, "beats": 2 }
+      "type": "hook",
+      "beats": 6,
+      "photo": {
+        "n": 5,
+        "motion": "in"
+      },
+      "lines": [
+        "Un séjour",
+        "d'exception",
+        "à Villars"
       ]
     },
     {
-      "type": "cta", "beats": 8, "enter": "shine", "tIn": 1.1, "sheen": 1.2,
-      "photo": { "n": 1, "motion": "in" },
-      "eyebrow": "Chalet de luxe · Villars-sur-Ollon",
-      "sub": "Cheminée · Sauna · Linge brodé",
+      "type": "montage",
+      "beats": 15,
+      "enter": "shine",
+      "fit": true,
+      "shots": [
+        {
+          "photo": {
+            "n": 4
+          },
+          "beats": 5,
+          "label": "La grande cheminée",
+          "icon": "flame"
+        },
+        {
+          "photo": {
+            "n": 24
+          },
+          "beats": 5,
+          "label": "Linge de lit brodé",
+          "icon": "feather"
+        },
+        {
+          "photo": {
+            "n": 85
+          },
+          "beats": 5,
+          "label": "Le sauna, après le ski",
+          "icon": "sauna"
+        }
+      ],
+      "tIn": 1.1
+    },
+    {
+      "type": "cta",
+      "beats": 9,
+      "enter": "wipe-up",
+      "tIn": 0.8,
+      "photo": {
+        "n": 1,
+        "motion": "in"
+      },
+      "eyebrow": "Réservez votre séjour d'exception",
+      "sub": "Cheminée · Sauna privé · Linge brodé",
       "stats": "14 voyageurs · 6 chambres"
     }
   ]
