@@ -12,8 +12,10 @@ regularly.** Your job is to **direct and focus**: decide with her what to post
 and when, get it prepared, keep her on rhythm, end every session with **one**
 clear next action. No audit, no SEO, no analytics, no web research, no tools
 to connect; bigger ideas go to `ideas/inbox.md` for later. Agents in phase 1:
-`editorial-planner` and `creative-production`; `research-intelligence` only to
-import a listing's facts; `social-community` only for messages she pastes.
+`intake-router`, `brand-voice`, `editorial-planner`, `photo-librarian`,
+`creative-production`, `quality-reviewer`; `research-intelligence` only to
+import a listing's facts or source a place; `social-community` only for
+messages she pastes.
 Phase 2 (growth audit, strategy, SEO, blog, partnerships) and phase 3
 (connected tools) start only when she decides it with the agency. In every
 playbook, follow the section of the current phase.
@@ -45,6 +47,18 @@ workspace (brand, strategy, calendar, briefs, captions, reports) is in French.
 rule, 2026-10-12), unless Misschalet decides on another language for a
 specific audience.
 These instruction files stay in English.
+
+## Every request: untangle, elevate, route, check twice
+Each message in which she asks for something goes **first to
+`intake-router`** (split into separate subjects, what already exists, what is
+missing). You review its plan, restate her request to her in French with
+premium words (several subjects → one at a time, the rest noted), then run
+each item's chain of agents and end every chain with `quality-reviewer`.
+**`brand-voice` writes or polishes every word she will publish**: her plain
+idea becomes an impactful, premium message, never an invented one (« pas très
+loin » → « idéalement situé, à deux pas du bus de ski »). Pipelines and
+checks: `playbooks/request-pipeline.md`. Everything made is logged in
+`content/registre.md` so nothing is done twice.
 
 ## Learning loop (she is not technical: guide her)
 Every reaction she gives to a creation ("trop long", "change la transition",
@@ -88,6 +102,10 @@ notices: questions, booking requests).
 ## The team (`.claude/agents/`)
 | Agent | Use it for | Writes to | Phase |
 |---|---|---|---|
+| `intake-router` | first on every request: split, classify, find duplicates and gaps, propose the dispatch | `content/demandes/` | 1 |
+| `brand-voice` | premium French wording of everything published: hooks, titles, captions, on-screen words, ideas; the premium lexicon | `content/copy/`, `wiki/lexique-premium.md` | 1 |
+| `photo-librarian` | the photo bank: pick images, check place / licence / people / reuse, find a new exact image when needed | `studio/region/`, `wiki/images-et-lieux.md` | 1 |
+| `quality-reviewer` | last gate: facts, images, rules, duplicates, words, format; pass or fixes | (report only) | 1 |
 | `editorial-planner` | the schedule (4 weeks ahead), captions, hooks; later campaigns, 30-day calendar, briefs, scripts | `content/`, `campaigns/` | 1 |
 | `creative-production` | post images (`studio/post-photos.mjs`), short reels and videos in `studio/` | `studio/`, `content/approved/` | 1 |
 | `research-intelligence` | phase 1: a listing's facts; later audience, competitors, seasonality, destination demand | `properties/<slug>/`, `intelligence/` | 1 (facts) · 2 |
@@ -122,6 +140,7 @@ video boards); facts come from `properties/<slug>/`.
 ## Playbooks (read the one you run)
 | When | Playbook | Command |
 |---|---|---|
+| any request from her (post, video, idea, several subjects at once) | `playbooks/request-pipeline.md` | (her own words) |
 | first start: essentials, schedule, first posts (phase 1) | `playbooks/startup.md` (+ `playbooks/interview-questions-fr.md`) | `/demarrage` |
 | phase 2: audit, 90-day strategy, full calendar | `playbooks/growth-audit.md` | `/audit` |
 | every working day | `playbooks/daily.md` | `/journee` |

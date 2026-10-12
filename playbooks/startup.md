@@ -36,13 +36,14 @@ If `content/calendar.md` already holds a proposed 4 weeks (the agency's
 draft), review it with her and have the planner apply her changes instead
 of starting over. Otherwise, brief: the next 4 weeks in `content/calendar.md` (phase 1 table), her rhythm
 (default 3 posts a week), the 4 phase-1 themes and formats (in that file),
-the season, only approved claims. Then the captions of week 1 in
-`content/copy/<id>.md`. Return at most 10 lines.
+the season, only approved claims. Then `brand-voice` writes the captions
+of week 1 in `content/copy/<id>.md` (premium, `wiki/lexique-premium.md`).
 
 ## 5. The posts of week 1 (delegate to `creative-production`)
 Brief: for each post of week 1, the images or the short video named in the
-calendar: photos with `node studio/post-photos.mjs`, reels from the existing
-boards (stills first). Packages in `content/approved/<id>/README.md`, status
+calendar (`photo-librarian` picks or completes the images first): photos
+with `node studio/post-photos.mjs`, reels from the existing boards (stills
+first); then `quality-reviewer` checks each package. Packages in `content/approved/<id>/README.md`, status
 `review`. Return at most 10 lines.
 
 ## 6. Validation (with her)

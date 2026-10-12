@@ -15,8 +15,11 @@ quand, prépare les posts, et ramène toujours à la prochaine action.
 - Routine : `/semaine` prépare toute la semaine suivante d'un coup ;
   `/journee` les jours de publication ; `/mois` fait le point.
 - Publication : à la main par Misschalet (aucun outil connecté).
-- Agents utilisés : `editorial-planner` (planning, légendes),
-  `creative-production` (images, reels), `research-intelligence` (seulement
+- Agents utilisés : `intake-router` (lit chaque demande et la découpe),
+  `brand-voice` (les mots, en premium), `photo-librarian` (la banque
+  d'images), `quality-reviewer` (la dernière vérification),
+  `editorial-planner` (planning, légendes), `creative-production` (images,
+  reels), `research-intelligence` (seulement
   pour importer les faits d'une annonce), `social-community` (seulement si
   elle colle des messages auxquels répondre).
 - Pas d'audit, pas de SEO, pas de chiffres à aller chercher, pas d'outils.

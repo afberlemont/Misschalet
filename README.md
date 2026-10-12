@@ -38,7 +38,10 @@ Ensuite, quand tu le décides : audit et stratégie, SEO, blog, partenariats
 | une vidéo à faire | `/video ton idée` | le studio la prépare, tu vois des images avant |
 | besoin d'aide | `/aide` | la liste de ce que tu peux demander |
 
-Tu peux aussi écrire simplement ce que tu veux, avec tes mots.
+Tu peux aussi écrire simplement ce que tu veux, avec tes mots, même plusieurs
+idées d'un coup : l'assistant les sépare, te les reformule joliment, et te
+propose par quoi commencer. Avant de te montrer quoi que ce soit, il vérifie
+les faits, les photos, et que ce n'est pas déjà fait.
 
 ## Ce qu'il y a dans le dossier
 | Dossier | Contenu |

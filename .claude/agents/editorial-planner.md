@@ -22,9 +22,11 @@ Keep it simple: the phase-1 table of `content/calendar.md`, 4 weeks ahead,
 her rhythm (default 3 posts a week), the 4 themes in alternation and the 4
 basic formats (photo, carousel, story, short reel) described there. For each
 post: the photo numbers (`studio/properties/<slug>/listing.json` →
-`photos[].n`, with the room) or the reel board, and the caption in
+`photos[].n`, with the room) or the reel board, and a caption draft in
 `content/copy/<id>.md` (hook line, 2 to 4 short lines, CTA with her booking
-link from `brand/offers.md`, 5 to 8 hashtags, alt text). No campaigns, no
+link from `brand/offers.md`, 5 to 8 hashtags, alt text); `brand-voice` then
+writes the final premium wording. Check `content/registre.md` first: no
+repeat of a chalet + angle or an opening photo within 4 weeks. No campaigns, no
 briefs, no work orders in phase 1.
 
 ## Outputs, phase 2 and later (French)

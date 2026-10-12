@@ -13,6 +13,8 @@ gagnent sur les réglages par défaut. Ajout et changements :
 | P04 | **Seulement des faits approuvés** (`../properties/<chalet>/approved-claims.md`) ; jamais un prix, une remise ou une date libre qu'elle n'a pas donnés | confiance | agence · 2026-10-12 |
 | P05 | Pas de tiret long ; pas de point à la fin d'un titre | style | agence · 2026-10-11 |
 | P06 | Rien n'est publié sans son accord | c'est elle qui décide | agence · 2026-10-12 |
+| P07 | **Ton premium, mais vrai** : chaque texte passe par l'agent `brand-voice` ; ses idées sont reformulées de façon impactante (lexique : `lexique-premium.md`), sans rien inventer | donner envie, rester crédible | agence · 2026-10-12 |
+| P08 | **Jamais deux fois la même chose** : on vérifie le registre (`../content/registre.md`) avant de créer ; même chalet et même angle → une variante | fraîcheur du compte | agence · 2026-10-12 |
 
 ## Réglages actuels (à ajuster)
 - 3 posts par semaine : lundi, mercredi (reel), vendredi, vers 18 h.

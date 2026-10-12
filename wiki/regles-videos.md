@@ -16,6 +16,7 @@ reste visible, barrée, avec ce qui la remplace. Ajout et changements :
 | V06 | **Montrer la région** autant que le chalet : le ski en saison, les panoramas, les bains, les bonnes adresses | on vend une région, puis un chalet pour la vivre | agence · 2026-10-12 | toutes |
 | V07 | Textes à l'écran **en français**, sans tiret long, sans point à la fin d'un titre | lisibilité, style | agence · 2026-10-11 | toutes |
 | V08 | Ne jamais recréer une vidéo étudiée (références) sans qu'on le demande | droits et originalité | agence · 2026-10-11 | toutes |
+| V09 | Les mots à l'écran sont écrits par l'agent `brand-voice` (premium, courts, vrais) et la vidéo passe le contrôle `quality-reviewer` avant de lui être montrée | qualité constante | agence · 2026-10-12 | toutes |
 
 ## Réglages actuels (à ajuster selon ses retours)
 Ce ne sont pas encore des règles : le point de départ, à confirmer.

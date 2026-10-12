@@ -10,13 +10,15 @@ here, so the posting days take 5 minutes.
    vs. planned; anything people said or asked (comments, messages, booking
    requests); a post she liked. Write 5 lines in
    `analytics/weekly/<YYYY>-W<nn>.md`. No numbers to look up.
-2. **Next week** (delegate in parallel):
-   - `editorial-planner`: check next week's lines of `content/calendar.md`
-     (adjust for what she said, the season, a question asked twice), write
-     the captions (`content/copy/<id>.md`); keep 4 weeks planned ahead.
-   - then `creative-production`: the images (`node studio/post-photos.mjs`)
-     and short reels (existing boards, stills first) for each post;
-     packages in `content/approved/<id>/README.md`, status `review`.
+2. **Next week**, one chain per post (`playbooks/request-pipeline.md`):
+   `editorial-planner` checks next week's lines of `content/calendar.md`
+   (adjust for what she said, the season, a question asked twice; keep 4
+   weeks planned ahead) → `brand-voice` writes the premium captions
+   (`content/copy/<id>.md`) → `photo-librarian` picks the images (new ones
+   if needed) → `creative-production` exports them (`post-photos.mjs`,
+   reels stills first) → `quality-reviewer` checks; packages in
+   `content/approved/<id>/README.md`, status `review`; logged in
+   `content/registre.md`.
 3. **Validation**: show the week post by post; oui / modifie / non; approved
    → `approved`.
 4. **Ideas**: read `ideas/inbox.md` new lines; a simple post idea may enter
