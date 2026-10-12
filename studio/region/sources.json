@@ -1,0 +1,290 @@
+[
+  {
+    "file": "villars-pistes-ski.jpg",
+    "depicts": "Deux skieurs sur les pistes, domaine enneigé et sommets au soleil",
+    "place": "Villars-sur-Ollon",
+    "place_verified": {
+      "value": true,
+      "how": "Lieu indiqué sur la page source : « Villars-sur-Ollon, Ollon, Suisse » ; titre « Beautiful ski slopes »"
+    },
+    "season": "hiver (pistes enneigées ; photo taguée 2014)",
+    "orientation": "paysage",
+    "people_identifiable": true,
+    "source_page": "https://unsplash.com/photos/kBbvbBtlWgo",
+    "image_url": "https://images.unsplash.com/photo-1580157906144-3fd1489f66e0?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Xavier von Erlach",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Deux skieurs au premier plan avec casque et lunettes, visages en partie visibles : pas d'autorisation de modèle, prudence en pub payante. Ne pas nommer les sommets du fond (non indiqués par la source). Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "gryon-train-neige.jpg",
+    "depicts": "Train à crémaillère bleu sous la neige, arbres givrés, ciel bleu",
+    "place": "Gryon",
+    "place_verified": {
+      "value": true,
+      "how": "Lieu indiqué sur la page source : « Gryon, Switzerland » ; titre « Swizz cog train in the snow »"
+    },
+    "season": "hiver (neige fraîche ; tag « winter »)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/no46xPgugdY",
+    "image_url": "https://images.unsplash.com/photo-1518625081961-b7fa235a38af?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Jonathan Bean",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Probablement la ligne Bex-Villars-Bretaye, mais la source ne le dit pas : écrire seulement « train à crémaillère à Gryon ». Matériel ferroviaire reconnaissable (pas de logo visible au format vignette). Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "gryon-chalet-neige.jpg",
+    "depicts": "Balcon de chalet en bois et arbres givrés, vue sur la vallée et les montagnes",
+    "place": "Gryon",
+    "place_verified": {
+      "value": true,
+      "how": "Lieu indiqué sur la page source : « Gryon, Switzerland » ; tags « chalet », « winter »"
+    },
+    "season": "hiver (tag « winter », neige visible)",
+    "orientation": "portrait",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/k-1Qsq62W4Y",
+    "image_url": "https://images.unsplash.com/photo-1455710017366-a0dba3bdcd94?h=2400&q=85&fm=jpg&fit=max",
+    "author": "Jonathan Bean",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Format vertical, idéal pour reel. Ce n'est pas un chalet de Misschalet : ne jamais le présenter comme l'un de ses logements. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "chamossaire-hiver.jpg",
+    "depicts": "Le Grand et le Petit Chamossaire enneigés au-dessus d'une mer de nuages, ciel bleu",
+    "place": "Chamossaire (Ollon)",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Le Grand et Petit Chamossaire » ; lieu « Chamossaire, Ollon, Switzerland »"
+    },
+    "season": "hiver (tag « winter landscape », neige visible)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/JmeGbdc22Uc",
+    "image_url": "https://images.unsplash.com/photo-1771774222136-279f98107953?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Yann Lerjen",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Antenne visible au sommet. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "bex-haute-pointe-hiver.jpg",
+    "depicts": "Massif enneigé dans la lumière du soir, forêt enneigée au premier plan",
+    "place": "Bex (Haute Pointe)",
+    "place_verified": {
+      "value": true,
+      "how": "Lieu indiqué sur la page source : « Haute Pointe, Bex, Suisse » ; tags « sunset », « winter »"
+    },
+    "season": "hiver (tags « winter », « sunset » ; publiée en janvier 2025)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/yqb7U6TVgs8",
+    "image_url": "https://images.unsplash.com/photo-1736100766270-9b5a02388ec8?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Vincent Etter",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "La source donne le lieu mais ne nomme pas le sommet photographié : ne pas le nommer. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "grand-muveran-lune.jpg",
+    "depicts": "Le Grand Muveran rougi par le soleil couchant, pleine lune au-dessus",
+    "place": "Grand Muveran (Bex)",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Le Grand Muveran (VD - Suisse) » ; lieu « Grand Muveran, Bex, Switzerland »"
+    },
+    "season": "non précisée par la source (peu de neige sur la face, neige plus bas)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/HHrv4Wj3mYc",
+    "image_url": "https://images.unsplash.com/photo-1771776132696-f5ff3b89bdd7?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Yann Lerjen",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Image très graphique ; à ne pas vendre comme « vue depuis le chalet » (point de vue non indiqué). Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "dents-du-midi-depuis-villars-nb.jpg",
+    "depicts": "Les Dents du Midi en noir et blanc, derrière une rambarde de terrasse",
+    "place": "Dents du Midi (prise à Villars-sur-Ollon)",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Dent du midi » ; lieu indiqué « Villars-sur-Ollon, Switzerland »"
+    },
+    "season": "non précisée (neige sur les sommets ; publiée en janvier 2024)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/l5Z1Rs_H6wc",
+    "image_url": "https://images.unsplash.com/photo-1704653258231-34baf6a4ebea?w=2400&q=85&fm=jpg&fit=max",
+    "author": "CF Lim",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Noir et blanc, ambiance sobre ; moins « vendeuse » que les versions couleur. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "dents-du-midi-mer-de-brouillard.jpg",
+    "depicts": "Randonneuse de dos sur un chemin enneigé, mer de brouillard et Dents du Midi au soleil",
+    "place": "Dents du Midi (vue depuis Leysin)",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Sea of fog over the plaine, facing the Dents-du-midi mountain » ; lieu « Leysin, Switzerland »"
+    },
+    "season": "hiver (tags « winter », « snowshoe »)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/DsLBN67FnCI",
+    "image_url": "https://images.unsplash.com/photo-1580679157400-b33ab9e2b4f3?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Yann Lerjen",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Prise depuis Leysin, pas depuis Villars ni Gryon : dire « les Dents du Midi », pas « vue depuis Villars ». Personne petite, de dos. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "dents-du-midi-ciel-rose.jpg",
+    "depicts": "Les Dents du Midi enneigées sous un ciel rose de lever du jour",
+    "place": "Dents du Midi",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Les Dents Du Midi » ; lieu « Dents du Midi, Val-d'Illiez, Switzerland »"
+    },
+    "season": "non précisée (sommets enneigés ; tag « sunrise » ; publiée en janvier 2024)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/eGm4J8PLOHA",
+    "image_url": "https://images.unsplash.com/photo-1705504859369-374481f74cab?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Eleonora Patricola",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Point de vue non indiqué : ne pas écrire « vue depuis Villars ». Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "dents-du-midi-foret-hiver.jpg",
+    "depicts": "Les Dents du Midi enneigées au-dessus d'une forêt de sapins",
+    "place": "Dents du Midi",
+    "place_verified": {
+      "value": true,
+      "how": "Titre source « Dents du Midi » ; lieu « Dents du Midi, Val-d'Illiez, Switzerland » ; tag « winter »"
+    },
+    "season": "hiver (tags « winter », « snow »)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/FLIyIJiI83c",
+    "image_url": "https://images.unsplash.com/photo-1514906614935-e2b1f5c484b7?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Vladimir Nordmann",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Point de vue non indiqué : ne pas écrire « vue depuis Villars ». Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-ski-poudreuse.jpg",
+    "depicts": "Skieur en veste rouge qui soulève la poudreuse, ciel bleu profond",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : la source situe la photo à Pirin (Bulgarie)"
+    },
+    "season": "hiver",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/JumFXziY9xs",
+    "image_url": "https://images.unsplash.com/photo-1735749328571-a705c1de6cdd?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Angel Balashev",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "GÉNÉRIQUE : jamais présenté comme Villars-Gryon (la source dit Pirin, Bulgarie). Casque et masque : visage non reconnaissable. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-fondue.jpg",
+    "depicts": "Morceau de pain trempé dans une fondue au fromage, en gros plan",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : la source situe la photo à Wengen (Lauterbrunnen)"
+    },
+    "season": "intemporel (tag « winter food »)",
+    "orientation": "portrait",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/FvYTP31NiSw",
+    "image_url": "https://images.unsplash.com/photo-1787941796469-c6b0935841f1?h=2400&q=85&fm=jpg&fit=max",
+    "author": "Karsten Winegeart",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "GÉNÉRIQUE : ne pas la situer à Villars (la source dit Wengen). Seule une main est visible. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-feu-vin-rouge.jpg",
+    "depicts": "Verre de vin rouge devant un feu de cheminée",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : la source indique « Greece »"
+    },
+    "season": "intemporel (ambiance hiver)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/tKPbQS4zF7w",
+    "image_url": "https://images.unsplash.com/flagged/photo-1623691982369-2608518e25bf?w=2400&q=85&fm=jpg&fit=max",
+    "author": "ALEXANDRA TORRO",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "GÉNÉRIQUE : ce n'est pas la cheminée d'un des chalets ; ne pas laisser croire le contraire. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-famille-luges.jpg",
+    "depicts": "Famille (un père et deux enfants) qui marche avec des luges, sommets enneigés",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : la source situe la photo à la Zugspitze (Allemagne)"
+    },
+    "season": "hiver (tag « winter »)",
+    "orientation": "paysage",
+    "people_identifiable": true,
+    "source_page": "https://unsplash.com/photos/lgqFeGE-KJY",
+    "image_url": "https://images.unsplash.com/photo-1745701363769-74d07d4dd2da?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Yevhen Kovalevskyi",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "GÉNÉRIQUE (Zugspitze). Le visage du père est reconnaissable de profil, avec des enfants : pas d'autorisation de modèle, à éviter en pub payante ou à recadrer. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-foret-neige-soleil.jpg",
+    "depicts": "Forêt de sapins enneigée, lumière orangée du soleil bas",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : aucun lieu indiqué par la source"
+    },
+    "season": "hiver (tags « winter sunrise », « snow forest »)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/MxHdNqiINO0",
+    "image_url": "https://images.unsplash.com/photo-1639380540745-e356a591b75d?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Oleg Demakov",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "Remplace la photo « raquettes au coucher du soleil » : aucune image libre convenable trouvée. La source parle de lever du soleil, pas de coucher. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  },
+  {
+    "file": "generique-jacuzzi-neige.jpg",
+    "depicts": "Homme de dos dans un jacuzzi extérieur sur une terrasse de chalet, neige qui tombe",
+    "place": "générique",
+    "place_verified": {
+      "value": false,
+      "how": "Générique : tags source « colorado », « aspen »"
+    },
+    "season": "hiver (tags « winter », « snow »)",
+    "orientation": "paysage",
+    "people_identifiable": false,
+    "source_page": "https://unsplash.com/photos/spBJSPLeA0k",
+    "image_url": "https://images.unsplash.com/photo-1615011950300-ffd3dcfc509f?w=2400&q=85&fm=jpg&fit=max",
+    "author": "Jamie Fenn",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "notes": "GÉNÉRIQUE (Colorado selon les tags). Remplace les Bains de Lavey, introuvables sous licence libre. Homme de dos, visage non visible. Ne pas suggérer qu'un des chalets a un jacuzzi sans vérification. Licence Unsplash : usage commercial et pub payante autorisés, crédit non obligatoire mais apprécié ; aucune autorisation de modèle ni de propriété fournie."
+  }
+]

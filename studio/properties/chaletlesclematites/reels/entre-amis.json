@@ -12,7 +12,9 @@
   "caption": [
     "Le séjour entre amis à Villars.",
     "",
-    "Douze amis, six chambres, une salle de douche pour chacune. Le feu de cheminée, la grande table, et le bus de ski gratuit à 50 m du chalet. Les Clématites, au cœur de Villars-sur-Ollon."
+    "Douze amis, six chambres, une salle de douche pour chacune. Le feu de cheminée, la grande table, et le bus de ski gratuit à 50 m du chalet. Après le ski, le Roc-Star au pied de la télécabine du Roc d'Orsay : terrasse chauffée, DJ le soir. Les Clématites, au cœur de Villars-sur-Ollon.",
+    "",
+    "@tvgd.ch"
   ],
   "hashtags": [
     "#entreamis",
@@ -64,10 +66,20 @@
       "shots": [
         {
           "photo": {
-            "n": 9,
-            "zoom": 1.5,
-            "fx": 70,
-            "fy": 50
+            "region": "generique-ski-poudreuse.jpg",
+            "fx": 45,
+            "motion": "in"
+          },
+          "beats": 2,
+          "label": "La poudreuse",
+          "icon": "ski"
+        },
+        {
+          "photo": {
+            "n": 2,
+            "zoom": 1.6,
+            "fx": 92,
+            "fy": 66
           },
           "beats": 2,
           "label": "Feu de cheminée",
@@ -87,9 +99,9 @@
         {
           "photo": {
             "n": 43,
-            "zoom": 1.3,
+            "zoom": 1.0,
             "fx": 50,
-            "fy": 45
+            "fy": 60
           },
           "beats": 2,
           "label": "Linge brodé",
@@ -105,15 +117,6 @@
           "beats": 2,
           "label": "Cuisine équipée",
           "icon": "chef-hat"
-        },
-        {
-          "photo": {
-            "n": 103,
-            "zoom": 1.2,
-            "fx": 50,
-            "fy": 50
-          },
-          "beats": 2
         }
       ]
     },

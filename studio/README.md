@@ -99,6 +99,14 @@ environment or in `studio/.env` (git-ignored, never printed).
 `--dry-run` shows the request without calling the API. Using the clips in the
 reels is the next step.
 
+### Images of the region
+
+A board may use a photo of the region instead of a listing photo:
+`{ "region": "villars-pistes-ski.jpg", "fx": 50 }` (served from
+`cache/region/`, git-ignored). Every image is listed with its licence and
+the place it truly shows in `region/sources.json`; a place is named on screen
+only if the image shows that very place (`../wiki/images-et-lieux.md`).
+
 ## Images for basic posts
 
 `node studio/post-photos.mjs <slug> <post id> <n[:fx,fy]>… [--format 4:5|1:1|9:16]`

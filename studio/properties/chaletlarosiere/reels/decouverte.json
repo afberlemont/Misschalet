@@ -1,67 +1,240 @@
 {
   "name": "decouverte",
   "note": "Le séjour découverte (≈ 28 s) : une journée parfaite à Villars, du ski le matin aux bains l'après-midi, puis le chalet le soir (feu, sauna, table). Images de la région : studio/region/sources.json. Silencieux (règle du studio).",
-  "music": { "style": "lux", "bpm": 120, "seed": 6 },
+  "music": {
+    "style": "lux",
+    "bpm": 120,
+    "seed": 6
+  },
   "palette": "papier",
   "grade": "saturate(1.08) contrast(1.04) sepia(.05) brightness(1.01)",
   "coverAt": 4.2,
   "caption": [
     "Une journée parfaite à Villars.",
     "",
-    "Le matin, les pistes : le bus de ski gratuit passe à 50 m du chalet. L'après-midi, les bains. Le soir, le feu de cheminée, le sauna et la grande table de La Rosière, au cœur de Villars-sur-Ollon."
+    "Le matin, les pistes : plus de 100 km reliés entre Villars, Gryon et Les Diablerets, et le bus de ski gratuit à 50 m du chalet. À midi, une pizza au Rocco, au sommet de la télécabine du Roc d'Orsay. L'après-midi, le train dans la neige. Le soir, une fondue, puis le feu de cheminée et le sauna de La Rosière, au cœur de Villars-sur-Ollon.",
+    "",
+    "@tvgd.ch"
   ],
-  "hashtags": ["#villars", "#villarssurollon", "#villarsgryon", "#ski", "#alpesvaudoises", "#chalet", "#suisse", "#airbnb"],
+  "hashtags": [
+    "#villars",
+    "#villarssurollon",
+    "#villarsgryon",
+    "#ski",
+    "#alpesvaudoises",
+    "#chalet",
+    "#suisse",
+    "#airbnb"
+  ],
   "scenes": [
-    { "type": "hook", "beats": 4, "photo": { "n": 74, "motion": "in" }, "lines": ["Une journée", "parfaite", "à Villars"] },
     {
-      "type": "cover", "beats": 6, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
-      "photo": { "n": 77, "motion": "out" },
-      "issue": "Découverte", "season": "Villars-sur-Ollon",
+      "type": "hook",
+      "beats": 4,
+      "photo": {
+        "region": "chamossaire-hiver.jpg",
+        "fx": 55,
+        "motion": "in"
+      },
+      "lines": [
+        "Une journée",
+        "parfaite",
+        "à Villars"
+      ]
+    },
+    {
+      "type": "cover",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.2,
+      "sheen": 1.2,
+      "photo": {
+        "n": 77,
+        "motion": "out"
+      },
+      "issue": "Découverte",
+      "season": "Villars-sur-Ollon",
       "kicker": "La Rosière · Chalet et sauna",
-      "lines": ["Le séjour", "découverte"],
+      "lines": [
+        "Le séjour",
+        "découverte"
+      ],
       "caps": "Ski · Village · Sauna"
     },
     {
-      "type": "bleed", "beats": 7, "enter": "wipe-up",
-      "photo": { "n": 74, "motion": "slow" },
-      "tag": "Le matin", "eyebrow": "Villars-sur-Ollon",
-      "title": ["Les pistes,", "<em>dès 9 heures</em>"],
-      "text": "Le bus de ski gratuit passe à 50 m du chalet.",
-      "tags": ["Bus de ski à 50 m", "École de ski à 200 m", "Téléphérique à 800 m"]
+      "type": "bleed",
+      "beats": 7,
+      "enter": "wipe-up",
+      "photo": {
+        "region": "villars-pistes-ski.jpg",
+        "fx": 50,
+        "motion": "slow"
+      },
+      "tag": "Le matin",
+      "eyebrow": "Villars-Gryon",
+      "title": [
+        "Le matin,",
+        "<em>les pistes</em>"
+      ],
+      "text": "Plus de 100 km de pistes reliées entre Villars, Gryon et Les Diablerets.",
+      "tags": [
+        "Bus de ski à 50 m",
+        "École de ski à 200 m"
+      ]
     },
     {
-      "type": "frame", "beats": 6, "enter": "shine", "tIn": 1.0,
-      "photo": { "n": 74, "motion": "in" },
-      "no": "02", "section": "L'après-midi", "end": "La Rosière",
-      "title": ["Les bains", "<em>de Lavey</em>"],
-      "tags": ["Bains thermaux"],
-      "caption": { "label": "fig. 02", "text": "Les bains thermaux de Lavey-les-Bains." }
+      "type": "frame",
+      "beats": 6,
+      "enter": "shine",
+      "tIn": 1.0,
+      "photo": {
+        "region": "gryon-train-neige.jpg",
+        "fx": 62,
+        "motion": "in"
+      },
+      "no": "02",
+      "section": "L'après-midi",
+      "end": "La Rosière",
+      "title": [
+        "Le train",
+        "<em>dans la neige</em>"
+      ],
+      "tags": [
+        "Gryon"
+      ],
+      "caption": {
+        "label": "fig. 02",
+        "text": "Le train de montagne, à Gryon."
+      }
     },
     {
-      "type": "montage", "beats": 8, "enter": "cut",
+      "type": "frame",
+      "beats": 6,
+      "enter": "wipe-left",
+      "photo": {
+        "region": "dents-du-midi-ciel-rose.jpg",
+        "fx": 50,
+        "motion": "in"
+      },
+      "no": "03",
+      "section": "Le coucher du soleil",
+      "end": "La Rosière",
+      "title": [
+        "Les Dents",
+        "<em>du Midi</em>"
+      ],
+      "caption": {
+        "label": "fig. 03",
+        "text": "Les Dents du Midi, en hiver."
+      }
+    },
+    {
+      "type": "montage",
+      "beats": 10,
+      "enter": "cut",
       "shots": [
-        { "photo": { "n": 4, "zoom": 1.5, "fx": 30, "fy": 45 }, "beats": 2, "label": "Le soir, le feu", "icon": "flame" },
-        { "photo": { "n": 92, "zoom": 1.4, "fx": 70, "fy": 60 }, "beats": 2, "label": "Le sauna", "icon": "sauna" },
-        { "photo": { "n": 18, "zoom": 1.5, "fx": 55, "fy": 30 }, "beats": 2, "label": "Tous à table", "icon": "utensils-crossed" },
-        { "photo": { "n": 24, "zoom": 1.7, "fx": 49, "fy": 76 }, "beats": 2, "label": "Linge brodé", "icon": "feather" }
+        {
+          "photo": {
+            "region": "generique-fondue.jpg",
+            "fx": 50,
+            "fy": 55,
+            "motion": "in"
+          },
+          "beats": 2,
+          "label": "Le soir, la fondue",
+          "icon": "cooking-pot"
+        },
+        {
+          "photo": {
+            "n": 4,
+            "zoom": 1.5,
+            "fx": 30,
+            "fy": 45
+          },
+          "beats": 2,
+          "label": "Le feu de cheminée",
+          "icon": "flame"
+        },
+        {
+          "photo": {
+            "n": 92,
+            "zoom": 1.4,
+            "fx": 70,
+            "fy": 60
+          },
+          "beats": 2,
+          "label": "Le sauna",
+          "icon": "sauna"
+        },
+        {
+          "photo": {
+            "n": 18,
+            "zoom": 1.5,
+            "fx": 55,
+            "fy": 30
+          },
+          "beats": 2,
+          "label": "Tous à table",
+          "icon": "utensils-crossed"
+        },
+        {
+          "photo": {
+            "n": 24,
+            "zoom": 1.7,
+            "fx": 49,
+            "fy": 76
+          },
+          "beats": 2,
+          "label": "Linge brodé",
+          "icon": "feather"
+        }
       ]
     },
     {
-      "type": "nearby", "beats": 6, "enter": "wipe-left",
-      "photo": { "n": 78, "motion": "in" },
+      "type": "nearby",
+      "beats": 6,
+      "enter": "wipe-left",
+      "photo": {
+        "n": 78,
+        "motion": "in"
+      },
       "eyebrow": "Le village · Villars-sur-Ollon",
-      "title": ["Tout", "<em>à pied</em>"],
+      "title": [
+        "Tout",
+        "<em>à pied</em>"
+      ],
       "items": [
-        { "name": "Restaurant", "d": "100 m" },
-        { "name": "Café et bar", "d": "200 m" },
-        { "name": "Boulangerie", "d": "250 m" },
-        { "name": "Train de montagne", "d": "300 m" },
-        { "name": "Piscine et patinoire", "d": "500 m" }
+        {
+          "name": "Restaurant",
+          "d": "100 m"
+        },
+        {
+          "name": "Café et bar",
+          "d": "200 m"
+        },
+        {
+          "name": "Boulangerie",
+          "d": "250 m"
+        },
+        {
+          "name": "Train de montagne",
+          "d": "300 m"
+        },
+        {
+          "name": "Piscine et patinoire",
+          "d": "500 m"
+        }
       ]
     },
     {
-      "type": "cta", "beats": 8, "enter": "shine", "tIn": 1.2, "sheen": 1.2,
-      "photo": { "n": 4, "motion": "in" },
+      "type": "cta",
+      "beats": 8,
+      "enter": "shine",
+      "tIn": 1.2,
+      "sheen": 1.2,
+      "photo": {
+        "n": 4,
+        "motion": "in"
+      },
       "eyebrow": "Votre séjour découverte",
       "sub": "Villars-sur-Ollon · Alpes vaudoises",
       "stats": "14 voyageurs · 6 chambres · Sauna"

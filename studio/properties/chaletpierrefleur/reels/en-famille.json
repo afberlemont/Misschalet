@@ -10,9 +10,11 @@
   "grade": "saturate(1.1) contrast(1.04) brightness(1.03)",
   "coverAt": 4.2,
   "caption": [
-    "Les vacances en famille, face aux montagnes.",
+    "Les vacances en famille, avec vue.",
     "",
-    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. Les pistes de Villars et de Barboleuse en hiver."
+    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. En hiver, les pistes de Villars et de Barboleuse se rejoignent rapidement. Après le ski, les Bains de Lavey et l'eau la plus chaude de Suisse.",
+    "",
+    "@lesbainsdelavey @tvgd.ch"
   ],
   "hashtags": [
     "#vacancesenfamille",
@@ -70,7 +72,7 @@
             "fy": 40
           },
           "beats": 2,
-          "label": "Feu de cheminée",
+          "label": "La cheminée",
           "icon": "flame"
         },
         {
@@ -162,14 +164,15 @@
       "beats": 7,
       "enter": "wipe-up",
       "photo": {
-        "n": 28,
+        "region": "bex-haute-pointe-hiver.jpg",
+        "fx": 50,
         "motion": "slow"
       },
       "tag": "L'hiver",
-      "eyebrow": "Villars · Barboleuse",
+      "eyebrow": "Bex · Alpes vaudoises",
       "title": [
-        "Le ski",
-        "<em>en famille</em>"
+        "Les sommets",
+        "<em>sous la neige</em>"
       ],
       "text": "En hiver, les pistes de Villars et de Barboleuse se rejoignent rapidement.",
       "tags": [
@@ -183,24 +186,25 @@
       "enter": "shine",
       "tIn": 1.0,
       "photo": {
-        "n": 26,
+        "region": "generique-famille-luges.jpg",
+        "fx": 35,
         "motion": "in"
       },
       "no": "03",
-      "section": "Après le ski",
+      "section": "En famille",
       "end": "Pierre Fleur",
       "title": [
-        "Les bains",
-        "<em>de Lavey</em>"
+        "La luge,",
+        "<em>les rires</em>"
       ],
       "tags": [
-        "Bains thermaux",
-        "Randonnée",
-        "VTT"
+        "Luge",
+        "Ski",
+        "Ski de fond"
       ],
       "caption": {
         "label": "fig. 03",
-        "text": "Les bains thermaux de Lavey, dans la région."
+        "text": "Luge, ski et ski de fond dans la région."
       }
     },
     {
