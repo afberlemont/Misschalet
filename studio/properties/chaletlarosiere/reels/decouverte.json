@@ -10,7 +10,7 @@
   "grade": "saturate(1.08) contrast(1.04) sepia(.05) brightness(1.01)",
   "coverAt": 4.2,
   "caption": [
-    "Une journée parfaite à Villars.",
+    "Une journée à Villars, des pistes au sauna.",
     "",
     "Le matin, les pistes : plus de 100 km reliés entre Villars, Gryon et Les Diablerets, et le bus de ski gratuit à 50 m du chalet. À midi, une pizza au Rocco, au sommet de la télécabine du Roc d'Orsay. L'après-midi, le train dans la neige. Le soir, une fondue, puis le feu de cheminée et le sauna de La Rosière, au cœur de Villars-sur-Ollon.",
     "",
@@ -37,8 +37,8 @@
       },
       "lines": [
         "Une journée",
-        "parfaite",
-        "à Villars"
+        "au-dessus",
+        "des nuages"
       ]
     },
     {
@@ -53,7 +53,7 @@
       },
       "issue": "Découverte",
       "season": "Villars-sur-Ollon",
-      "kicker": "La Rosière · Chalet et sauna",
+      "kicker": "La Rosière · Chalet avec sauna privé",
       "lines": [
         "Le séjour",
         "découverte"
@@ -72,10 +72,10 @@
       "tag": "Le matin",
       "eyebrow": "Villars-Gryon",
       "title": [
-        "Le matin,",
-        "<em>les pistes</em>"
+        "Plus de 100 km",
+        "<em>de pistes reliées</em>"
       ],
-      "text": "Plus de 100 km de pistes reliées entre Villars, Gryon et Les Diablerets.",
+      "text": "Le plus grand domaine skiable du canton de Vaud, de 1 200 à 2 113 m d'altitude.",
       "tags": [
         "Bus de ski à 50 m",
         "École de ski à 200 m"
@@ -96,14 +96,14 @@
       "end": "La Rosière",
       "title": [
         "Le train",
-        "<em>dans la neige</em>"
+        "<em>à crémaillère</em>"
       ],
       "tags": [
         "Gryon"
       ],
       "caption": {
         "label": "fig. 02",
-        "text": "Le train de montagne, à Gryon."
+        "text": "Sous la neige fraîche, entre les arbres givrés."
       }
     },
     {
@@ -116,7 +116,7 @@
         "motion": "in"
       },
       "no": "03",
-      "section": "Le coucher du soleil",
+      "section": "Le panorama",
       "end": "La Rosière",
       "title": [
         "Les Dents",
@@ -124,7 +124,7 @@
       ],
       "caption": {
         "label": "fig. 03",
-        "text": "Les Dents du Midi, en hiver."
+        "text": "Sommets enneigés sous un ciel rose."
       }
     },
     {
@@ -137,7 +137,7 @@
             "region": "generique-fondue.jpg"
           },
           "beats": 5,
-          "label": "Le soir, la fondue",
+          "label": "Le rituel de la fondue",
           "icon": "cooking-pot"
         },
         {
@@ -145,7 +145,7 @@
             "n": 4
           },
           "beats": 5,
-          "label": "Le feu de cheminée",
+          "label": "La grande cheminée",
           "icon": "flame"
         },
         {
@@ -153,7 +153,7 @@
             "n": 85
           },
           "beats": 5,
-          "label": "Le sauna",
+          "label": "Le sauna, après le ski",
           "icon": "sauna"
         }
       ],
@@ -167,10 +167,10 @@
         "n": 78,
         "motion": "in"
       },
-      "eyebrow": "Le village · Villars-sur-Ollon",
+      "eyebrow": "Tout à pied · Villars-sur-Ollon",
       "title": [
-        "Tout",
-        "<em>à pied</em>"
+        "Au cœur",
+        "<em>du village</em>"
       ],
       "items": [
         {
@@ -200,9 +200,9 @@
         "n": 4,
         "motion": "in"
       },
-      "eyebrow": "Votre séjour découverte",
+      "eyebrow": "Réservez votre séjour découverte",
       "sub": "Villars-sur-Ollon · Alpes vaudoises",
-      "stats": "14 voyageurs · 6 chambres · Sauna"
+      "stats": "14 voyageurs · 6 chambres · Sauna privé"
     }
   ]
 }

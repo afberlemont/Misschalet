@@ -10,9 +10,9 @@
   "grade": "saturate(1.1) contrast(1.04) brightness(1.03)",
   "coverAt": 4.2,
   "caption": [
-    "Les vacances en famille, avec vue.",
+    "Une maison de famille à la vue imprenable.",
     "",
-    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. En hiver, les pistes de Villars et de Barboleuse se rejoignent rapidement. Après le ski, les Bains de Lavey et l'eau la plus chaude de Suisse.",
+    "Pierre Fleur, un chalet de 160 m² entièrement rénové : cinq chambres dont une pour les enfants, le feu de cheminée, un jardin, deux terrasses, et vos amis à quatre pattes sont les bienvenus. Dans la région, le plus grand domaine skiable du canton de Vaud. Après le ski, les Bains de Lavey et l'eau la plus chaude de Suisse.",
     "",
     "@lesbainsdelavey @tvgd.ch"
   ],
@@ -35,9 +35,9 @@
         "motion": "in"
       },
       "lines": [
-        "Les vacances",
-        "en famille",
-        "avec vue"
+        "Une maison de famille",
+        "à la vue",
+        "imprenable"
       ]
     },
     {
@@ -54,8 +54,8 @@
       "season": "Alpes vaudoises",
       "kicker": "Chalet Pierre Fleur · Bex",
       "lines": [
-        "Un chalet",
-        "pour toute la famille"
+        "Le séjour",
+        "en famille"
       ],
       "caps": "11 voyageurs · 5 chambres · Jardin"
     },
@@ -69,7 +69,7 @@
             "n": 37
           },
           "beats": 5,
-          "label": "La cheminée",
+          "label": "Au coin du feu",
           "icon": "flame"
         },
         {
@@ -77,7 +77,7 @@
             "n": 21
           },
           "beats": 5,
-          "label": "La chambre des enfants",
+          "label": "Le dortoir des enfants",
           "icon": "bed-single"
         },
         {
@@ -85,7 +85,7 @@
             "n": 15
           },
           "beats": 5,
-          "label": "Tous à table",
+          "label": "La grande table",
           "icon": "utensils-crossed"
         }
       ],
@@ -101,7 +101,7 @@
         2,
         16
       ],
-      "label": "Rénové en 2021 · 160 m²",
+      "label": "160 m² · Entièrement rénové en 2021",
       "icon": "house"
     },
     {
@@ -113,21 +113,20 @@
         "motion": "in"
       },
       "no": "02",
-      "section": "Dehors",
+      "section": "Au grand air",
       "end": "Pierre Fleur",
       "title": [
-        "Le jardin,",
-        "<em>la vue</em>"
+        "Un jardin",
+        "<em>face aux montagnes</em>"
       ],
       "tags": [
-        "Jardin",
-        "Deux terrasses",
         "Barbecue",
+        "Mobilier d'extérieur",
         "Animaux bienvenus"
       ],
       "caption": {
         "label": "fig. 02",
-        "text": "Deux terrasses sud et ouest, un jardin et un barbecue."
+        "text": "Deux terrasses orientées sud et ouest, pour suivre le soleil."
       }
     },
     {
@@ -145,10 +144,10 @@
         "Les sommets",
         "<em>sous la neige</em>"
       ],
-      "text": "En hiver, les pistes de Villars et de Barboleuse se rejoignent rapidement.",
+      "text": "Dans la région, le plus grand domaine skiable du canton de Vaud.",
       "tags": [
-        "Villars",
-        "Barboleuse"
+        "Ski alpin",
+        "Ski de fond"
       ]
     },
     {
@@ -162,20 +161,20 @@
         "motion": "in"
       },
       "no": "03",
-      "section": "En famille",
+      "section": "Petits et grands",
       "end": "Pierre Fleur",
       "title": [
-        "La luge,",
-        "<em>les rires</em>"
+        "L'hiver",
+        "<em>à hauteur d'enfant</em>"
       ],
       "tags": [
         "Luge",
-        "Ski",
-        "Ski de fond"
+        "Jardins des neiges",
+        "Écoles de ski"
       ],
       "caption": {
         "label": "fig. 03",
-        "text": "Luge, ski et ski de fond dans la région."
+        "text": "Dans la région, des moniteurs diplômés pour les premières glisses."
       }
     },
     {
@@ -187,7 +186,7 @@
         "n": 42,
         "motion": "in"
       },
-      "eyebrow": "Vos vacances en famille",
+      "eyebrow": "Réservez vos vacances en famille",
       "sub": "Bex · Alpes vaudoises",
       "stats": "11 voyageurs · Animaux bienvenus"
     }
