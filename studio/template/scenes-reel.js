@@ -30,7 +30,6 @@
       const cs = chars(caps, s.lines[2] || '')
       box.append(small, big, caps)
       pg.appendChild(box)
-      const sh = sheen(box, 1.4)
       return (lt, dur) => {
         camera(ph, lt / dur)
         fadeUp(small, lt, 0.05, 0.5, 12)
@@ -40,7 +39,6 @@
           c.style.opacity = p
           c.style.transform = `translate3d(0, ${(1 - p) * 30}px, 0)`
         })
-        sh(lt, 0.95, 1.1)
       }
     },
 
@@ -109,7 +107,7 @@
           const r = prog(lt, 0.05 + i * s.step, 0.75, E.inOut)
           const q = ((1 - r) * 100).toFixed(3)
           ph.box.style.clipPath = i % 2 ? `inset(0 0 0 ${q}%)` : `inset(0 ${q}% 0 0)`
-          camera(ph, lt / dur, 0.08 * (1 - r))
+          camera(ph, lt / dur, 0.03 * (1 - r))
         })
         if (c) fadeUp(c, lt, 0.4 + 3 * s.step, 0.6, 12)
       }

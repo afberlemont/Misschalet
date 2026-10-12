@@ -12,7 +12,7 @@ reste visible, barrée, avec ce qui la remplace. Ajout et changements :
 | V02 | **Pas de page « chiffres »** (fond de couleur avec des chiffres) | ça ne sert à rien ; les chiffres utiles restent sur la couverture et la carte de réservation | agence · 2026-10-12 | toutes |
 | V03 | Garder le **style éditorial** des premières vidéos : bois et papier, grandes lettres fines, petites capitales (pour la brillance, voir V10) | « même style qu'avant, c'était bien » | agence · 2026-10-12 | toutes |
 | V04 | Penser **par séjour** : entre amis, en famille, découverte | chacun parle à des voyageurs précis | agence · 2026-10-12 | vidéos de chalet |
-| V05 | **Un lieu cité = une image exacte de ce lieu**, belle et premium (voir `images-et-lieux.md`) ; sinon on ne nomme pas le lieu | crédibilité, et pas de tromperie | agence · 2026-10-12 | toutes |
+| V05 | **À l'écran, un lieu cité = une image exacte de ce lieu**, belle et premium (voir `images-et-lieux.md`) ; sinon on ne nomme pas le lieu à l'écran. Dans la légende, on peut nommer et identifier les lieux et restaurants (P03) | crédibilité, et pas de tromperie | agence · 2026-10-12 | toutes |
 | V06 | **Montrer la région** autant que le chalet : le ski en saison, les panoramas, les bains, les bonnes adresses | on vend une région, puis un chalet pour la vivre | agence · 2026-10-12 | toutes |
 | V07 | Textes à l'écran **en français**, sans tiret long, sans point à la fin d'un titre | lisibilité, style | agence · 2026-10-11 | toutes |
 | V08 | Ne jamais recréer une vidéo étudiée (références) sans qu'on le demande | droits et originalité | agence · 2026-10-11 | toutes |

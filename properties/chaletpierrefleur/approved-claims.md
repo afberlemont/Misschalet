@@ -21,3 +21,5 @@ Issues de l'annonce (import du 2026-10-12). Les points entre parenthèses sont
 - Animaux acceptés (« amis à quatre pattes bienvenus »)
 - À proximité des pistes de Villars et de Barboleuse en hiver (distance à donner)
 - Une place de parking privative au chalet et un parking communal gratuit à 50 m
+- Deux terrasses orientées sud et ouest · ajouté le 2026-10-12 (vidéo en famille)
+- Location possible pour toute la saison d'hiver, conditions sur demande · ajouté le 2026-10-12

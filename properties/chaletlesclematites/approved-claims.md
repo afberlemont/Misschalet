@@ -20,3 +20,6 @@ Issues de l'annonce importée le 2026-10-12 :
 - Terrasse plein sud de 22 m² · balcons · place de parking pour 3 voitures
 - Sur demande, en supplément : nettoyage quotidien, petit-déjeuner, personnel de maison
 - Note 5,0 / 5 sur 14 avis (Airbnb, 2026-10-12) · parmi les 10 % de logements préférés sur Airbnb · « Procédure d'arrivée exceptionnelle »
+- Six salles de douche avec WC et lavabo, une pour chaque chambre, dont trois en suite (dans les vidéos : « une salle de bain privative pour chaque chambre ») · ajouté le 2026-10-12 (vidéo entre amis)
+- Piscine couverte et patinoire à 500 m · ajouté le 2026-10-12 (vidéo entre amis)
+- Décor design : bois clair, art contemporain, cuisine noire (« chalet design ») · ajouté le 2026-10-12

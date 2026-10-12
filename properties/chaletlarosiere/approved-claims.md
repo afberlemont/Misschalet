@@ -18,3 +18,5 @@ Issues de l'annonce, utilisées dans les premières vidéos de démonstration :
 - Bus de ski gratuit à 50 m · école de ski à 200 m · téléphérique à 800 m
 - Restaurant à 100 m · épicerie, café et bar à 200 m
 - Terrasse 40 m² · jardin 200 m² · 2 places de parking gratuites
+- Sauna privé, dans le chalet, avec douche · ajouté le 2026-10-12 (vidéo découverte)
+- Boulangerie à 250 m · piscine et patinoire à 500 m · ajouté le 2026-10-12 (vidéo découverte)

@@ -79,7 +79,7 @@ em, .it { font-style: italic; }
 
 /* ---------- cover ---------- */
 .cover .shade { position: absolute; inset: 0; background:
-  linear-gradient(180deg, rgba(14, 18, 15, .78) 0%, rgba(14, 18, 15, .5) 22%, rgba(14, 18, 15, .12) 36%, rgba(14, 18, 15, 0) 44%, rgba(14, 18, 15, 0) 52%, rgba(14, 18, 15, .5) 74%, rgba(14, 18, 15, .78) 100%); }
+  linear-gradient(180deg, rgba(14, 18, 15, .78) 0%, rgba(14, 18, 15, .5) 22%, rgba(14, 18, 15, .12) 36%, rgba(14, 18, 15, 0) 44%, rgba(14, 18, 15, 0) 52%, rgba(14, 18, 15, .62) 70%, rgba(14, 18, 15, .86) 100%); }
 .cover .top { position: absolute; left: var(--m); right: var(--m); top: 180px; display: flex; align-items: center; gap: 22px; color: #F3EEE6; }
 .cover .top .hr { flex: 1; height: 1px; background: rgba(243, 238, 230, .55); transform-origin: 0 50%; }
 .cover .mast { position: absolute; left: 0; right: 0; top: 232px; text-align: center; color: #F7F2EA; font: 300 196px/1 var(--serif); letter-spacing: -.035em; white-space: nowrap; }
@@ -194,7 +194,7 @@ em, .it { font-style: italic; }
   border: 1px solid rgba(247, 242, 234, .24); font: 500 24px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; }
 .chip .ico { width: 32px; height: 32px; color: #E4C7A3; }
 
-.hook-shade { position: absolute; inset: 0; background: radial-gradient(85% 42% at 50% 47%, rgba(10, 12, 10, .5), rgba(10, 12, 10, .12) 75%), linear-gradient(180deg, rgba(10, 12, 10, .3), rgba(10, 12, 10, 0) 28%, rgba(10, 12, 10, 0) 72%, rgba(10, 12, 10, .35)); }
+.hook-shade { position: absolute; inset: 0; background: radial-gradient(85% 42% at 50% 47%, rgba(10, 12, 10, .62), rgba(10, 12, 10, .16) 75%), linear-gradient(180deg, rgba(10, 12, 10, .3), rgba(10, 12, 10, 0) 28%, rgba(10, 12, 10, 0) 72%, rgba(10, 12, 10, .35)); }
 .hk-box { position: absolute; left: 50px; right: 50px; top: 700px; text-align: center; color: #F7F2EA; overflow: hidden; padding: 14px 0 24px; }
 .hk-small { font: 400 42px/1.2 var(--sans); text-shadow: 0 2px 18px rgba(0, 0, 0, .45); }
 .hk-big { font: italic 300 176px/1.02 var(--serif); color: #EECB97; letter-spacing: -.01em; margin-top: 4px; text-shadow: 0 4px 34px rgba(0, 0, 0, .35); }
