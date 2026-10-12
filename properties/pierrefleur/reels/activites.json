@@ -1,0 +1,73 @@
+{
+  "name": "activites",
+  "note": "The activities around the chalet (owner's request, 2026-10-12): ski and lifts reached by the little rack railway, snowshoes, cross-country, cycling, raclette and fondue, the Lavey baths, the salt mines. The activities are the owner's words; the photos are the listing's. 'Chalet Pierre-Fleur' on every image.",
+  "music": { "style": "lux", "bpm": 100, "seed": 5 },
+  "palette": "papier",
+  "grade": "saturate(1.05) contrast(1.04) sepia(.06) brightness(1.01)",
+  "mark": "Chalet Pierre-Fleur",
+  "coverAt": 5.2,
+  "caption": [
+    "Chalet Pierre-Fleur · été comme hiver",
+    "",
+    "Le ski et les remontées mécaniques pas très loin, avec le petit train à crémaillère qui a tout son charme. Raquettes, ski de fond, et le vélo quand la neige manque.",
+    "Raclette et fondue au retour, une journée de détente aux bains de Lavey, les mines de sel pour un séjour plus culturel.",
+    "11 voyageurs · 5 chambres · Bex"
+  ],
+  "hashtags": ["#bex", "#alpesvaudoises", "#villars", "#ski", "#raclette", "#fondue", "#lavey", "#minesdesel", "#chalet", "#airbnb"],
+  "scenes": [
+    {
+      "type": "hook", "beats": 6,
+      "photo": { "n": 28, "motion": "in" },
+      "lines": ["Autour du chalet Pierre-Fleur", "Les Alpes", "vaudoises"]
+    },
+    {
+      "type": "bleed", "beats": 9, "enter": "shine", "tIn": 1.1,
+      "photo": { "n": 33, "motion": "in" },
+      "tag": "01 · Le ski", "eyebrow": "Villars · Barboleuse",
+      "title": ["Les pistes,", "<em>pas très loin</em>"],
+      "text": "On rejoint les remontées mécaniques en petit train à crémaillère, et ça a tout son charme.",
+      "tags": ["Ski alpin", "Remontées mécaniques", "Train à crémaillère"]
+    },
+    {
+      "type": "frame", "beats": 8, "enter": "wipe-up",
+      "photo": { "n": 32, "motion": "in" },
+      "no": "02", "section": "Neige douce", "end": "Bex",
+      "title": ["Raquettes", "<em>et ski de fond</em>"],
+      "tags": ["Raquettes", "Ski de fond", "Vélo"],
+      "caption": { "label": "fig. 02", "text": "Et quand la neige manque, le vélo dans nos jolies montagnes vaudoises." },
+      "folio": ["Chalet Pierre-Fleur", "p. 2"]
+    },
+    {
+      "type": "diptych", "beats": 8, "enter": "shine", "tIn": 1.0,
+      "photos": [{ "n": 4, "motion": "in" }, { "n": 15, "motion": "in" }],
+      "no": "03", "section": "La table", "end": "Bex",
+      "title": ["Raclette", "<em>et fondue</em>"],
+      "tags": ["Raclette", "Fondue", "Cheminée", "Grande table"],
+      "caption": { "label": "fig. 03", "text": "Les spécialités d'ici, au retour, près du feu." },
+      "folio": ["Chalet Pierre-Fleur", "p. 3"]
+    },
+    {
+      "type": "bleed", "beats": 8, "enter": "wipe-left",
+      "photo": { "n": 34, "motion": "in" },
+      "tag": "04 · Détente", "eyebrow": "Une journée pour soi",
+      "title": ["Les bains", "<em>de Lavey</em>"],
+      "text": "Des bains thermaux pour une journée de détente, entre deux journées de montagne.",
+      "tags": ["Bains thermaux"]
+    },
+    {
+      "type": "spotlight", "beats": 8, "enter": "shine", "tIn": 1.0,
+      "photo": { "n": 30, "motion": "slow" },
+      "no": "05", "section": "Culture", "end": "Bex",
+      "title": ["Les mines", "<em>de sel</em>"],
+      "tags": ["Mines de sel", { "label": "Un séjour culturel", "icon": "book-open" }, { "label": "Pas très loin", "icon": "map-pin" }]
+    },
+    {
+      "type": "cta", "beats": 8, "enter": "shine", "tIn": 1.0, "sheen": 1.1,
+      "photo": { "n": 27, "motion": "in" },
+      "name": "Pierre-Fleur",
+      "eyebrow": "Réservez votre séjour",
+      "sub": "Le chalet, été comme hiver",
+      "stats": "11 voyageurs · 5 chambres · Bex"
+    }
+  ]
+}

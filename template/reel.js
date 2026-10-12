@@ -63,6 +63,8 @@
       return { s, el, pg, dim, band, update, tIn: s.tIn ?? T }
     })
     scenes.forEach((sc, i) => { sc.tOut = scenes[i + 1]?.tIn ?? T })
+    // the board's mark: the name, on every image, above the scenes and their transitions
+    if (plan.mark) stage.appendChild(h('div', 'mark', `<span class="hr"></span><span>${window.REEL.esc(plan.mark)}</span><span class="hr"></span>`))
     await document.fonts.ready
     await Promise.all([
       document.fonts.load('300 100px Newsreader'), document.fonts.load('italic 300 100px Newsreader'),

@@ -59,6 +59,11 @@ Besides the daily issue, a property can have written reels in
 | `famille` | 12 s | families: rooms for everyone, ski room, ski school and ski bus at the door |
 | `couples` | 12 s | couples and friends: the table, sauna, fire, restaurant and bar on foot |
 
+Pierre Fleur (Bex) has `activites` (33 s): ski and lifts reached by the little
+rack railway, snowshoes and cross-country, cycling, raclette and fondue, the
+Lavey baths, the salt mines (the activities are the owner's words; the photos
+are the listing's), with "Chalet Pierre-Fleur" on every image.
+
 A board is a list of scenes timed in **beats** of its music, so every cut and
 every arrival lands on the beat. Scene types: `hook` (three lines over the first
 shot, the way a reel opens), `cover`, `montage` (shots cut on the beat;
@@ -68,7 +73,10 @@ then one opens to full screen), `frame`, `bleed`, `diptych`, `spotlight`,
 `nearby`, `cta` (a `facts` type still exists but is no longer used: owner). Transitions (`enter`): `shine` (the FunctionAlps
 homepage's chapter arrival: the page slides in behind a soft edge with a band
 of warm light), `wipe-up`, `wipe-left`, `wipe-right`, `iris`, `cut`.
-`sheen` on a cover or a booking card sends the same light across it. `grade`
+`sheen` on a cover or a booking card sends the same light across it.
+`mark` (a board key, e.g. `"Chalet Pierre-Fleur"`) keeps the property's name on
+every image, set vertically like a magazine spine on the left edge, which the
+Reels / TikTok buttons leave clear. `grade`
 is a CSS filter on every photo (the warm golden-hour look of the reference reels).
 
 ### Music
