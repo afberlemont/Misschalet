@@ -1,0 +1,128 @@
+{
+  "name": "sejour",
+  "note": "The living room of La Rosière in six slides, several photos per page (owner, 2026-10-15). Listing facts only.",
+  "mark": "Chalet La Rosière",
+  "palette": "sable",
+  "grade": "saturate(1.02) contrast(1.03)",
+  "caption": [
+    "Le salon du chalet La Rosière",
+    "",
+    "Une grande cheminée, du bois naturel, un éclairage subtil et doux, et des meubles contemporains : le mariage parfait entre vintage et moderne, au cœur de Villars.",
+    "",
+    "14 voyageurs · 6 chambres · Sauna"
+  ],
+  "hashtags": [
+    "#salon",
+    "#interieurchalet",
+    "#cheminee",
+    "#villars",
+    "#villarssurollon",
+    "#chaletsuisse",
+    "#alpesvaudoises",
+    "#airbnb"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "photo": {
+        "n": 5,
+        "fx": 75
+      },
+      "title": [
+        "Le salon,",
+        "<em>autour du feu</em>"
+      ],
+      "sub": "Vintage et moderne, au cœur de Villars"
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "n": 6,
+          "fx": 50
+        },
+        {
+          "n": 4,
+          "fx": 30
+        },
+        {
+          "n": 2,
+          "fx": 45
+        }
+      ],
+      "eyebrow": "Le coin salon",
+      "title": [
+        "La grande",
+        "<em>cheminée</em>"
+      ]
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "n": 1,
+          "fx": 40
+        },
+        {
+          "n": 3,
+          "fx": 55
+        },
+        {
+          "n": 7,
+          "fx": 60
+        },
+        {
+          "n": 8,
+          "fx": 50
+        }
+      ],
+      "eyebrow": "Vintage et moderne",
+      "title": [
+        "Bois naturel,",
+        "<em>lumière douce</em>"
+      ]
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 9,
+        "fx": 40
+      },
+      "eyebrow": "Tout ouvert",
+      "title": [
+        "Du salon",
+        "<em>à la table</em>"
+      ],
+      "text": "La cheminée ouverte des deux côtés, sur le salon et la salle à manger."
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "n": 18,
+          "fx": 50
+        },
+        {
+          "n": 15,
+          "fx": 50
+        }
+      ],
+      "eyebrow": "La table",
+      "title": [
+        "Quatorze",
+        "<em>couverts</em>"
+      ]
+    },
+    {
+      "type": "cta",
+      "photo": {
+        "n": 6,
+        "fy": 55
+      },
+      "eyebrow": "Réservez votre séjour",
+      "name": "La Rosière",
+      "sub": "Chalet haut de gamme, centre de Villars",
+      "stats": "14 voyageurs · 6 chambres · Sauna"
+    }
+  ]
+}

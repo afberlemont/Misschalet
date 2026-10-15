@@ -10,6 +10,7 @@
  *   cover  { photo, title, sub }                  the photo full, the title low
  *   bleed  { photo, eyebrow, title, text }        the photo full, a paper card
  *   frame  { photo, eyebrow, title, text }        a paper page, the photo set in it
+ *   grid   { photos: [2 to 4], eyebrow, title }   a paper page, several photos together
  *   cta    { photo, eyebrow, name, sub, stats, note }   the booking page, with the link
  * A photo is its number in listing.json, or { n, fx, fy, zoom } to crop it, or
  * { file } for a photo the owner gave, in properties/<slug>/photos/.
@@ -56,6 +57,19 @@ function slideHtml(s, i, n, ctx) {
       return { cls: 'c-bleed on-photo', html: `${ph}<div class="c-shade"></div>${head}<div class="c-card grain"><div class="caps">${esc(s.eyebrow)}</div><h2 class="c-title">${title(s.title)}</h2><p>${esc(s.text)}</p></div>${swipe}` }
     case 'frame':
       return { cls: 'c-frame grain', html: `${head}<div class="c-text"><div class="caps">${esc(s.eyebrow)}</div><h2 class="c-title">${title(s.title)}</h2><p>${esc(s.text)}</p></div>${ph}${swipe}` }
+    case 'grid': {
+      // 2 photos side by side, 3 (one wide over two), or 4 (two by two), under the title
+      const [x, y, w, h, g] = [64, 400, 952, 830, 16]
+      const half = (w - g) / 2
+      const boxes = {
+        2: [[x, y, half, h], [x + half + g, y, half, h]],
+        3: [[x, y, w, 470], [x, y + 470 + g, half, h - 470 - g], [x + half + g, y + 470 + g, half, h - 470 - g]],
+        4: [[x, y, half, (h - g) / 2], [x + half + g, y, half, (h - g) / 2], [x, y + (h + g) / 2, half, (h - g) / 2], [x + half + g, y + (h + g) / 2, half, (h - g) / 2]],
+      }[s.photos.length]
+      if (!boxes) throw new Error(`slide ${i + 1}: a grid takes 2, 3 or 4 photos`)
+      const phs = s.photos.map((r, k) => photo(r, '', boxes[k])).join('')
+      return { cls: 'c-frame c-grid grain', html: `${head}<div class="c-text"><div class="caps">${esc(s.eyebrow)}</div><h2 class="c-title">${title(s.title)}</h2></div>${phs}${swipe}` }
+    }
     case 'cta':
       return { cls: 'c-cta deep', html: `${ph}${head}<div class="c-body"><div class="caps">${esc(s.eyebrow)}</div><div class="c-name">${esc(s.name)}</div><div class="c-sub">${esc(s.sub)}</div><div class="c-url">${esc(ctx.url)}</div><div class="c-stats">${esc(s.stats)}</div>${s.note ? `<div class="c-note">${esc(s.note)}</div>` : ''}</div>` }
     default:
@@ -73,7 +87,7 @@ async function main() {
   const read = async (f) => JSON.parse(await readFile(join(dir, f), 'utf8'))
   const [prop, listing, board] = [await read('property.json'), await read('listing.json'), await read(`carousels/${name}.json`)]
   const byN = new Map(listing.photos.map((p) => [p.n, p]))
-  const photo = (ref, cls = '') => {
+  const photo = (ref, cls = '', box = null) => {
     const r = typeof ref === 'number' ? { n: ref } : ref
     // { file } is a photo the owner gave, kept in properties/<slug>/photos/
     const p = r.file ? null : byN.get(r.n)
@@ -81,7 +95,8 @@ async function main() {
     const src = r.file ? `/properties/${slug}/photos/${r.file}` : `/cache/${slug}/photos/${p.file}`
     const [fx, fy] = [r.fx ?? prop.focus?.[r.n]?.[0] ?? 50, r.fy ?? prop.focus?.[r.n]?.[1] ?? 50]
     const z = r.zoom || 1
-    return `<div class="ph ${cls}"><img src="${src}" style="object-position:${fx}% ${fy}%;transform-origin:${fx}% ${fy}%;transform:scale(${z})"></div>`
+    const at = box ? ` style="left:${box[0]}px;top:${box[1]}px;width:${box[2]}px;height:${box[3]}px"` : ''
+    return `<div class="ph ${cls}"${at}><img src="${src}" style="object-position:${fx}% ${fy}%;transform-origin:${fx}% ${fy}%;transform:scale(${z})"></div>`
   }
   const outDir = join(ROOT, 'out', slug, 'carousels', name)
   await mkdir(outDir, { recursive: true })

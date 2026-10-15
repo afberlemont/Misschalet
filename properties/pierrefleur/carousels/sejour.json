@@ -1,0 +1,128 @@
+{
+  "name": "sejour",
+  "note": "The living room of Pierre-Fleur in six slides, several photos per page (owner, 2026-10-15). Listing facts; three photos are the owner's (properties/pierrefleur/photos).",
+  "mark": "Chalet Pierre-Fleur",
+  "palette": "papier",
+  "grade": "saturate(1.04) contrast(1.04) sepia(.05)",
+  "caption": [
+    "Le séjour du chalet Pierre-Fleur",
+    "",
+    "Un vaste séjour lumineux sous les poutres, avec une cheminée et un poêle suédois, ouvert sur l'espace repas et la cuisine. Parfait pour des soirées conviviales après une journée en plein air.",
+    "",
+    "11 voyageurs · 5 chambres · 160 m² aux Posses-sur-Bex"
+  ],
+  "hashtags": [
+    "#sejour",
+    "#salon",
+    "#interieurchalet",
+    "#cheminee",
+    "#chaletsuisse",
+    "#bex",
+    "#alpesvaudoises",
+    "#airbnb"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "photo": {
+        "file": "sejour-table.jpg",
+        "fx": 45,
+        "fy": 50
+      },
+      "title": [
+        "Le séjour,",
+        "<em>cœur du chalet</em>"
+      ],
+      "sub": "Cheminée, poêle suédois et grande table"
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "n": 4,
+          "fx": 50
+        },
+        {
+          "n": 37,
+          "fx": 55
+        },
+        {
+          "file": "poele.jpg",
+          "fx": 30,
+          "fy": 35
+        }
+      ],
+      "eyebrow": "Le salon",
+      "title": [
+        "Cheminée",
+        "<em>et poêle suédois</em>"
+      ]
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "n": 2,
+          "fx": 45
+        },
+        {
+          "n": 5
+        },
+        {
+          "n": 6
+        },
+        {
+          "n": 3,
+          "fy": 70
+        }
+      ],
+      "eyebrow": "Les détails",
+      "title": [
+        "Bois, laine",
+        "<em>et lumière douce</em>"
+      ]
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 13,
+        "fy": 55
+      },
+      "eyebrow": "Tout ouvert",
+      "title": [
+        "Du feu",
+        "<em>à la table</em>"
+      ],
+      "text": "Le séjour s'ouvre sur l'espace repas et la cuisine."
+    },
+    {
+      "type": "grid",
+      "photos": [
+        {
+          "file": "table.jpg",
+          "fx": 40
+        },
+        {
+          "n": 15,
+          "fx": 40
+        }
+      ],
+      "eyebrow": "La table",
+      "title": [
+        "Des repas",
+        "<em>à partager</em>"
+      ]
+    },
+    {
+      "type": "cta",
+      "photo": {
+        "file": "sejour-table.jpg",
+        "fy": 45
+      },
+      "eyebrow": "Réservez votre séjour",
+      "name": "Pierre-Fleur",
+      "sub": "Le chalet de 160 m² aux Posses-sur-Bex",
+      "stats": "11 voyageurs · 5 chambres · 3 salles d'eau"
+    }
+  ]
+}
