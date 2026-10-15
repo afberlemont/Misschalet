@@ -85,6 +85,18 @@ every image, set vertically like a magazine spine on the left edge, which the
 Reels / TikTok buttons leave clear. `grade`
 is a CSS filter on every photo (the warm golden-hour look of the reference reels).
 
+## Instagram carousels
+
+`node carousel.mjs <slug> <name>` turns `properties/<slug>/carousels/<name>.json`
+into JPEG slides, 1080×1350 (4:5, the tallest Instagram shows in the feed), in
+`out/<slug>/carousels/<name>/01.jpg…` with `caption.txt`. Same look as the
+reels (`template/carousel.css`); the board's `mark` and slide number run along
+the top of every slide, a "Glissez" arrow invites the swipe. Slide types:
+`cover`, `bleed` (photo full, paper card), `frame` (paper page, photo set in it),
+`cta` (the booking page). Pierre Fleur has `hiver`: a winter day at the chalet
+in nine slides (the waking view, the rack railway to the slopes, snowshoes,
+the boots at the door, the fire, raclette or fondue, the bedrooms, booking).
+
 ### Music
 
 **Off by default** (owner, 2026-10-11: no music unless he asks). A board's

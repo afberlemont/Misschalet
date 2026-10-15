@@ -1,0 +1,150 @@
+{
+  "name": "hiver",
+  "note": "Winter holidays at the chalet, one day told in nine slides (owner, 2026-10-15: snow, ski, raclette, the cosy fire). Facts from the listing; the train, the lifts, snowshoes, cross-country, raclette and fondue are the owner's words.",
+  "mark": "Chalet Pierre-Fleur",
+  "icon": "snowflake",
+  "palette": "papier",
+  "grade": "saturate(1.04) contrast(1.04) sepia(.05)",
+  "caption": [
+    "Cet hiver, imaginez-vous au chalet Pierre-Fleur ❄️",
+    "",
+    "Le réveil face aux Dents du Midi. Le petit train à crémaillère jusqu'aux pistes de Villars et Barboleuse. Raquettes ou ski de fond. Puis le retour au chalet, le feu de cheminée, et une raclette ou une fondue autour de la grande table.",
+    "",
+    "11 voyageurs · 5 chambres · 160 m² à Bex. À la semaine, ou pour toute la saison d'hiver (conditions sur demande)."
+  ],
+  "hashtags": [
+    "#vacancesdhiver",
+    "#ski",
+    "#raclette",
+    "#fondue",
+    "#coindufeu",
+    "#bex",
+    "#villars",
+    "#alpesvaudoises",
+    "#chalet",
+    "#chaletsuisse",
+    "#airbnb"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "photo": {
+        "n": 28,
+        "fx": 55,
+        "fy": 40
+      },
+      "title": [
+        "Cet hiver,",
+        "<em>imaginez-vous ici</em>"
+      ],
+      "sub": "Une journée d'hiver au chalet"
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 18,
+        "fy": 40
+      },
+      "eyebrow": "Le réveil",
+      "title": [
+        "Les Dents du Midi",
+        "<em>à la fenêtre</em>"
+      ],
+      "text": "Au rez, une chambre au lit double face aux sommets."
+    },
+    {
+      "type": "frame",
+      "photo": {
+        "n": 42,
+        "fx": 40,
+        "fy": 40
+      },
+      "eyebrow": "Le ski",
+      "title": [
+        "Le petit train",
+        "<em>vers les pistes</em>"
+      ],
+      "text": "Un train à crémaillère jusqu'aux remontées de Villars et Barboleuse, et ça a tout son charme."
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 28,
+        "fx": 20,
+        "fy": 35,
+        "zoom": 1.35
+      },
+      "eyebrow": "Neige douce",
+      "title": [
+        "Raquettes",
+        "<em>ou ski de fond</em>"
+      ],
+      "text": "À votre rythme, dans nos jolies montagnes vaudoises."
+    },
+    {
+      "type": "frame",
+      "photo": {
+        "n": 39,
+        "fy": 62
+      },
+      "eyebrow": "Le retour",
+      "title": [
+        "Les chaussures",
+        "<em>au vestiaire</em>"
+      ],
+      "text": "L'entrée accueillante, ses paniers et son banc de bois."
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 37,
+        "fx": 54,
+        "fy": 45
+      },
+      "eyebrow": "Au coin du feu",
+      "title": [
+        "La cheminée",
+        "<em>crépite</em>"
+      ],
+      "text": "Et le poêle suédois réchauffe le grand séjour."
+    },
+    {
+      "type": "frame",
+      "photo": {
+        "n": 15,
+        "fx": 38
+      },
+      "eyebrow": "Le soir",
+      "title": [
+        "Raclette",
+        "<em>ou fondue</em>"
+      ],
+      "text": "Tous autour de la grande table, jusqu'à onze."
+    },
+    {
+      "type": "bleed",
+      "photo": {
+        "n": 20,
+        "fy": 55
+      },
+      "eyebrow": "La nuit",
+      "title": [
+        "Cinq chambres,",
+        "<em>douze lits</em>"
+      ],
+      "text": "Quatre chambres doubles et un dortoir pour les enfants."
+    },
+    {
+      "type": "cta",
+      "photo": {
+        "n": 27,
+        "fy": 45
+      },
+      "eyebrow": "Vos vacances d'hiver",
+      "name": "Pierre-Fleur",
+      "sub": "Le chalet de 160 m² à Bex",
+      "stats": "11 voyageurs · 5 chambres · 3 salles d'eau",
+      "note": "À la semaine, ou pour toute la saison d'hiver (conditions sur demande)"
+    }
+  ]
+}
