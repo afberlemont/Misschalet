@@ -111,8 +111,9 @@
     {
       "type": "frame",
       "photo": {
-        "n": 15,
-        "fx": 38
+        "file": "table.jpg",
+        "fx": 50,
+        "fy": 55
       },
       "eyebrow": "Le soir",
       "title": [
