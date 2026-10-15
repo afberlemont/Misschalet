@@ -97,16 +97,16 @@
     {
       "type": "bleed",
       "photo": {
-        "n": 37,
-        "fx": 54,
-        "fy": 45
+        "file": "poele.jpg",
+        "fx": 40,
+        "fy": 40
       },
       "eyebrow": "Au coin du feu",
       "title": [
-        "La cheminée",
+        "Le poêle",
         "<em>crépite</em>"
       ],
-      "text": "Et le poêle suédois réchauffe le grand séjour."
+      "text": "Le feu réchauffe le séjour, à deux pas de la grande table."
     },
     {
       "type": "frame",

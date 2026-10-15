@@ -11,7 +11,8 @@
  *   bleed  { photo, eyebrow, title, text }        the photo full, a paper card
  *   frame  { photo, eyebrow, title, text }        a paper page, the photo set in it
  *   cta    { photo, eyebrow, name, sub, stats, note }   the booking page, with the link
- * A photo is its number in listing.json, or { n, fx, fy, zoom } to crop it.
+ * A photo is its number in listing.json, or { n, fx, fy, zoom } to crop it, or
+ * { file } for a photo the owner gave, in properties/<slug>/photos/.
  * Every slide carries the board's `mark` (the name) in its running head.
  */
 import { createServer } from 'node:http'
@@ -74,11 +75,13 @@ async function main() {
   const byN = new Map(listing.photos.map((p) => [p.n, p]))
   const photo = (ref, cls = '') => {
     const r = typeof ref === 'number' ? { n: ref } : ref
-    const p = byN.get(r.n)
-    if (!p) throw new Error(`photo ${r.n} is not in listing.json`)
+    // { file } is a photo the owner gave, kept in properties/<slug>/photos/
+    const p = r.file ? null : byN.get(r.n)
+    if (!r.file && !p) throw new Error(`photo ${r.n} is not in listing.json`)
+    const src = r.file ? `/properties/${slug}/photos/${r.file}` : `/cache/${slug}/photos/${p.file}`
     const [fx, fy] = [r.fx ?? prop.focus?.[r.n]?.[0] ?? 50, r.fy ?? prop.focus?.[r.n]?.[1] ?? 50]
     const z = r.zoom || 1
-    return `<div class="ph ${cls}"><img src="/cache/${slug}/photos/${p.file}" style="object-position:${fx}% ${fy}%;transform-origin:${fx}% ${fy}%;transform:scale(${z})"></div>`
+    return `<div class="ph ${cls}"><img src="${src}" style="object-position:${fx}% ${fy}%;transform-origin:${fx}% ${fy}%;transform:scale(${z})"></div>`
   }
   const outDir = join(ROOT, 'out', slug, 'carousels', name)
   await mkdir(outDir, { recursive: true })
