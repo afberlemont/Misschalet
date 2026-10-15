@@ -1,0 +1,119 @@
+{
+  "slug": "chaletlesclematites",
+  "lang": "fr",
+  "startDate": "2026-10-15",
+  "name": "Les Clématites",
+  "kicker": "Chalet · Villars-sur-Ollon",
+  "place": "Villars-sur-Ollon",
+  "url": "airbnb.com/h/chaletlesclematites",
+  "palettes": ["nuit", "papier", "sable"],
+  "hashtags": ["#villars", "#villarssurollon", "#chalet", "#alpesvaudoises", "#suisse", "#chaletsuisse", "#airbnb", "#montagne"],
+
+  "focus": {
+    "1": [45, 55], "2": [55, 55], "5": [30, 55], "9": [55, 55], "10": [50, 55], "11": [45, 55],
+    "12": [50, 55], "13": [50, 55], "16": [50, 55], "18": [50, 55], "19": [50, 55], "21": [45, 55], "22": [60, 55], "25": [45, 55], "26": [25, 55],
+    "27": [40, 55], "35": [50, 55], "40": [50, 55], "53": [55, 55], "57": [40, 55], "60": [50, 55],
+    "33": [40, 55], "34": [50, 50], "59": [45, 55], "81": [45, 35], "84": [50, 50], "85": [55, 45]
+  },
+
+  "pins": {},
+
+  "covers": [83, 2, 84, 21, 81, 1],
+  "coverLines": [
+    ["Ambiance feutrée", "au coin du feu, à Villars"],
+    ["Au pied des pistes,", "au centre de Villars"],
+    ["Élégance et confort,", "un écrin de douceur"]
+  ],
+  "coverCaps": "12 voyageurs · 6 chambres · Cheminée",
+
+  "chapters": [
+    {
+      "id": "salon", "section": "Le salon",
+      "title": ["Au coin", "<em>du feu</em>"],
+      "text": "Une ambiance feutrée au coin du feu, sous les poutres de bois.",
+      "caption": "Le salon et sa cheminée.",
+      "tags": ["Cheminée", "Système audio", "Wifi", "Chauffage"],
+      "photos": [2, 1, 9, 11, 10]
+    },
+    {
+      "id": "table", "section": "La table",
+      "title": ["Douze", "<em>couverts</em>"],
+      "text": "Le salon et la salle à manger, avec la cheminée.",
+      "caption": "La salle à manger, sous le lustre.",
+      "tags": ["Table à manger", "Verres à vin", "Cheminée"],
+      "photos": [21, 18, 19, 22, 25]
+    },
+    {
+      "id": "cuisine", "section": "La cuisine", "layout": "spotlight",
+      "title": ["Tout", "<em>pour cuisiner</em>"],
+      "text": "Une cuisine complète, noire et bois clair.",
+      "caption": "La cuisine entièrement équipée.",
+      "tags": ["Lave-vaisselle", "Four", { "label": "Vitrocéramique", "icon": "cooking-pot" }, "Réfrigérateur", "Congélateur", "Cafetière", "Bouilloire", "Grille-pain", "Verres à vin"],
+      "photos": [12, 13, 16, 14]
+    },
+    {
+      "id": "chambres", "section": "Les chambres", "layout": "spotlight",
+      "title": ["Six chambres,", "<em>duvets de plumes</em>"],
+      "text": "Une literie fine brodée aux couleurs du chalet.",
+      "caption": "Duvets de plumes et literie brodée.",
+      "tags": ["4 lits queen size", "4 lits simples", { "label": "Duvets de plumes", "icon": "feather" }, "Rideaux occultants", "5 smart-TV", "Linge de lit fourni"],
+      "photos": [35, 27, 53, 57, 44, 40, 60]
+    },
+    {
+      "id": "bains", "section": "Les bains",
+      "title": ["Six salles", "<em>de douche</em>"],
+      "text": "Une par chambre, avec WC et lavabo, dont trois en suite.",
+      "caption": "Ardoise, bois clair et vasques noires.",
+      "tags": ["6 douches", "Sèche-cheveux", "Shampoing & gel douche", "Eau chaude"],
+      "photos": [77, 70, 73, 80]
+    },
+    {
+      "id": "hiver", "section": "L'hiver",
+      "title": ["Au pied", "<em>des pistes</em>"],
+      "text": "Local à skis, sèche-chaussures, ski-bus gratuit à 50 m.",
+      "caption": "Le chalet, un soir de neige.",
+      "tags": ["Au pied des pistes", "Local à skis", "Sèche-chaussures", "Ski-bus gratuit · 50 m", "École de ski · 200 m"],
+      "photos": [81, 84, 82, 85]
+    },
+    {
+      "id": "chalet", "section": "Le chalet",
+      "title": ["Trois niveaux,", "<em>plein sud</em>"],
+      "text": "Au centre de Villars, balcons et terrasse plein sud de 22 m².",
+      "caption": "La façade, au centre de Villars.",
+      "tags": ["3 étages", "Terrasse plein sud · 22 m²", "Balcons", "Jardin privatif", "Parking · 3 voitures"],
+      "photos": [83, 82, 33, 59]
+    },
+    {
+      "id": "vue", "section": "La vue",
+      "title": ["Depuis", "<em>les balcons</em>"],
+      "text": "Les montagnes et le village, depuis les balcons du chalet.",
+      "caption": "Le village et les sommets.",
+      "tags": [{ "label": "Vue sur les montagnes", "icon": "mountain-snow" }, "Balcons", "Terrasse"],
+      "photos": [34, 33, 59, 85]
+    }
+  ],
+
+  "nearby": {
+    "title": ["Tout", "<em>à pied</em>"],
+    "photos": [84, 34, 33],
+    "items": [
+      { "name": "Ski-bus gratuit", "d": "50 m" },
+      { "name": "Restaurant", "d": "100 m" },
+      { "name": "École de ski", "d": "200 m" },
+      { "name": "Épicerie, café et bar", "d": "200 m" },
+      { "name": "Boulangerie", "d": "250 m" },
+      { "name": "Train de montagne", "d": "300 m" },
+      { "name": "Piscine couverte et patinoire", "d": "500 m" },
+      { "name": "Télécabine", "d": "800 m" },
+      { "name": "Centre sportif", "d": "1,5 km" },
+      { "name": "Golf (18 trous)", "d": "6 km" }
+    ]
+  },
+
+  "cta": {
+    "eyebrow": "Réservez votre séjour",
+    "sub": "Chalet d'exception, centre de Villars",
+    "stats": "12 voyageurs · 6 chambres · Note 5,0",
+    "photos": [81, 2, 21, 84]
+  }
+}

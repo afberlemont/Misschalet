@@ -7,6 +7,12 @@
   'use strict'
   const { E, clamp, prog, lerp, h, esc, lines, rise, fadeUp, chars, icon, tagList, photo, project, pinsUpdate, camera, sheen, head, folio } = window.REEL
 
+  /** A long name ("Les Clématites") set smaller so it stays on one line in the page. */
+  function fitMast(el, name, size) {
+    const n = String(name).length
+    if (n > 11) el.style.fontSize = `${Math.round(size * 11 / n)}px`
+  }
+
   // ---------- scenes ----------
   window.REEL.builders = {
     cover(pg, s) {
@@ -16,6 +22,7 @@
       const topHr = top.querySelector('.hr')
       const mast = h('h1', 'mast')
       const cs = chars(mast, s.name)
+      fitMast(mast, s.name, 196)
       const kicker = h('div', 'kicker caps', esc(s.kicker))
       const box = h('div', 'lines')
       const big = h('div', 'big')
@@ -223,6 +230,7 @@
       const eyeb = h('div', 'caps', esc(s.eyebrow))
       const mast = h('div', 'mast')
       const ml = lines(mast, [esc(s.name)])
+      fitMast(mast, s.name, 172)
       const sub = h('div', 'sub', esc(s.sub))
       const urlWrap = h('div', '')
       const url = h('div', 'url', esc(s.url))

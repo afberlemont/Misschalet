@@ -1,0 +1,38 @@
+{
+  "name": "sejour",
+  "note": "The living room of Les Clématites in six slides, several photos per page (owner, 2026-10-15). Listing facts only.",
+  "mark": "Chalet Les Clématites",
+  "palette": "nuit",
+  "grade": "saturate(1.02) contrast(1.03)",
+  "caption": [
+    "Le salon du chalet Les Clématites",
+    "",
+    "Une ambiance feutrée au coin du feu, des subtils jeux de lumière, le vintage revisité aux côtés du mobilier contemporain, et le bois partout. Au centre de Villars, au pied des pistes.",
+    "",
+    "12 voyageurs · 6 chambres · Note 5,0"
+  ],
+  "hashtags": ["#salon", "#interieurchalet", "#cheminee", "#villars", "#villarssurollon", "#chaletsuisse", "#alpesvaudoises", "#airbnb"],
+  "slides": [
+    { "type": "cover", "photo": { "n": 2, "fx": 60 },
+      "title": ["Le salon,", "<em>au coin du feu</em>"],
+      "sub": "Ambiance feutrée, au centre de Villars" },
+    { "type": "grid", "photos": [{ "n": 1, "fx": 45 }, { "n": 9, "fx": 70 }, { "n": 26, "fx": 20 }],
+      "eyebrow": "Le salon",
+      "title": ["Cuir, bois", "<em>et feu de cheminée</em>"] },
+    { "type": "grid", "photos": [{ "n": 11, "fx": 45 }, { "n": 10, "fx": 40 }, { "n": 3, "fy": 60 }, { "n": 5, "fx": 70 }],
+      "eyebrow": "Vintage revisité",
+      "title": ["Le vintage", "<em>et le contemporain</em>"] },
+    { "type": "bleed", "photo": { "n": 25, "fx": 55 },
+      "eyebrow": "Tout ouvert",
+      "title": ["Du salon", "<em>à la table</em>"],
+      "text": "Le salon et la salle à manger, avec la cheminée." },
+    { "type": "grid", "photos": [{ "n": 21, "fx": 45 }, { "n": 19, "fx": 50 }],
+      "eyebrow": "La table",
+      "title": ["Douze", "<em>couverts</em>"] },
+    { "type": "cta", "photo": { "n": 81, "fy": 50 },
+      "eyebrow": "Réservez votre séjour",
+      "name": "Les Clématites",
+      "sub": "Chalet d'exception, centre de Villars",
+      "stats": "12 voyageurs · 6 chambres · Note 5,0" }
+  ]
+}
