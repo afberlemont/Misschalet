@@ -15,7 +15,7 @@
   "",
   "Une cuisine ouverte entièrement équipée, avec passe-plat, qui donne sur le jardin et les terrasses. Et une grande table pour partager les repas.",
   "",
-  "11 voyageurs · 5 chambres · Bex"
+  "11 voyageurs · 5 chambres · Les Posses-sur-Bex"
  ],
  "hashtags": [
   "#bex",
@@ -52,7 +52,7 @@
    },
    "no": "01",
    "section": "La cuisine",
-   "end": "Bex",
+   "end": "Les Posses-sur-Bex",
    "title": [
     "Cuisine",
     "<em>ouverte</em>"
@@ -119,7 +119,7 @@
    "name": "Pierre-Fleur",
    "eyebrow": "Réservez votre séjour",
    "sub": "Des repas à partager",
-   "stats": "11 voyageurs · 5 chambres · Bex"
+   "stats": "11 voyageurs · Les Posses-sur-Bex"
   }
  ]
 }

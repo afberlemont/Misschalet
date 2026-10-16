@@ -11,7 +11,7 @@
     "",
     "Le ski et les remontées mécaniques pas très loin, avec le petit train à crémaillère qui a tout son charme. Raquettes, ski de fond, et le vélo quand la neige manque.",
     "Raclette et fondue au retour, une journée de détente aux bains de Lavey, les mines de sel pour un séjour plus culturel.",
-    "11 voyageurs · 5 chambres · Bex"
+    "11 voyageurs · 5 chambres · Les Posses-sur-Bex"
   ],
   "hashtags": ["#bex", "#alpesvaudoises", "#villars", "#ski", "#raclette", "#fondue", "#lavey", "#minesdesel", "#chalet", "#airbnb"],
   "scenes": [
@@ -31,7 +31,7 @@
     {
       "type": "frame", "beats": 8, "enter": "wipe-up",
       "photo": { "n": 32, "motion": "in" },
-      "no": "02", "section": "Neige douce", "end": "Bex",
+      "no": "02", "section": "Neige douce", "end": "Les Posses-sur-Bex",
       "title": ["Raquettes", "<em>et ski de fond</em>"],
       "tags": ["Raquettes", "Ski de fond", "Vélo"],
       "caption": { "label": "fig. 02", "text": "Et quand la neige manque, le vélo dans nos jolies montagnes vaudoises." },
@@ -40,7 +40,7 @@
     {
       "type": "diptych", "beats": 8, "enter": "shine", "tIn": 1.0,
       "photos": [{ "n": 4, "motion": "in" }, { "n": 15, "motion": "in" }],
-      "no": "03", "section": "La table", "end": "Bex",
+      "no": "03", "section": "La table", "end": "Les Posses-sur-Bex",
       "title": ["Raclette", "<em>et fondue</em>"],
       "tags": ["Raclette", "Fondue", "Cheminée", "Grande table"],
       "caption": { "label": "fig. 03", "text": "Les spécialités d'ici, au retour, près du feu." },
@@ -57,7 +57,7 @@
     {
       "type": "spotlight", "beats": 8, "enter": "shine", "tIn": 1.0,
       "photo": { "n": 30, "motion": "slow" },
-      "no": "05", "section": "Culture", "end": "Bex",
+      "no": "05", "section": "Culture", "end": "Les Posses-sur-Bex",
       "title": ["Les mines", "<em>de sel</em>"],
       "tags": ["Mines de sel", { "label": "Un séjour culturel", "icon": "book-open" }, { "label": "Pas très loin", "icon": "map-pin" }]
     },
@@ -67,7 +67,7 @@
       "name": "Pierre-Fleur",
       "eyebrow": "Réservez votre séjour",
       "sub": "Le chalet, été comme hiver",
-      "stats": "11 voyageurs · 5 chambres · Bex"
+      "stats": "11 voyageurs · Les Posses-sur-Bex"
     }
   ]
 }

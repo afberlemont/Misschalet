@@ -3,8 +3,8 @@
   "lang": "fr",
   "startDate": "2026-10-12",
   "name": "Pierre Fleur",
-  "kicker": "Chalet · Bex",
-  "place": "Bex",
+  "kicker": "Chalet · Les Posses-sur-Bex",
+  "place": "Les Posses-sur-Bex",
   "url": "airbnb.com/h/pierrefleur",
   "palettes": ["papier", "sable", "nuit"],
   "hashtags": ["#bex", "#alpesvaudoises", "#villars", "#chalet", "#chaletsuisse", "#suisse", "#montagne", "#airbnb"],
@@ -20,7 +20,7 @@
   "covers": [27, 4, 28, 26, 2, 15],
   "coverLines": [
     ["Cheminée, poêle suédois", "et vue sur les montagnes"],
-    ["Un chalet de 160 m²", "rénové en 2021, à Bex"],
+    ["160 m² rénovés en 2021,", "aux Posses-sur-Bex"],
     ["Familial,", "avec vue imprenable"]
   ],
   "coverCaps": "11 voyageurs · 5 chambres · Cheminée",
@@ -107,7 +107,7 @@
 
   "cta": {
     "eyebrow": "Réservez votre séjour",
-    "sub": "Chalet familial avec vue, à Bex",
+    "sub": "Chalet familial avec vue, aux Posses-sur-Bex",
     "stats": "11 voyageurs · 5 chambres · 160 m²",
     "photos": [27, 4, 28, 29]
   }
